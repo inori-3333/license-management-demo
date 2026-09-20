@@ -1,0 +1,27 @@
+/* Generated from DESIGN.md by npm run tokens. */
+:root {
+  --primary: #2558d8;
+  --primary-hover: #1d46b0;
+  --blue-soft: #edf3ff;
+  --surface: #ffffff;
+  --background: #f5f7fb;
+  --text: #24324b;
+  --muted: #606d82;
+  --border: #e4e9f1;
+  --scrollbar: #aebbcf;
+  --table-head: #f8f9fc;
+  --table-hover: #f9fbff;
+  --success: #12775c;
+  --success-soft: #eaf7f0;
+  --warning: #995f05;
+  --warning-soft: #fff6e4;
+  --danger: #c23b47;
+  --danger-soft: #fff0f1;
+  --radius-control: 7px;
+  --radius-panel: 10px;
+  --font-body: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --text-body: 14px;
+  --text-table: 14px;
+  --text-compact: 13px;
+  --text-caption: 12px;
+}

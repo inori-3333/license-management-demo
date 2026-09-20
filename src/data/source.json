@@ -1,0 +1,10522 @@
+[
+  {
+    "id": "source-2",
+    "row": 2,
+    "company": "A公司",
+    "department": "热控检修车间",
+    "team": "办公室",
+    "job": "安全专工"
+  },
+  {
+    "id": "source-3",
+    "row": 3,
+    "company": "A公司",
+    "department": "热控检修车间",
+    "team": "炉控班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-4",
+    "row": 4,
+    "company": "A公司",
+    "department": "热控检修车间",
+    "team": "炉控班",
+    "job": "班长"
+  },
+  {
+    "id": "source-5",
+    "row": 5,
+    "company": "A公司",
+    "department": "热控检修车间",
+    "team": "程控班",
+    "job": "安全员"
+  },
+  {
+    "id": "source-6",
+    "row": 6,
+    "company": "A公司",
+    "department": "热控检修车间",
+    "team": "程控班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-7",
+    "row": 7,
+    "company": "A公司",
+    "department": "热控检修车间",
+    "team": "程控班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-8",
+    "row": 8,
+    "company": "A公司",
+    "department": "热控检修车间",
+    "team": "程控班",
+    "job": "检修助手"
+  },
+  {
+    "id": "source-9",
+    "row": 9,
+    "company": "A公司",
+    "department": "热控检修车间",
+    "team": "程控班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-10",
+    "row": 10,
+    "company": "A公司",
+    "department": "热控检修车间",
+    "team": "程控班",
+    "job": "班长"
+  },
+  {
+    "id": "source-11",
+    "row": 11,
+    "company": "B公司",
+    "department": "热控检修分场",
+    "team": "机控班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-12",
+    "row": 12,
+    "company": "B公司",
+    "department": "热控检修分场",
+    "team": "炉控班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-13",
+    "row": 13,
+    "company": "B公司",
+    "department": "热控检修分场",
+    "team": "炉控班",
+    "job": "检修组长"
+  },
+  {
+    "id": "source-14",
+    "row": 14,
+    "company": "B公司",
+    "department": "热控检修分场",
+    "team": "炉控班",
+    "job": "班长"
+  },
+  {
+    "id": "source-15",
+    "row": 15,
+    "company": "B公司",
+    "department": "热控检修分场",
+    "team": "炉控班",
+    "job": "见习"
+  },
+  {
+    "id": "source-16",
+    "row": 16,
+    "company": "B公司",
+    "department": "热控检修分场",
+    "team": "热控检修分场",
+    "job": "专工"
+  },
+  {
+    "id": "source-17",
+    "row": 17,
+    "company": "B公司",
+    "department": "热控检修分场",
+    "team": "热控检修分场",
+    "job": "专工（学习岗）"
+  },
+  {
+    "id": "source-18",
+    "row": 18,
+    "company": "B公司",
+    "department": "热控检修分场",
+    "team": "计算机仪表班",
+    "job": "安全员"
+  },
+  {
+    "id": "source-19",
+    "row": 19,
+    "company": "B公司",
+    "department": "热控检修分场",
+    "team": "计算机仪表班",
+    "job": "技术员（高级技能工）"
+  },
+  {
+    "id": "source-20",
+    "row": 20,
+    "company": "B公司",
+    "department": "热控检修分场",
+    "team": "计算机仪表班",
+    "job": "检修组长"
+  },
+  {
+    "id": "source-21",
+    "row": 21,
+    "company": "B公司",
+    "department": "热控检修分场",
+    "team": "计算机仪表班",
+    "job": "班长（二级技能专业师）"
+  },
+  {
+    "id": "source-22",
+    "row": 22,
+    "company": "B公司",
+    "department": "热控检修分场",
+    "team": "计算机仪表班",
+    "job": "见习"
+  },
+  {
+    "id": "source-23",
+    "row": 23,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "机控班",
+    "job": "主责"
+  },
+  {
+    "id": "source-24",
+    "row": 24,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "机控班",
+    "job": "作业"
+  },
+  {
+    "id": "source-25",
+    "row": 25,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "机控班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-26",
+    "row": 26,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "机控班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-27",
+    "row": 27,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "机控班",
+    "job": "班长"
+  },
+  {
+    "id": "source-28",
+    "row": 28,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "炉控班",
+    "job": "主责"
+  },
+  {
+    "id": "source-29",
+    "row": 29,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "炉控班",
+    "job": "作业"
+  },
+  {
+    "id": "source-30",
+    "row": 30,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "炉控班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-31",
+    "row": 31,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "炉控班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-32",
+    "row": 32,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "炉控班",
+    "job": "班长"
+  },
+  {
+    "id": "source-33",
+    "row": 33,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "程控班",
+    "job": "主责"
+  },
+  {
+    "id": "source-34",
+    "row": 34,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "程控班",
+    "job": "作业"
+  },
+  {
+    "id": "source-35",
+    "row": 35,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "程控班",
+    "job": "班长"
+  },
+  {
+    "id": "source-36",
+    "row": 36,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "管理",
+    "job": "检修专工"
+  },
+  {
+    "id": "source-37",
+    "row": 37,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "试验班",
+    "job": "作业"
+  },
+  {
+    "id": "source-38",
+    "row": 38,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "试验班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-39",
+    "row": 39,
+    "company": "C公司",
+    "department": "热控队",
+    "team": "试验班",
+    "job": "班长"
+  },
+  {
+    "id": "source-40",
+    "row": 40,
+    "company": "A公司",
+    "department": "汽机检修车间",
+    "team": null,
+    "job": "见习"
+  },
+  {
+    "id": "source-41",
+    "row": 41,
+    "company": "A公司",
+    "department": "汽机检修车间",
+    "team": "办公室",
+    "job": "专工"
+  },
+  {
+    "id": "source-42",
+    "row": 42,
+    "company": "A公司",
+    "department": "汽机检修车间",
+    "team": "办公室",
+    "job": "主任助理"
+  },
+  {
+    "id": "source-43",
+    "row": 43,
+    "company": "A公司",
+    "department": "汽机检修车间",
+    "team": "办公室",
+    "job": "安全专工"
+  },
+  {
+    "id": "source-44",
+    "row": 44,
+    "company": "A公司",
+    "department": "汽机检修车间",
+    "team": "化学检修班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-45",
+    "row": 45,
+    "company": "A公司",
+    "department": "汽机检修车间",
+    "team": "化学检修班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-46",
+    "row": 46,
+    "company": "A公司",
+    "department": "汽机检修车间",
+    "team": "水泵班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-47",
+    "row": 47,
+    "company": "A公司",
+    "department": "汽机检修车间",
+    "team": "水泵班",
+    "job": "班长"
+  },
+  {
+    "id": "source-48",
+    "row": 48,
+    "company": "A公司",
+    "department": "汽机检修车间",
+    "team": "调速班",
+    "job": "作业组长"
+  },
+  {
+    "id": "source-49",
+    "row": 49,
+    "company": "A公司",
+    "department": "汽机检修车间",
+    "team": "辅机班",
+    "job": "检修助手"
+  },
+  {
+    "id": "source-50",
+    "row": 50,
+    "company": "A公司",
+    "department": "汽机检修车间",
+    "team": "辅机班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-51",
+    "row": 51,
+    "company": "A公司",
+    "department": "汽机检修车间",
+    "team": "辅机班",
+    "job": "班长"
+  },
+  {
+    "id": "source-52",
+    "row": 52,
+    "company": "A公司",
+    "department": "汽机检修车间",
+    "team": "辅机班",
+    "job": "高压焊工"
+  },
+  {
+    "id": "source-53",
+    "row": 53,
+    "company": "B公司",
+    "department": "汽机检修分场",
+    "team": "水泵班",
+    "job": "副班长（技能专业师）"
+  },
+  {
+    "id": "source-54",
+    "row": 54,
+    "company": "B公司",
+    "department": "汽机检修分场",
+    "team": "水泵班",
+    "job": "安全员"
+  },
+  {
+    "id": "source-55",
+    "row": 55,
+    "company": "B公司",
+    "department": "汽机检修分场",
+    "team": "汽机本体班",
+    "job": "班长"
+  },
+  {
+    "id": "source-56",
+    "row": 56,
+    "company": "B公司",
+    "department": "汽机检修分场",
+    "team": "汽机本体班",
+    "job": "见习"
+  },
+  {
+    "id": "source-57",
+    "row": 57,
+    "company": "B公司",
+    "department": "汽机检修分场",
+    "team": "汽机检修分场",
+    "job": "专工"
+  },
+  {
+    "id": "source-58",
+    "row": 58,
+    "company": "B公司",
+    "department": "汽机检修分场",
+    "team": "汽机检修分场",
+    "job": "专工（学习岗）兼水泵班班长（技能专家）"
+  },
+  {
+    "id": "source-59",
+    "row": 59,
+    "company": "B公司",
+    "department": "汽机检修分场",
+    "team": "汽机检修分场",
+    "job": "安全员"
+  },
+  {
+    "id": "source-60",
+    "row": 60,
+    "company": "B公司",
+    "department": "汽机检修分场",
+    "team": "管道班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-61",
+    "row": 61,
+    "company": "B公司",
+    "department": "汽机检修分场",
+    "team": "管道班",
+    "job": "安全员"
+  },
+  {
+    "id": "source-62",
+    "row": 62,
+    "company": "B公司",
+    "department": "汽机检修分场",
+    "team": "管道班",
+    "job": "检修组长"
+  },
+  {
+    "id": "source-63",
+    "row": 63,
+    "company": "B公司",
+    "department": "汽机检修分场",
+    "team": "管道班",
+    "job": "班长"
+  },
+  {
+    "id": "source-64",
+    "row": 64,
+    "company": "B公司",
+    "department": "汽机检修分场",
+    "team": "管道班",
+    "job": "见习"
+  },
+  {
+    "id": "source-65",
+    "row": 65,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": null,
+    "job": "作业助手"
+  },
+  {
+    "id": "source-66",
+    "row": 66,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": null,
+    "job": "汽机检修专工"
+  },
+  {
+    "id": "source-67",
+    "row": 67,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": null,
+    "job": "汽机队主任"
+  },
+  {
+    "id": "source-68",
+    "row": 68,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": null,
+    "job": "汽机队党支部书记"
+  },
+  {
+    "id": "source-69",
+    "row": 69,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": null,
+    "job": "汽机队副主任"
+  },
+  {
+    "id": "source-70",
+    "row": 70,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": null,
+    "job": "汽机队高级主管"
+  },
+  {
+    "id": "source-71",
+    "row": 71,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": null,
+    "job": "见习"
+  },
+  {
+    "id": "source-72",
+    "row": 72,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "供热班",
+    "job": "供热专责人"
+  },
+  {
+    "id": "source-73",
+    "row": 73,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "供热班",
+    "job": "供热班作业"
+  },
+  {
+    "id": "source-74",
+    "row": 74,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "供热班",
+    "job": "供热班安全员、副班长"
+  },
+  {
+    "id": "source-75",
+    "row": 75,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "供热班",
+    "job": "供热班班长"
+  },
+  {
+    "id": "source-76",
+    "row": 76,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "机本体班",
+    "job": "机本体专责人"
+  },
+  {
+    "id": "source-77",
+    "row": 77,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "机本体班",
+    "job": "机本体作业"
+  },
+  {
+    "id": "source-78",
+    "row": 78,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "机本体班",
+    "job": "机本体班安全员、副班长"
+  },
+  {
+    "id": "source-79",
+    "row": 79,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "机本体班",
+    "job": "机本体班技术员"
+  },
+  {
+    "id": "source-80",
+    "row": 80,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "机本体班",
+    "job": "机本体班班长"
+  },
+  {
+    "id": "source-81",
+    "row": 81,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "机辅机班",
+    "job": "安全培训员"
+  },
+  {
+    "id": "source-82",
+    "row": 82,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "机辅机班",
+    "job": "机辅机专责人"
+  },
+  {
+    "id": "source-83",
+    "row": 83,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "机辅机班",
+    "job": "机辅机作业"
+  },
+  {
+    "id": "source-84",
+    "row": 84,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "机辅机班",
+    "job": "机辅机班班长"
+  },
+  {
+    "id": "source-85",
+    "row": 85,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "综合班",
+    "job": "综合班专责人"
+  },
+  {
+    "id": "source-86",
+    "row": 86,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "综合班",
+    "job": "综合班班长"
+  },
+  {
+    "id": "source-87",
+    "row": 87,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "办公室",
+    "job": "专工"
+  },
+  {
+    "id": "source-88",
+    "row": 88,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "办公室",
+    "job": "主任助理"
+  },
+  {
+    "id": "source-89",
+    "row": 89,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "办公室",
+    "job": "党支部书记"
+  },
+  {
+    "id": "source-90",
+    "row": 90,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "辅机班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-91",
+    "row": 91,
+    "company": "C公司",
+    "department": "汽机队",
+    "team": "辅机班",
+    "job": "班组长"
+  },
+  {
+    "id": "source-92",
+    "row": 92,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": null,
+    "job": "事务员"
+  },
+  {
+    "id": "source-93",
+    "row": 93,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": null,
+    "job": "党支书兼主任"
+  },
+  {
+    "id": "source-94",
+    "row": 94,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "/",
+    "job": "副主任"
+  },
+  {
+    "id": "source-95",
+    "row": 95,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": null,
+    "job": "副职级主任师"
+  },
+  {
+    "id": "source-96",
+    "row": 96,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "/",
+    "job": "安培专工"
+  },
+  {
+    "id": "source-97",
+    "row": 97,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": null,
+    "job": "技术专工"
+  },
+  {
+    "id": "source-98",
+    "row": 98,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": null,
+    "job": "汽机专工"
+  },
+  {
+    "id": "source-99",
+    "row": 99,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": null,
+    "job": "清洁副班长"
+  },
+  {
+    "id": "source-100",
+    "row": 100,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": null,
+    "job": "清洁员"
+  },
+  {
+    "id": "source-101",
+    "row": 101,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": null,
+    "job": "清洁班长"
+  },
+  {
+    "id": "source-102",
+    "row": 102,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "本体班",
+    "job": "助手"
+  },
+  {
+    "id": "source-103",
+    "row": 103,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "水泵班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-104",
+    "row": 104,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "水泵班",
+    "job": "班长"
+  },
+  {
+    "id": "source-105",
+    "row": 105,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "油务班",
+    "job": "助手"
+  },
+  {
+    "id": "source-106",
+    "row": 106,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "油务班",
+    "job": "安全管理员(技术员)"
+  },
+  {
+    "id": "source-107",
+    "row": 107,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "油务班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-108",
+    "row": 108,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "油务班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-109",
+    "row": 109,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "油务班",
+    "job": "班长"
+  },
+  {
+    "id": "source-110",
+    "row": 110,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "管阀班",
+    "job": "安全管理员(副班长)"
+  },
+  {
+    "id": "source-111",
+    "row": 111,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "管阀班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-112",
+    "row": 112,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "调速班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-113",
+    "row": 113,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "调速班",
+    "job": "班长"
+  },
+  {
+    "id": "source-114",
+    "row": 114,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "辅机班",
+    "job": "安全管理员（技术员)"
+  },
+  {
+    "id": "source-115",
+    "row": 115,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "辅机班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-116",
+    "row": 116,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "辅机班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-117",
+    "row": 117,
+    "company": "J公司",
+    "department": "汽机检修分场",
+    "team": "辅机班",
+    "job": "班长"
+  },
+  {
+    "id": "source-118",
+    "row": 118,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "本体班",
+    "job": "本体班主检修工"
+  },
+  {
+    "id": "source-119",
+    "row": 119,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "本体班",
+    "job": "本体班副班长"
+  },
+  {
+    "id": "source-120",
+    "row": 120,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "水泵班",
+    "job": "水泵班检修工"
+  },
+  {
+    "id": "source-121",
+    "row": 121,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "水泵班",
+    "job": "水泵班班长"
+  },
+  {
+    "id": "source-122",
+    "row": 122,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "汽机办",
+    "job": "专工"
+  },
+  {
+    "id": "source-123",
+    "row": 123,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "汽机办",
+    "job": "事务员"
+  },
+  {
+    "id": "source-124",
+    "row": 124,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "汽机办",
+    "job": "副协理员"
+  },
+  {
+    "id": "source-125",
+    "row": 125,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "汽机办",
+    "job": "安全员"
+  },
+  {
+    "id": "source-126",
+    "row": 126,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "汽机办",
+    "job": "工具材料员"
+  },
+  {
+    "id": "source-127",
+    "row": 127,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "汽机办",
+    "job": "见习"
+  },
+  {
+    "id": "source-128",
+    "row": 128,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "管辅班",
+    "job": "管辅班主检修工"
+  },
+  {
+    "id": "source-129",
+    "row": 129,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "管辅班",
+    "job": "管辅班副班长"
+  },
+  {
+    "id": "source-130",
+    "row": 130,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "维修班",
+    "job": "维修班班长"
+  },
+  {
+    "id": "source-131",
+    "row": 131,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "维修班",
+    "job": "维修班铁工"
+  },
+  {
+    "id": "source-132",
+    "row": 132,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "综合班",
+    "job": "综合班主行车工"
+  },
+  {
+    "id": "source-133",
+    "row": 133,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "综合班",
+    "job": "综合班主车工"
+  },
+  {
+    "id": "source-134",
+    "row": 134,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "综合班",
+    "job": "综合班安全员、副班长"
+  },
+  {
+    "id": "source-135",
+    "row": 135,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "综合班",
+    "job": "综合班检修工"
+  },
+  {
+    "id": "source-136",
+    "row": 136,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "综合班",
+    "job": "综合班班长"
+  },
+  {
+    "id": "source-137",
+    "row": 137,
+    "company": "E公司",
+    "department": "汽机车间",
+    "team": "调速班",
+    "job": "调速班主检修工"
+  },
+  {
+    "id": "source-138",
+    "row": 138,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "制粉二班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-139",
+    "row": 139,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "制粉二班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-140",
+    "row": 140,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "制粉二班",
+    "job": "班长"
+  },
+  {
+    "id": "source-141",
+    "row": 141,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "办公室",
+    "job": "安全专工"
+  },
+  {
+    "id": "source-142",
+    "row": 142,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "办公室",
+    "job": "技术专工"
+  },
+  {
+    "id": "source-143",
+    "row": 143,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "本体一班",
+    "job": "作业组长"
+  },
+  {
+    "id": "source-144",
+    "row": 144,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "本体一班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-145",
+    "row": 145,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "本体一班",
+    "job": "检修助手"
+  },
+  {
+    "id": "source-146",
+    "row": 146,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "本体一班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-147",
+    "row": 147,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "本体一班",
+    "job": "检修工（兼高压焊工）"
+  },
+  {
+    "id": "source-148",
+    "row": 148,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "本体一班",
+    "job": "班长"
+  },
+  {
+    "id": "source-149",
+    "row": 149,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "本体二班",
+    "job": "作业组长"
+  },
+  {
+    "id": "source-150",
+    "row": 150,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "本体二班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-151",
+    "row": 151,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "本体二班",
+    "job": "助手"
+  },
+  {
+    "id": "source-152",
+    "row": 152,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "本体二班",
+    "job": "检修助手"
+  },
+  {
+    "id": "source-153",
+    "row": 153,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "本体二班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-154",
+    "row": 154,
+    "company": "A公司",
+    "department": "锅炉检修车间",
+    "team": "本体二班",
+    "job": "班长"
+  },
+  {
+    "id": "source-155",
+    "row": 155,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "磨煤机班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-156",
+    "row": 156,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "磨煤机班",
+    "job": "安全员"
+  },
+  {
+    "id": "source-157",
+    "row": 157,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "磨煤机班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-158",
+    "row": 158,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "磨煤机班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-159",
+    "row": 159,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "磨煤机班",
+    "job": "检修组长"
+  },
+  {
+    "id": "source-160",
+    "row": 160,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "磨煤机班",
+    "job": "班长"
+  },
+  {
+    "id": "source-161",
+    "row": 161,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "磨煤机班",
+    "job": "见习"
+  },
+  {
+    "id": "source-162",
+    "row": 162,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "锅炉本体班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-163",
+    "row": 163,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "锅炉本体班",
+    "job": "安全员（高级技能工）"
+  },
+  {
+    "id": "source-164",
+    "row": 164,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "锅炉本体班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-165",
+    "row": 165,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "锅炉本体班",
+    "job": "技术员（二级技能师）"
+  },
+  {
+    "id": "source-166",
+    "row": 166,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "锅炉本体班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-167",
+    "row": 167,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "锅炉本体班",
+    "job": "检修组长"
+  },
+  {
+    "id": "source-168",
+    "row": 168,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "锅炉本体班",
+    "job": "班长（二级技能师）"
+  },
+  {
+    "id": "source-169",
+    "row": 169,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "锅炉本体班",
+    "job": "见习"
+  },
+  {
+    "id": "source-170",
+    "row": 170,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "锅炉检修分场",
+    "job": "专工（技术主管）"
+  },
+  {
+    "id": "source-171",
+    "row": 171,
+    "company": "B公司",
+    "department": "锅炉检修分场",
+    "team": "锅炉检修分场",
+    "job": "安全员"
+  },
+  {
+    "id": "source-172",
+    "row": 172,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": null,
+    "job": "作业助手"
+  },
+  {
+    "id": "source-173",
+    "row": 173,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": null,
+    "job": "安全培训员"
+  },
+  {
+    "id": "source-174",
+    "row": 174,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": null,
+    "job": "焊接技术专责"
+  },
+  {
+    "id": "source-175",
+    "row": 175,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": null,
+    "job": "见习"
+  },
+  {
+    "id": "source-176",
+    "row": 176,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": null,
+    "job": "锅炉检修专工"
+  },
+  {
+    "id": "source-177",
+    "row": 177,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": null,
+    "job": "锅炉检修专工（学习岗）兼炉本体班班长"
+  },
+  {
+    "id": "source-178",
+    "row": 178,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": null,
+    "job": "锅炉队党支部书记"
+  },
+  {
+    "id": "source-179",
+    "row": 179,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": null,
+    "job": "防磨防爆主管"
+  },
+  {
+    "id": "source-180",
+    "row": 180,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "炉本体班",
+    "job": "炉本体专责人"
+  },
+  {
+    "id": "source-181",
+    "row": 181,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "炉本体班",
+    "job": "炉本体作业"
+  },
+  {
+    "id": "source-182",
+    "row": 182,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "炉本体班",
+    "job": "炉本体班副班长"
+  },
+  {
+    "id": "source-183",
+    "row": 183,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "炉本体班",
+    "job": "炉本体班安全员"
+  },
+  {
+    "id": "source-184",
+    "row": 184,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "炉本体班",
+    "job": "焊工组组长"
+  },
+  {
+    "id": "source-185",
+    "row": 185,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "炉本体班",
+    "job": "焊工组高压焊工"
+  },
+  {
+    "id": "source-186",
+    "row": 186,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "磨煤机班",
+    "job": "磨煤机专责人"
+  },
+  {
+    "id": "source-187",
+    "row": 187,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "磨煤机班",
+    "job": "磨煤机作业"
+  },
+  {
+    "id": "source-188",
+    "row": 188,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "磨煤机班",
+    "job": "磨煤机作业助手"
+  },
+  {
+    "id": "source-189",
+    "row": 189,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "磨煤机班",
+    "job": "磨煤机班副班长"
+  },
+  {
+    "id": "source-190",
+    "row": 190,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "磨煤机班",
+    "job": "磨煤机班安全员"
+  },
+  {
+    "id": "source-191",
+    "row": 191,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "磨煤机班",
+    "job": "磨煤机班技术员"
+  },
+  {
+    "id": "source-192",
+    "row": 192,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "磨煤机班",
+    "job": "磨煤机班班长"
+  },
+  {
+    "id": "source-193",
+    "row": 193,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "送粉班",
+    "job": "送粉专责人"
+  },
+  {
+    "id": "source-194",
+    "row": 194,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "送粉班",
+    "job": "送粉作业"
+  },
+  {
+    "id": "source-195",
+    "row": 195,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "送粉班",
+    "job": "送粉班安全员"
+  },
+  {
+    "id": "source-196",
+    "row": 196,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "送粉班",
+    "job": "送粉班班长"
+  },
+  {
+    "id": "source-197",
+    "row": 197,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "本体班",
+    "job": "专职安全员"
+  },
+  {
+    "id": "source-198",
+    "row": 198,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "本体班",
+    "job": "主责"
+  },
+  {
+    "id": "source-199",
+    "row": 199,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "本体班",
+    "job": "作业"
+  },
+  {
+    "id": "source-200",
+    "row": 200,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "本体班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-201",
+    "row": 201,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "本体班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-202",
+    "row": 202,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "本体班",
+    "job": "班长"
+  },
+  {
+    "id": "source-203",
+    "row": 203,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "磨煤机班",
+    "job": "专职安全员"
+  },
+  {
+    "id": "source-204",
+    "row": 204,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "磨煤机班",
+    "job": "主责"
+  },
+  {
+    "id": "source-205",
+    "row": 205,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "磨煤机班",
+    "job": "作业"
+  },
+  {
+    "id": "source-206",
+    "row": 206,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "磨煤机班",
+    "job": "班长"
+  },
+  {
+    "id": "source-207",
+    "row": 207,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "管理",
+    "job": "主任助理"
+  },
+  {
+    "id": "source-208",
+    "row": 208,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "管理",
+    "job": "书记"
+  },
+  {
+    "id": "source-209",
+    "row": 209,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "管理",
+    "job": "副主任"
+  },
+  {
+    "id": "source-210",
+    "row": 210,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "管理",
+    "job": "安全培训员"
+  },
+  {
+    "id": "source-211",
+    "row": 211,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "管理",
+    "job": "技术专工"
+  },
+  {
+    "id": "source-212",
+    "row": 212,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "综合班",
+    "job": "作业"
+  },
+  {
+    "id": "source-213",
+    "row": 213,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "综合班",
+    "job": "班长"
+  },
+  {
+    "id": "source-214",
+    "row": 214,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "风机班",
+    "job": "主责"
+  },
+  {
+    "id": "source-215",
+    "row": 215,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "风机班",
+    "job": "作业"
+  },
+  {
+    "id": "source-216",
+    "row": 216,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "风机班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-217",
+    "row": 217,
+    "company": "C公司",
+    "department": "锅炉队",
+    "team": "风机班",
+    "job": "班长"
+  },
+  {
+    "id": "source-218",
+    "row": 218,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": null,
+    "job": "副主任"
+  },
+  {
+    "id": "source-219",
+    "row": 219,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": null,
+    "job": "副主任（主持工作）"
+  },
+  {
+    "id": "source-220",
+    "row": 220,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": null,
+    "job": "副职级主任师"
+  },
+  {
+    "id": "source-221",
+    "row": 221,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": null,
+    "job": "安培专工"
+  },
+  {
+    "id": "source-222",
+    "row": 222,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": null,
+    "job": "支部书记"
+  },
+  {
+    "id": "source-223",
+    "row": 223,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": null,
+    "job": "核算员"
+  },
+  {
+    "id": "source-224",
+    "row": 224,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": null,
+    "job": "清洁副班长"
+  },
+  {
+    "id": "source-225",
+    "row": 225,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": null,
+    "job": "锅炉专工"
+  },
+  {
+    "id": "source-226",
+    "row": 226,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": null,
+    "job": "防磨防爆专工"
+  },
+  {
+    "id": "source-227",
+    "row": 227,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "制粉班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-228",
+    "row": 228,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "制粉班",
+    "job": "助手"
+  },
+  {
+    "id": "source-229",
+    "row": 229,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "制粉班",
+    "job": "安全员(副班长)"
+  },
+  {
+    "id": "source-230",
+    "row": 230,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "制粉班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-231",
+    "row": 231,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "制粉班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-232",
+    "row": 232,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "制粉班",
+    "job": "班长"
+  },
+  {
+    "id": "source-233",
+    "row": 233,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "本体班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-234",
+    "row": 234,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "本体班",
+    "job": "吹灰组检修工"
+  },
+  {
+    "id": "source-235",
+    "row": 235,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "本体班",
+    "job": "吹灰组组长"
+  },
+  {
+    "id": "source-236",
+    "row": 236,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "本体班",
+    "job": "安全员(副班长)"
+  },
+  {
+    "id": "source-237",
+    "row": 237,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "本体班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-238",
+    "row": 238,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "本体班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-239",
+    "row": 239,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "本体班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-240",
+    "row": 240,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "本体班",
+    "job": "班长"
+  },
+  {
+    "id": "source-241",
+    "row": 241,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "空压机班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-242",
+    "row": 242,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "空压机班",
+    "job": "助手"
+  },
+  {
+    "id": "source-243",
+    "row": 243,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "空压机班",
+    "job": "安全管理员(副班长)"
+  },
+  {
+    "id": "source-244",
+    "row": 244,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "空压机班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-245",
+    "row": 245,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "空压机班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-246",
+    "row": 246,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "空压机班",
+    "job": "班长"
+  },
+  {
+    "id": "source-247",
+    "row": 247,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "阀门班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-248",
+    "row": 248,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "阀门班",
+    "job": "助手"
+  },
+  {
+    "id": "source-249",
+    "row": 249,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "阀门班",
+    "job": "安全员(副班长)"
+  },
+  {
+    "id": "source-250",
+    "row": 250,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "阀门班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-251",
+    "row": 251,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "阀门班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-252",
+    "row": 252,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "阀门班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-253",
+    "row": 253,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "阀门班",
+    "job": "班长"
+  },
+  {
+    "id": "source-254",
+    "row": 254,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "防磨防爆班",
+    "job": "安全管理员(技术员)"
+  },
+  {
+    "id": "source-255",
+    "row": 255,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "防磨防爆班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-256",
+    "row": 256,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "防磨防爆班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-257",
+    "row": 257,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "防磨防爆班",
+    "job": "班长"
+  },
+  {
+    "id": "source-258",
+    "row": 258,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "风机班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-259",
+    "row": 259,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "风机班",
+    "job": "助手"
+  },
+  {
+    "id": "source-260",
+    "row": 260,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "风机班",
+    "job": "安全员(副班长)"
+  },
+  {
+    "id": "source-261",
+    "row": 261,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "风机班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-262",
+    "row": 262,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "风机班",
+    "job": "检修工"
+  },
+  {
+    "id": "source-263",
+    "row": 263,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "风机班",
+    "job": "班长"
+  },
+  {
+    "id": "source-264",
+    "row": 264,
+    "company": "J公司",
+    "department": "锅炉检修分场",
+    "team": "风机班",
+    "job": "风机班班长"
+  },
+  {
+    "id": "source-265",
+    "row": 265,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "制粉班",
+    "job": "制粉班主检修工"
+  },
+  {
+    "id": "source-266",
+    "row": 266,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "制粉班",
+    "job": "制粉班安全员"
+  },
+  {
+    "id": "source-267",
+    "row": 267,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "制粉班",
+    "job": "制粉班技术员"
+  },
+  {
+    "id": "source-268",
+    "row": 268,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "制粉班",
+    "job": "制粉班检修助手"
+  },
+  {
+    "id": "source-269",
+    "row": 269,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "制粉班",
+    "job": "制粉班检修工"
+  },
+  {
+    "id": "source-270",
+    "row": 270,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "制粉班",
+    "job": "制粉班班长"
+  },
+  {
+    "id": "source-271",
+    "row": 271,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "炉本体班",
+    "job": "本体班主检修工"
+  },
+  {
+    "id": "source-272",
+    "row": 272,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "炉本体班",
+    "job": "本体班主检修工兼主起重工"
+  },
+  {
+    "id": "source-273",
+    "row": 273,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "炉本体班",
+    "job": "本体班主检修工兼合金焊工"
+  },
+  {
+    "id": "source-274",
+    "row": 274,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "炉本体班",
+    "job": "本体班副班长"
+  },
+  {
+    "id": "source-275",
+    "row": 275,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "炉本体班",
+    "job": "本体班安全员"
+  },
+  {
+    "id": "source-276",
+    "row": 276,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "炉本体班",
+    "job": "本体班技术员"
+  },
+  {
+    "id": "source-277",
+    "row": 277,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "炉本体班",
+    "job": "本体班检修助手"
+  },
+  {
+    "id": "source-278",
+    "row": 278,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "炉本体班",
+    "job": "本体班检修助手兼行车工"
+  },
+  {
+    "id": "source-279",
+    "row": 279,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "炉本体班",
+    "job": "本体班检修工"
+  },
+  {
+    "id": "source-280",
+    "row": 280,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "炉本体班",
+    "job": "本体班检修工兼起重工"
+  },
+  {
+    "id": "source-281",
+    "row": 281,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "炉本体班",
+    "job": "本体班班长"
+  },
+  {
+    "id": "source-282",
+    "row": 282,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "炉本体班",
+    "job": "本体班起重机械操作工"
+  },
+  {
+    "id": "source-283",
+    "row": 283,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "磨煤机班",
+    "job": "磨煤机检修工"
+  },
+  {
+    "id": "source-284",
+    "row": 284,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "磨煤机班",
+    "job": "磨煤机班主检修工"
+  },
+  {
+    "id": "source-285",
+    "row": 285,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "磨煤机班",
+    "job": "磨煤机班主检修工兼合金焊工"
+  },
+  {
+    "id": "source-286",
+    "row": 286,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "磨煤机班",
+    "job": "磨煤机班副班长"
+  },
+  {
+    "id": "source-287",
+    "row": 287,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "磨煤机班",
+    "job": "磨煤机班安全员"
+  },
+  {
+    "id": "source-288",
+    "row": 288,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "磨煤机班",
+    "job": "磨煤机班技术员"
+  },
+  {
+    "id": "source-289",
+    "row": 289,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "磨煤机班",
+    "job": "磨煤机班检修助手"
+  },
+  {
+    "id": "source-290",
+    "row": 290,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "磨煤机班",
+    "job": "磨煤机班检修工"
+  },
+  {
+    "id": "source-291",
+    "row": 291,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "磨煤机班",
+    "job": "磨煤机班检修工兼合金焊工"
+  },
+  {
+    "id": "source-292",
+    "row": 292,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "磨煤机班",
+    "job": "磨煤机班班长"
+  },
+  {
+    "id": "source-293",
+    "row": 293,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "辅机班",
+    "job": "辅机班主检修工"
+  },
+  {
+    "id": "source-294",
+    "row": 294,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "辅机班",
+    "job": "辅机班主检修工兼合金焊工"
+  },
+  {
+    "id": "source-295",
+    "row": 295,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "辅机班",
+    "job": "辅机班副班长"
+  },
+  {
+    "id": "source-296",
+    "row": 296,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "辅机班",
+    "job": "辅机班合金焊工"
+  },
+  {
+    "id": "source-297",
+    "row": 297,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "辅机班",
+    "job": "辅机班安全员"
+  },
+  {
+    "id": "source-298",
+    "row": 298,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "辅机班",
+    "job": "辅机班检修助手"
+  },
+  {
+    "id": "source-299",
+    "row": 299,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "辅机班",
+    "job": "辅机班检修工"
+  },
+  {
+    "id": "source-300",
+    "row": 300,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "辅机班",
+    "job": "辅机班班长"
+  },
+  {
+    "id": "source-301",
+    "row": 301,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "锅炉办",
+    "job": "专工"
+  },
+  {
+    "id": "source-302",
+    "row": 302,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "锅炉办",
+    "job": "主任"
+  },
+  {
+    "id": "source-303",
+    "row": 303,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "锅炉办",
+    "job": "主任助理兼安全员"
+  },
+  {
+    "id": "source-304",
+    "row": 304,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "锅炉办",
+    "job": "党支部书记兼副主任"
+  },
+  {
+    "id": "source-305",
+    "row": 305,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "锅炉办",
+    "job": "副主任"
+  },
+  {
+    "id": "source-306",
+    "row": 306,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "锅炉办",
+    "job": "安全员"
+  },
+  {
+    "id": "source-307",
+    "row": 307,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "锅炉办",
+    "job": "技术员"
+  },
+  {
+    "id": "source-308",
+    "row": 308,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "锅炉办",
+    "job": "核算员"
+  },
+  {
+    "id": "source-309",
+    "row": 309,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "锅炉办",
+    "job": "见习"
+  },
+  {
+    "id": "source-310",
+    "row": 310,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "阀门班",
+    "job": "阀门班主检修工"
+  },
+  {
+    "id": "source-311",
+    "row": 311,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "阀门班",
+    "job": "阀门班主检修工兼合金焊工"
+  },
+  {
+    "id": "source-312",
+    "row": 312,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "阀门班",
+    "job": "阀门班安全员、副班长"
+  },
+  {
+    "id": "source-313",
+    "row": 313,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "阀门班",
+    "job": "阀门班检修工"
+  },
+  {
+    "id": "source-314",
+    "row": 314,
+    "company": "E公司",
+    "department": "锅炉车间",
+    "team": "阀门班",
+    "job": "阀门班班长"
+  },
+  {
+    "id": "source-315",
+    "row": 315,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": null,
+    "job": "见习"
+  },
+  {
+    "id": "source-316",
+    "row": 316,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "办公室",
+    "job": "事务员"
+  },
+  {
+    "id": "source-317",
+    "row": 317,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "办公室",
+    "job": "安全专工"
+  },
+  {
+    "id": "source-318",
+    "row": 318,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "办公室",
+    "job": "技术专工"
+  },
+  {
+    "id": "source-319",
+    "row": 319,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "办公室",
+    "job": "运行专工"
+  },
+  {
+    "id": "source-320",
+    "row": 320,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运一班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-321",
+    "row": 321,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运一班",
+    "job": "代理班长"
+  },
+  {
+    "id": "source-322",
+    "row": 322,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运一班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-323",
+    "row": 323,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运一班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-324",
+    "row": 324,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运一班",
+    "job": "正值班员"
+  },
+  {
+    "id": "source-325",
+    "row": 325,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运三班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-326",
+    "row": 326,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运三班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-327",
+    "row": 327,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运三班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-328",
+    "row": 328,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运三班",
+    "job": "班长"
+  },
+  {
+    "id": "source-329",
+    "row": 329,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运二班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-330",
+    "row": 330,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运二班",
+    "job": "主值班员代理"
+  },
+  {
+    "id": "source-331",
+    "row": 331,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运二班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-332",
+    "row": 332,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运五班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-333",
+    "row": 333,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运五班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-334",
+    "row": 334,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运五班",
+    "job": "正值班员"
+  },
+  {
+    "id": "source-335",
+    "row": 335,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运五班",
+    "job": "班长"
+  },
+  {
+    "id": "source-336",
+    "row": 336,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运四班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-337",
+    "row": 337,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运四班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-338",
+    "row": 338,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化运四班",
+    "job": "班长"
+  },
+  {
+    "id": "source-339",
+    "row": 339,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化验班",
+    "job": "入炉煤采制员"
+  },
+  {
+    "id": "source-340",
+    "row": 340,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化验班",
+    "job": "入炉煤采制样组长"
+  },
+  {
+    "id": "source-341",
+    "row": 341,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化验班",
+    "job": "化验员"
+  },
+  {
+    "id": "source-342",
+    "row": 342,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化验班",
+    "job": "化验班技术员"
+  },
+  {
+    "id": "source-343",
+    "row": 343,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化验班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-344",
+    "row": 344,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化验班",
+    "job": "工作负责人"
+  },
+  {
+    "id": "source-345",
+    "row": 345,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化验班",
+    "job": "水作业组长"
+  },
+  {
+    "id": "source-346",
+    "row": 346,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化验班",
+    "job": "油作业组长"
+  },
+  {
+    "id": "source-347",
+    "row": 347,
+    "company": "A公司",
+    "department": "化学运行车间",
+    "team": "化验班",
+    "job": "班长"
+  },
+  {
+    "id": "source-348",
+    "row": 348,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": null,
+    "job": "见习"
+  },
+  {
+    "id": "source-349",
+    "row": 349,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "东水源",
+    "job": "班长"
+  },
+  {
+    "id": "source-350",
+    "row": 350,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "会宝岭水源",
+    "job": "(会宝岭)代理技术员"
+  },
+  {
+    "id": "source-351",
+    "row": 351,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "会宝岭水源",
+    "job": "(会宝岭)值班员"
+  },
+  {
+    "id": "source-352",
+    "row": 352,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "会宝岭水源",
+    "job": "班长"
+  },
+  {
+    "id": "source-353",
+    "row": 353,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "办公室",
+    "job": "主任师"
+  },
+  {
+    "id": "source-354",
+    "row": 354,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "办公室",
+    "job": "事务员"
+  },
+  {
+    "id": "source-355",
+    "row": 355,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "办公室",
+    "job": "安全专工"
+  },
+  {
+    "id": "source-356",
+    "row": 356,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "办公室",
+    "job": "运行专工代理"
+  },
+  {
+    "id": "source-357",
+    "row": 357,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "灰宝岭水源",
+    "job": "水源地值班员"
+  },
+  {
+    "id": "source-358",
+    "row": 358,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "灰运一班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-359",
+    "row": 359,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "灰运一班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-360",
+    "row": 360,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "灰运二班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-361",
+    "row": 361,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "灰运二班",
+    "job": "班长"
+  },
+  {
+    "id": "source-362",
+    "row": 362,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "灰运五班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-363",
+    "row": 363,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "灰运五班",
+    "job": "主值班员代理"
+  },
+  {
+    "id": "source-364",
+    "row": 364,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "灰运五班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-365",
+    "row": 365,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "灰运五班",
+    "job": "班长"
+  },
+  {
+    "id": "source-366",
+    "row": 366,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "灰运五班",
+    "job": "班长代理"
+  },
+  {
+    "id": "source-367",
+    "row": 367,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "灰运四班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-368",
+    "row": 368,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "灰运四班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-369",
+    "row": 369,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "灰运四班",
+    "job": "班长"
+  },
+  {
+    "id": "source-370",
+    "row": 370,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "灰运四班",
+    "job": "班长代理"
+  },
+  {
+    "id": "source-371",
+    "row": 371,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "电气操作班",
+    "job": "电气操作员"
+  },
+  {
+    "id": "source-372",
+    "row": 372,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "西水源",
+    "job": "值班员(西)"
+  },
+  {
+    "id": "source-373",
+    "row": 373,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "运行综合班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-374",
+    "row": 374,
+    "company": "A公司",
+    "department": "灰水运行车间",
+    "team": "运行综合班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-375",
+    "row": 375,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "30万集控一班",
+    "job": "巡检员"
+  },
+  {
+    "id": "source-376",
+    "row": 376,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "33万集控一班",
+    "job": "30万主控员"
+  },
+  {
+    "id": "source-377",
+    "row": 377,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "33万集控一班",
+    "job": "33万副值班员"
+  },
+  {
+    "id": "source-378",
+    "row": 378,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "33万集控一班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-379",
+    "row": 379,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "33万集控一班",
+    "job": "主值班员代理"
+  },
+  {
+    "id": "source-380",
+    "row": 380,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "33万集控一班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-381",
+    "row": 381,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "33万集控一班",
+    "job": "巡检员"
+  },
+  {
+    "id": "source-382",
+    "row": 382,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "33万集控一班",
+    "job": "班长"
+  },
+  {
+    "id": "source-383",
+    "row": 383,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "66万集控四班",
+    "job": "主值班员（主控员）"
+  },
+  {
+    "id": "source-384",
+    "row": 384,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "66万集控四班",
+    "job": "主控员"
+  },
+  {
+    "id": "source-385",
+    "row": 385,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "66万集控四班",
+    "job": "副单元长兼主控员"
+  },
+  {
+    "id": "source-386",
+    "row": 386,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "66万集控四班",
+    "job": "副控员"
+  },
+  {
+    "id": "source-387",
+    "row": 387,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "66万集控四班",
+    "job": "巡检员"
+  },
+  {
+    "id": "source-388",
+    "row": 388,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "办公室",
+    "job": "安培员"
+  },
+  {
+    "id": "source-389",
+    "row": 389,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "办公室",
+    "job": "热机专工"
+  },
+  {
+    "id": "source-390",
+    "row": 390,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "办公室",
+    "job": "电气专工"
+  },
+  {
+    "id": "source-391",
+    "row": 391,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "办公室",
+    "job": "脱硫专工"
+  },
+  {
+    "id": "source-392",
+    "row": 392,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "办公室",
+    "job": "锅炉专工"
+  },
+  {
+    "id": "source-393",
+    "row": 393,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "电气操作组",
+    "job": "一级操作员"
+  },
+  {
+    "id": "source-394",
+    "row": 394,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "电气操作组",
+    "job": "二级操作员"
+  },
+  {
+    "id": "source-395",
+    "row": 395,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "电气操作组",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-396",
+    "row": 396,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "电气操作组",
+    "job": "班长"
+  },
+  {
+    "id": "source-397",
+    "row": 397,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "综合班",
+    "job": "励磁机维护"
+  },
+  {
+    "id": "source-398",
+    "row": 398,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "综合班",
+    "job": "励磁维护"
+  },
+  {
+    "id": "source-399",
+    "row": 399,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "综合班",
+    "job": "巡视操作员"
+  },
+  {
+    "id": "source-400",
+    "row": 400,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运一班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-401",
+    "row": 401,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运一班",
+    "job": "班长"
+  },
+  {
+    "id": "source-402",
+    "row": 402,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运一班",
+    "job": "脱硫主值班员"
+  },
+  {
+    "id": "source-403",
+    "row": 403,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运一班",
+    "job": "脱硫副控员"
+  },
+  {
+    "id": "source-404",
+    "row": 404,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运三班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-405",
+    "row": 405,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运三班",
+    "job": "班长"
+  },
+  {
+    "id": "source-406",
+    "row": 406,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运三班",
+    "job": "脱硫主值班员"
+  },
+  {
+    "id": "source-407",
+    "row": 407,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运三班",
+    "job": "脱硫副控员"
+  },
+  {
+    "id": "source-408",
+    "row": 408,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运二班",
+    "job": "班长"
+  },
+  {
+    "id": "source-409",
+    "row": 409,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运二班",
+    "job": "脱硫主值班员"
+  },
+  {
+    "id": "source-410",
+    "row": 410,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运五班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-411",
+    "row": 411,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运五班",
+    "job": "班长"
+  },
+  {
+    "id": "source-412",
+    "row": 412,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运五班",
+    "job": "脱硫主值班员"
+  },
+  {
+    "id": "source-413",
+    "row": 413,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运四班",
+    "job": "班长"
+  },
+  {
+    "id": "source-414",
+    "row": 414,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运四班",
+    "job": "脱硫主值班员"
+  },
+  {
+    "id": "source-415",
+    "row": 415,
+    "company": "A公司",
+    "department": "集控运行车间",
+    "team": "脱硫运四班",
+    "job": "脱硫副值班员"
+  },
+  {
+    "id": "source-416",
+    "row": 416,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运丁",
+    "job": "值班员"
+  },
+  {
+    "id": "source-417",
+    "row": 417,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运丁",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-418",
+    "row": 418,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运丁",
+    "job": "单元长（技能专业师）"
+  },
+  {
+    "id": "source-419",
+    "row": 419,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运丁",
+    "job": "机组长"
+  },
+  {
+    "id": "source-420",
+    "row": 420,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运丁",
+    "job": "见习"
+  },
+  {
+    "id": "source-421",
+    "row": 421,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运丙",
+    "job": "值班员"
+  },
+  {
+    "id": "source-422",
+    "row": 422,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运丙",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-423",
+    "row": 423,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运丙",
+    "job": "单元长"
+  },
+  {
+    "id": "source-424",
+    "row": 424,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运丙",
+    "job": "机组长"
+  },
+  {
+    "id": "source-425",
+    "row": 425,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运丙",
+    "job": "见习"
+  },
+  {
+    "id": "source-426",
+    "row": 426,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运乙",
+    "job": "值班员"
+  },
+  {
+    "id": "source-427",
+    "row": 427,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运乙",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-428",
+    "row": 428,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运乙",
+    "job": "单元长"
+  },
+  {
+    "id": "source-429",
+    "row": 429,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运乙",
+    "job": "见习"
+  },
+  {
+    "id": "source-430",
+    "row": 430,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运戊",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-431",
+    "row": 431,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运戊",
+    "job": "单元长"
+  },
+  {
+    "id": "source-432",
+    "row": 432,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运戊",
+    "job": "机组长"
+  },
+  {
+    "id": "source-433",
+    "row": 433,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运戊",
+    "job": "见习"
+  },
+  {
+    "id": "source-434",
+    "row": 434,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运甲",
+    "job": "值班员"
+  },
+  {
+    "id": "source-435",
+    "row": 435,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运甲",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-436",
+    "row": 436,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运甲",
+    "job": "单元长"
+  },
+  {
+    "id": "source-437",
+    "row": 437,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运甲",
+    "job": "机组长"
+  },
+  {
+    "id": "source-438",
+    "row": 438,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "三四号运甲",
+    "job": "见习"
+  },
+  {
+    "id": "source-439",
+    "row": 439,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "五六号运丁",
+    "job": "值班员"
+  },
+  {
+    "id": "source-440",
+    "row": 440,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "五六号运丁",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-441",
+    "row": 441,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "五六号运丁",
+    "job": "单元长"
+  },
+  {
+    "id": "source-442",
+    "row": 442,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "五六号运甲",
+    "job": "值班员(一级技能师)"
+  },
+  {
+    "id": "source-443",
+    "row": 443,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "五六号运甲",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-444",
+    "row": 444,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "五六号运甲",
+    "job": "机组长"
+  },
+  {
+    "id": "source-445",
+    "row": 445,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "五六号运甲",
+    "job": "见习"
+  },
+  {
+    "id": "source-446",
+    "row": 446,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "电气操作班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-447",
+    "row": 447,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "电气操作班",
+    "job": "班长"
+  },
+  {
+    "id": "source-448",
+    "row": 448,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "综合班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-449",
+    "row": 449,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "综合班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-450",
+    "row": 450,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "综合班",
+    "job": "安全员"
+  },
+  {
+    "id": "source-451",
+    "row": 451,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "综合班",
+    "job": "班长"
+  },
+  {
+    "id": "source-452",
+    "row": 452,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "运行分场",
+    "job": "主任"
+  },
+  {
+    "id": "source-453",
+    "row": 453,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "运行分场",
+    "job": "主任助理"
+  },
+  {
+    "id": "source-454",
+    "row": 454,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "运行分场",
+    "job": "主任助理（技能专业师）"
+  },
+  {
+    "id": "source-455",
+    "row": 455,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "运行分场",
+    "job": "党支部书记"
+  },
+  {
+    "id": "source-456",
+    "row": 456,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "运行分场",
+    "job": "副主任"
+  },
+  {
+    "id": "source-457",
+    "row": 457,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "运行分场",
+    "job": "副主任师、汽机专工"
+  },
+  {
+    "id": "source-458",
+    "row": 458,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "运行分场",
+    "job": "安全员"
+  },
+  {
+    "id": "source-459",
+    "row": 459,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "运行分场",
+    "job": "汽机专工（学习岗）"
+  },
+  {
+    "id": "source-460",
+    "row": 460,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "运行分场",
+    "job": "电气专工（学习岗）"
+  },
+  {
+    "id": "source-461",
+    "row": 461,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "运行分场",
+    "job": "综合事务员"
+  },
+  {
+    "id": "source-462",
+    "row": 462,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "运行分场",
+    "job": "锅炉专工（二级技术主管）"
+  },
+  {
+    "id": "source-463",
+    "row": 463,
+    "company": "B公司",
+    "department": "运行分场",
+    "team": "运行分场",
+    "job": "锅炉专工（学习岗）兼五六号运丁单元长（技能专业师）"
+  },
+  {
+    "id": "source-464",
+    "row": 464,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "150MW集控运行",
+    "job": "一级巡检员"
+  },
+  {
+    "id": "source-465",
+    "row": 465,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "150MW集控运行",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-466",
+    "row": 466,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "150MW集控运行",
+    "job": "二级巡检员"
+  },
+  {
+    "id": "source-467",
+    "row": 467,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "150MW集控运行",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-468",
+    "row": 468,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "150MW集控运行",
+    "job": "副班长"
+  },
+  {
+    "id": "source-469",
+    "row": 469,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "150MW集控运行",
+    "job": "班长"
+  },
+  {
+    "id": "source-470",
+    "row": 470,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "150MW集控运行",
+    "job": "见习"
+  },
+  {
+    "id": "source-471",
+    "row": 471,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "350MW集控运行",
+    "job": "一级巡检员"
+  },
+  {
+    "id": "source-472",
+    "row": 472,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "350MW集控运行",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-473",
+    "row": 473,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "350MW集控运行",
+    "job": "二级巡检员"
+  },
+  {
+    "id": "source-474",
+    "row": 474,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "350MW集控运行",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-475",
+    "row": 475,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "350MW集控运行",
+    "job": "副班长"
+  },
+  {
+    "id": "source-476",
+    "row": 476,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "350MW集控运行",
+    "job": "班长"
+  },
+  {
+    "id": "source-477",
+    "row": 477,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "350MW集控运行",
+    "job": "见习"
+  },
+  {
+    "id": "source-478",
+    "row": 478,
+    "company": "F公司",
+    "department": "运行部",
+    "team": null,
+    "job": "事务员"
+  },
+  {
+    "id": "source-479",
+    "row": 479,
+    "company": "F公司",
+    "department": "运行部",
+    "team": null,
+    "job": "储能专责人"
+  },
+  {
+    "id": "source-480",
+    "row": 480,
+    "company": "F公司",
+    "department": "运行部",
+    "team": null,
+    "job": "化学专工"
+  },
+  {
+    "id": "source-481",
+    "row": 481,
+    "company": "F公司",
+    "department": "运行部",
+    "team": null,
+    "job": "安全员"
+  },
+  {
+    "id": "source-482",
+    "row": 482,
+    "company": "F公司",
+    "department": "运行部",
+    "team": null,
+    "job": "教培兼指标管理专责"
+  },
+  {
+    "id": "source-483",
+    "row": 483,
+    "company": "F公司",
+    "department": "运行部",
+    "team": null,
+    "job": "汽机专工"
+  },
+  {
+    "id": "source-484",
+    "row": 484,
+    "company": "F公司",
+    "department": "运行部",
+    "team": null,
+    "job": "灰水脱硫专工"
+  },
+  {
+    "id": "source-485",
+    "row": 485,
+    "company": "F公司",
+    "department": "运行部",
+    "team": null,
+    "job": "锅炉专工"
+  },
+  {
+    "id": "source-486",
+    "row": 486,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "化学运行班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-487",
+    "row": 487,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "化学运行班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-488",
+    "row": 488,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "化学运行班",
+    "job": "尿素站专责人"
+  },
+  {
+    "id": "source-489",
+    "row": 489,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "化学运行班",
+    "job": "尿素站值班员"
+  },
+  {
+    "id": "source-490",
+    "row": 490,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "化学运行班",
+    "job": "班长"
+  },
+  {
+    "id": "source-491",
+    "row": 491,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "化学运行班",
+    "job": "见习"
+  },
+  {
+    "id": "source-492",
+    "row": 492,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "化学运行班",
+    "job": "调度长"
+  },
+  {
+    "id": "source-493",
+    "row": 493,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "化验监督班",
+    "job": "中水值班专责人"
+  },
+  {
+    "id": "source-494",
+    "row": 494,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "化验监督班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-495",
+    "row": 495,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "化验监督班",
+    "job": "化验员"
+  },
+  {
+    "id": "source-496",
+    "row": 496,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "化验监督班",
+    "job": "环保监测专责人"
+  },
+  {
+    "id": "source-497",
+    "row": 497,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "化验监督班",
+    "job": "班长"
+  },
+  {
+    "id": "source-498",
+    "row": 498,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "炉后运行班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-499",
+    "row": 499,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "炉后运行班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-500",
+    "row": 500,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "炉后运行班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-501",
+    "row": 501,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "炉后运行班",
+    "job": "外围电气操作专责人"
+  },
+  {
+    "id": "source-502",
+    "row": 502,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "炉后运行班",
+    "job": "操作电工"
+  },
+  {
+    "id": "source-503",
+    "row": 503,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "炉后运行班",
+    "job": "班长"
+  },
+  {
+    "id": "source-504",
+    "row": 504,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "炉后运行班",
+    "job": "调度长"
+  },
+  {
+    "id": "source-505",
+    "row": 505,
+    "company": "F公司",
+    "department": "运行部",
+    "team": "燃油泵房",
+    "job": "燃油泵房值班员"
+  },
+  {
+    "id": "source-506",
+    "row": 506,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "光伏专工"
+  },
+  {
+    "id": "source-507",
+    "row": 507,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "安全培训员"
+  },
+  {
+    "id": "source-508",
+    "row": 508,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "机运专工"
+  },
+  {
+    "id": "source-509",
+    "row": 509,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "机运实习专工"
+  },
+  {
+    "id": "source-510",
+    "row": 510,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "灰运专工"
+  },
+  {
+    "id": "source-511",
+    "row": 511,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "炉运专工"
+  },
+  {
+    "id": "source-512",
+    "row": 512,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "电运专工"
+  },
+  {
+    "id": "source-513",
+    "row": 513,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "电运专工（学习岗）"
+  },
+  {
+    "id": "source-514",
+    "row": 514,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "综合专工"
+  },
+  {
+    "id": "source-515",
+    "row": 515,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "见习"
+  },
+  {
+    "id": "source-516",
+    "row": 516,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁1班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-517",
+    "row": 517,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁1班",
+    "job": "主巡检员"
+  },
+  {
+    "id": "source-518",
+    "row": 518,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁1班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-519",
+    "row": 519,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁1班",
+    "job": "副单元长"
+  },
+  {
+    "id": "source-520",
+    "row": 520,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁1班",
+    "job": "副巡检员"
+  },
+  {
+    "id": "source-521",
+    "row": 521,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁1班",
+    "job": "单元长"
+  },
+  {
+    "id": "source-522",
+    "row": 522,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁1班",
+    "job": "安全员、副单元长"
+  },
+  {
+    "id": "source-523",
+    "row": 523,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁1班",
+    "job": "泵房值班员"
+  },
+  {
+    "id": "source-524",
+    "row": 524,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁2班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-525",
+    "row": 525,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁2班",
+    "job": "主巡检员"
+  },
+  {
+    "id": "source-526",
+    "row": 526,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁2班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-527",
+    "row": 527,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁2班",
+    "job": "单元长"
+  },
+  {
+    "id": "source-528",
+    "row": 528,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙1班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-529",
+    "row": 529,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙1班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-530",
+    "row": 530,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙1班",
+    "job": "副巡检员"
+  },
+  {
+    "id": "source-531",
+    "row": 531,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙1班",
+    "job": "单元长"
+  },
+  {
+    "id": "source-532",
+    "row": 532,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙1班",
+    "job": "安全员、副单元长"
+  },
+  {
+    "id": "source-533",
+    "row": 533,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙1班",
+    "job": "泵房值班员"
+  },
+  {
+    "id": "source-534",
+    "row": 534,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙2班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-535",
+    "row": 535,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙2班",
+    "job": "主巡检员"
+  },
+  {
+    "id": "source-536",
+    "row": 536,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙2班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-537",
+    "row": 537,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙2班",
+    "job": "副单元长"
+  },
+  {
+    "id": "source-538",
+    "row": 538,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙2班",
+    "job": "副巡检员"
+  },
+  {
+    "id": "source-539",
+    "row": 539,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙2班",
+    "job": "单元长"
+  },
+  {
+    "id": "source-540",
+    "row": 540,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙1班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-541",
+    "row": 541,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙1班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-542",
+    "row": 542,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙1班",
+    "job": "单元长"
+  },
+  {
+    "id": "source-543",
+    "row": 543,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙1班",
+    "job": "安全员、副单元长"
+  },
+  {
+    "id": "source-544",
+    "row": 544,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙1班",
+    "job": "泵房值班员"
+  },
+  {
+    "id": "source-545",
+    "row": 545,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙2班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-546",
+    "row": 546,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙2班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-547",
+    "row": 547,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙2班",
+    "job": "副巡检员"
+  },
+  {
+    "id": "source-548",
+    "row": 548,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙2班",
+    "job": "单元长"
+  },
+  {
+    "id": "source-549",
+    "row": 549,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙2班",
+    "job": "安全员、副单元长"
+  },
+  {
+    "id": "source-550",
+    "row": 550,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊1班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-551",
+    "row": 551,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊1班",
+    "job": "主巡检员"
+  },
+  {
+    "id": "source-552",
+    "row": 552,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊1班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-553",
+    "row": 553,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊1班",
+    "job": "副单元长"
+  },
+  {
+    "id": "source-554",
+    "row": 554,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊1班",
+    "job": "安全员、副单元长"
+  },
+  {
+    "id": "source-555",
+    "row": 555,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊1班",
+    "job": "泵房值班员"
+  },
+  {
+    "id": "source-556",
+    "row": 556,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊2班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-557",
+    "row": 557,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊2班",
+    "job": "主巡检员"
+  },
+  {
+    "id": "source-558",
+    "row": 558,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊2班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-559",
+    "row": 559,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊2班",
+    "job": "副单元长"
+  },
+  {
+    "id": "source-560",
+    "row": 560,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊2班",
+    "job": "副巡检员"
+  },
+  {
+    "id": "source-561",
+    "row": 561,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊2班",
+    "job": "单元长"
+  },
+  {
+    "id": "source-562",
+    "row": 562,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊2班",
+    "job": "安全员、副单元长"
+  },
+  {
+    "id": "source-563",
+    "row": 563,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊2班",
+    "job": "实习单元长"
+  },
+  {
+    "id": "source-564",
+    "row": 564,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运丁班",
+    "job": "灰运安全员、副班长"
+  },
+  {
+    "id": "source-565",
+    "row": 565,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运丁班",
+    "job": "灰运实习班长"
+  },
+  {
+    "id": "source-566",
+    "row": 566,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运丁班",
+    "job": "灰运班长"
+  },
+  {
+    "id": "source-567",
+    "row": 567,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运丁班",
+    "job": "脱硫主值"
+  },
+  {
+    "id": "source-568",
+    "row": 568,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运丁班",
+    "job": "脱硫副值"
+  },
+  {
+    "id": "source-569",
+    "row": 569,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运丁班",
+    "job": "除灰主值"
+  },
+  {
+    "id": "source-570",
+    "row": 570,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运丁班",
+    "job": "除灰副值"
+  },
+  {
+    "id": "source-571",
+    "row": 571,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运丙班",
+    "job": "灰运安全员、副班长"
+  },
+  {
+    "id": "source-572",
+    "row": 572,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运丙班",
+    "job": "灰运班长"
+  },
+  {
+    "id": "source-573",
+    "row": 573,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运丙班",
+    "job": "脱硫主值"
+  },
+  {
+    "id": "source-574",
+    "row": 574,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运丙班",
+    "job": "脱硫副值"
+  },
+  {
+    "id": "source-575",
+    "row": 575,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运丙班",
+    "job": "脱硫巡检员"
+  },
+  {
+    "id": "source-576",
+    "row": 576,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运丙班",
+    "job": "除灰主值"
+  },
+  {
+    "id": "source-577",
+    "row": 577,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运乙班",
+    "job": "灰运班长"
+  },
+  {
+    "id": "source-578",
+    "row": 578,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运乙班",
+    "job": "脱硫主值"
+  },
+  {
+    "id": "source-579",
+    "row": 579,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运乙班",
+    "job": "脱硫副值"
+  },
+  {
+    "id": "source-580",
+    "row": 580,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运乙班",
+    "job": "除灰主值"
+  },
+  {
+    "id": "source-581",
+    "row": 581,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运乙班",
+    "job": "除灰副值"
+  },
+  {
+    "id": "source-582",
+    "row": 582,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运戊班",
+    "job": "灰运安全员、副班长"
+  },
+  {
+    "id": "source-583",
+    "row": 583,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运戊班",
+    "job": "灰运班长"
+  },
+  {
+    "id": "source-584",
+    "row": 584,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运戊班",
+    "job": "脱硫主值"
+  },
+  {
+    "id": "source-585",
+    "row": 585,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运戊班",
+    "job": "脱硫副值"
+  },
+  {
+    "id": "source-586",
+    "row": 586,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运戊班",
+    "job": "除灰主值"
+  },
+  {
+    "id": "source-587",
+    "row": 587,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运戊班",
+    "job": "除灰副值"
+  },
+  {
+    "id": "source-588",
+    "row": 588,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运甲班",
+    "job": "灰运班长"
+  },
+  {
+    "id": "source-589",
+    "row": 589,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运甲班",
+    "job": "脱硫主值"
+  },
+  {
+    "id": "source-590",
+    "row": 590,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运甲班",
+    "job": "脱硫副值"
+  },
+  {
+    "id": "source-591",
+    "row": 591,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运甲班",
+    "job": "除灰主值"
+  },
+  {
+    "id": "source-592",
+    "row": 592,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "灰运甲班",
+    "job": "除灰副值"
+  },
+  {
+    "id": "source-593",
+    "row": 593,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲1班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-594",
+    "row": 594,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲1班",
+    "job": "主巡检员"
+  },
+  {
+    "id": "source-595",
+    "row": 595,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲1班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-596",
+    "row": 596,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲1班",
+    "job": "副巡检员"
+  },
+  {
+    "id": "source-597",
+    "row": 597,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲1班",
+    "job": "安全员、副单元长"
+  },
+  {
+    "id": "source-598",
+    "row": 598,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲1班",
+    "job": "实习单元长"
+  },
+  {
+    "id": "source-599",
+    "row": 599,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲1班",
+    "job": "泵房值班员"
+  },
+  {
+    "id": "source-600",
+    "row": 600,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲2班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-601",
+    "row": 601,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲2班",
+    "job": "主巡检员"
+  },
+  {
+    "id": "source-602",
+    "row": 602,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲2班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-603",
+    "row": 603,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲2班",
+    "job": "单元长"
+  },
+  {
+    "id": "source-604",
+    "row": 604,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲2班",
+    "job": "安全员、副单元长"
+  },
+  {
+    "id": "source-605",
+    "row": 605,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲2班",
+    "job": "实习单元长"
+  },
+  {
+    "id": "source-606",
+    "row": 606,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": null,
+    "job": null
+  },
+  {
+    "id": "source-607",
+    "row": 607,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控",
+    "job": "巡检"
+  },
+  {
+    "id": "source-608",
+    "row": 608,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控丁值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-609",
+    "row": 609,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控丁值",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-610",
+    "row": 610,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控丁值",
+    "job": "单元长"
+  },
+  {
+    "id": "source-611",
+    "row": 611,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控丁值",
+    "job": "巡检"
+  },
+  {
+    "id": "source-612",
+    "row": 612,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控丙值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-613",
+    "row": 613,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控丙值",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-614",
+    "row": 614,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控丙值",
+    "job": "单元长"
+  },
+  {
+    "id": "source-615",
+    "row": 615,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控丙值",
+    "job": "巡检"
+  },
+  {
+    "id": "source-616",
+    "row": 616,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控丙值",
+    "job": "巡检员"
+  },
+  {
+    "id": "source-617",
+    "row": 617,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控乙值",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-618",
+    "row": 618,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控乙值",
+    "job": "单元长"
+  },
+  {
+    "id": "source-619",
+    "row": 619,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控乙值",
+    "job": "巡检"
+  },
+  {
+    "id": "source-620",
+    "row": 620,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控乙值",
+    "job": "巡检员"
+  },
+  {
+    "id": "source-621",
+    "row": 621,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控甲值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-622",
+    "row": 622,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控甲值",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-623",
+    "row": 623,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控甲值",
+    "job": "单元长"
+  },
+  {
+    "id": "source-624",
+    "row": 624,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "三期集控甲值",
+    "job": "巡检"
+  },
+  {
+    "id": "source-625",
+    "row": 625,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控丁值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-626",
+    "row": 626,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控丁值",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-627",
+    "row": 627,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控丁值",
+    "job": "单元长"
+  },
+  {
+    "id": "source-628",
+    "row": 628,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控丁值",
+    "job": "巡检"
+  },
+  {
+    "id": "source-629",
+    "row": 629,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控丙值",
+    "job": "nan"
+  },
+  {
+    "id": "source-630",
+    "row": 630,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控丙值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-631",
+    "row": 631,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控丙值",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-632",
+    "row": 632,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控乙值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-633",
+    "row": 633,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控乙值",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-634",
+    "row": 634,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控乙值",
+    "job": "单元长"
+  },
+  {
+    "id": "source-635",
+    "row": 635,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控乙值",
+    "job": "巡检"
+  },
+  {
+    "id": "source-636",
+    "row": 636,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控戊值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-637",
+    "row": 637,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控戊值",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-638",
+    "row": 638,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控戊值",
+    "job": "单元长"
+  },
+  {
+    "id": "source-639",
+    "row": 639,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控戊值",
+    "job": "巡检"
+  },
+  {
+    "id": "source-640",
+    "row": 640,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控甲值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-641",
+    "row": 641,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控甲值",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-642",
+    "row": 642,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控甲值",
+    "job": "单元长"
+  },
+  {
+    "id": "source-643",
+    "row": 643,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "二期集控甲值",
+    "job": "巡检"
+  },
+  {
+    "id": "source-644",
+    "row": 644,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化学运行",
+    "job": "值班员"
+  },
+  {
+    "id": "source-645",
+    "row": 645,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化学运行丁值",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-646",
+    "row": 646,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化学运行丁值",
+    "job": "副班长"
+  },
+  {
+    "id": "source-647",
+    "row": 647,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化学运行丙值",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-648",
+    "row": 648,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化学运行丙值",
+    "job": "副班长"
+  },
+  {
+    "id": "source-649",
+    "row": 649,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化学运行乙值",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-650",
+    "row": 650,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化学运行乙值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-651",
+    "row": 651,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化学运行乙值",
+    "job": "副班长"
+  },
+  {
+    "id": "source-652",
+    "row": 652,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化学运行戊值",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-653",
+    "row": 653,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化学运行戊值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-654",
+    "row": 654,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化学运行戊值",
+    "job": "副班长"
+  },
+  {
+    "id": "source-655",
+    "row": 655,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化验班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-656",
+    "row": 656,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化验班",
+    "job": "入炉煤化验"
+  },
+  {
+    "id": "source-657",
+    "row": 657,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化验班",
+    "job": "化验员"
+  },
+  {
+    "id": "source-658",
+    "row": 658,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化验班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-659",
+    "row": 659,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "化验班",
+    "job": "班长"
+  },
+  {
+    "id": "source-660",
+    "row": 660,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "灰水",
+    "job": "值班员"
+  },
+  {
+    "id": "source-661",
+    "row": 661,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "灰水脱硫乙值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-662",
+    "row": 662,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "灰硫丁值",
+    "job": "班长"
+  },
+  {
+    "id": "source-663",
+    "row": 663,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "灰硫丙值",
+    "job": "班长"
+  },
+  {
+    "id": "source-664",
+    "row": 664,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "灰硫戊值",
+    "job": "班长"
+  },
+  {
+    "id": "source-665",
+    "row": 665,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "灰硫甲值",
+    "job": "班长"
+  },
+  {
+    "id": "source-666",
+    "row": 666,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "燃料运行丁值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-667",
+    "row": 667,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "燃料运行丙值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-668",
+    "row": 668,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "燃料运行乙值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-669",
+    "row": 669,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "燃料运行乙班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-670",
+    "row": 670,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "燃料运行乙班",
+    "job": "采制样员"
+  },
+  {
+    "id": "source-671",
+    "row": 671,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "燃料运行戊值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-672",
+    "row": 672,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "燃料运行戊值",
+    "job": "副班长"
+  },
+  {
+    "id": "source-673",
+    "row": 673,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "燃料运行戊值",
+    "job": "班长"
+  },
+  {
+    "id": "source-674",
+    "row": 674,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "燃运丁值",
+    "job": "副班长"
+  },
+  {
+    "id": "source-675",
+    "row": 675,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "燃运乙值",
+    "job": "副班长"
+  },
+  {
+    "id": "source-676",
+    "row": 676,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "燃运乙值",
+    "job": "燃运班长"
+  },
+  {
+    "id": "source-677",
+    "row": 677,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "燃运甲值",
+    "job": "值班员"
+  },
+  {
+    "id": "source-678",
+    "row": 678,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "运行管理",
+    "job": "nan"
+  },
+  {
+    "id": "source-679",
+    "row": 679,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "运行管理",
+    "job": "主管"
+  },
+  {
+    "id": "source-680",
+    "row": 680,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "运行管理",
+    "job": "化学专工"
+  },
+  {
+    "id": "source-681",
+    "row": 681,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "运行管理",
+    "job": "培训专工"
+  },
+  {
+    "id": "source-682",
+    "row": 682,
+    "company": "G公司",
+    "department": "运行分场",
+    "team": "运行管理",
+    "job": "电气专工"
+  },
+  {
+    "id": "source-683",
+    "row": 683,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁班",
+    "job": "化学运行主值班员"
+  },
+  {
+    "id": "source-684",
+    "row": 684,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁班",
+    "job": "化学运行副值班员"
+  },
+  {
+    "id": "source-685",
+    "row": 685,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁班",
+    "job": "化学运行助理值班员"
+  },
+  {
+    "id": "source-686",
+    "row": 686,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁班",
+    "job": "单元长"
+  },
+  {
+    "id": "source-687",
+    "row": 687,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁班",
+    "job": "机组长"
+  },
+  {
+    "id": "source-688",
+    "row": 688,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁班",
+    "job": "见习"
+  },
+  {
+    "id": "source-689",
+    "row": 689,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁班",
+    "job": "集控一级助理值班员"
+  },
+  {
+    "id": "source-690",
+    "row": 690,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁班",
+    "job": "集控二级助理值班员"
+  },
+  {
+    "id": "source-691",
+    "row": 691,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-692",
+    "row": 692,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丁班",
+    "job": "集控副值班员"
+  },
+  {
+    "id": "source-693",
+    "row": 693,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙班",
+    "job": "化学运行主值班员"
+  },
+  {
+    "id": "source-694",
+    "row": 694,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙班",
+    "job": "化学运行副值班员"
+  },
+  {
+    "id": "source-695",
+    "row": 695,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙班",
+    "job": "化学运行助理值班员"
+  },
+  {
+    "id": "source-696",
+    "row": 696,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙班",
+    "job": "单元长"
+  },
+  {
+    "id": "source-697",
+    "row": 697,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙班",
+    "job": "机组长"
+  },
+  {
+    "id": "source-698",
+    "row": 698,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙班",
+    "job": "见习"
+  },
+  {
+    "id": "source-699",
+    "row": 699,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙班",
+    "job": "集控一级助理值班员"
+  },
+  {
+    "id": "source-700",
+    "row": 700,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙班",
+    "job": "集控二级助理值班员"
+  },
+  {
+    "id": "source-701",
+    "row": 701,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-702",
+    "row": 702,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙班",
+    "job": "集控副值班员"
+  },
+  {
+    "id": "source-703",
+    "row": 703,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "丙班",
+    "job": "集控运行一级助理值班员"
+  },
+  {
+    "id": "source-704",
+    "row": 704,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙班",
+    "job": "一级助理值班员"
+  },
+  {
+    "id": "source-705",
+    "row": 705,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙班",
+    "job": "二级助理值班员"
+  },
+  {
+    "id": "source-706",
+    "row": 706,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙班",
+    "job": "化学运行主值班员"
+  },
+  {
+    "id": "source-707",
+    "row": 707,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙班",
+    "job": "化学运行副值班员"
+  },
+  {
+    "id": "source-708",
+    "row": 708,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙班",
+    "job": "化学运行助理值班员"
+  },
+  {
+    "id": "source-709",
+    "row": 709,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙班",
+    "job": "单元长"
+  },
+  {
+    "id": "source-710",
+    "row": 710,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙班",
+    "job": "机组长"
+  },
+  {
+    "id": "source-711",
+    "row": 711,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙班",
+    "job": "见习"
+  },
+  {
+    "id": "source-712",
+    "row": 712,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-713",
+    "row": 713,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "乙班",
+    "job": "集控副值班员"
+  },
+  {
+    "id": "source-714",
+    "row": 714,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "化验班",
+    "job": "仪表组作业"
+  },
+  {
+    "id": "source-715",
+    "row": 715,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "化验班",
+    "job": "化学化验专责兼化验班班长"
+  },
+  {
+    "id": "source-716",
+    "row": 716,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "化验班",
+    "job": "化验班副班长"
+  },
+  {
+    "id": "source-717",
+    "row": 717,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "化验班",
+    "job": "化验班技术员"
+  },
+  {
+    "id": "source-718",
+    "row": 718,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "化验班",
+    "job": "化验组主责"
+  },
+  {
+    "id": "source-719",
+    "row": 719,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "化验班",
+    "job": "化验组作业"
+  },
+  {
+    "id": "source-720",
+    "row": 720,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "循环泵房",
+    "job": "循环水泵值班员"
+  },
+  {
+    "id": "source-721",
+    "row": 721,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊班",
+    "job": "化学运行主值班员"
+  },
+  {
+    "id": "source-722",
+    "row": 722,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊班",
+    "job": "化学运行副值班员"
+  },
+  {
+    "id": "source-723",
+    "row": 723,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊班",
+    "job": "化学运行助理值班员"
+  },
+  {
+    "id": "source-724",
+    "row": 724,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊班",
+    "job": "单元长"
+  },
+  {
+    "id": "source-725",
+    "row": 725,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊班",
+    "job": "机组长"
+  },
+  {
+    "id": "source-726",
+    "row": 726,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊班",
+    "job": "见习"
+  },
+  {
+    "id": "source-727",
+    "row": 727,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊班",
+    "job": "集控二级助理值班员"
+  },
+  {
+    "id": "source-728",
+    "row": 728,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-729",
+    "row": 729,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "戊班",
+    "job": "集控副值班员"
+  },
+  {
+    "id": "source-730",
+    "row": 730,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲班",
+    "job": "一级助理值班员"
+  },
+  {
+    "id": "source-731",
+    "row": 731,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲班",
+    "job": "二级助理值班员"
+  },
+  {
+    "id": "source-732",
+    "row": 732,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲班",
+    "job": "化学运行主值班员"
+  },
+  {
+    "id": "source-733",
+    "row": 733,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲班",
+    "job": "化学运行副值班员"
+  },
+  {
+    "id": "source-734",
+    "row": 734,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲班",
+    "job": "化学运行助理值班员"
+  },
+  {
+    "id": "source-735",
+    "row": 735,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲班",
+    "job": "单元长"
+  },
+  {
+    "id": "source-736",
+    "row": 736,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲班",
+    "job": "机组长"
+  },
+  {
+    "id": "source-737",
+    "row": 737,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲班",
+    "job": "见习"
+  },
+  {
+    "id": "source-738",
+    "row": 738,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-739",
+    "row": 739,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲班",
+    "job": "集控副值班员"
+  },
+  {
+    "id": "source-740",
+    "row": 740,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "甲班",
+    "job": "集控运行一级助理值班员"
+  },
+  {
+    "id": "source-741",
+    "row": 741,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "管理",
+    "job": "主任助理兼化学专工"
+  },
+  {
+    "id": "source-742",
+    "row": 742,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "管理",
+    "job": "主任助理兼炉运专工"
+  },
+  {
+    "id": "source-743",
+    "row": 743,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "管理",
+    "job": "化学运行专责"
+  },
+  {
+    "id": "source-744",
+    "row": 744,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "管理",
+    "job": "协理员"
+  },
+  {
+    "id": "source-745",
+    "row": 745,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "管理",
+    "job": "安全培训员"
+  },
+  {
+    "id": "source-746",
+    "row": 746,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "管理",
+    "job": "汽机专工"
+  },
+  {
+    "id": "source-747",
+    "row": 747,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "管理",
+    "job": "电气专工"
+  },
+  {
+    "id": "source-748",
+    "row": 748,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "管理",
+    "job": "电气首席工程师兼培训专工"
+  },
+  {
+    "id": "source-749",
+    "row": 749,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "管理",
+    "job": "网控主管"
+  },
+  {
+    "id": "source-750",
+    "row": 750,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "管理",
+    "job": "锅炉专工"
+  },
+  {
+    "id": "source-751",
+    "row": 751,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "综合能源",
+    "job": "综合能源主值班员"
+  },
+  {
+    "id": "source-752",
+    "row": 752,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "综合能源",
+    "job": "综合能源副值班员"
+  },
+  {
+    "id": "source-753",
+    "row": 753,
+    "company": "C公司",
+    "department": "运行分场",
+    "team": "综合能源",
+    "job": "综合能源组长"
+  },
+  {
+    "id": "source-754",
+    "row": 754,
+    "company": "C公司",
+    "department": "运行调度部",
+    "team": null,
+    "job": "专工"
+  },
+  {
+    "id": "source-755",
+    "row": 755,
+    "company": "C公司",
+    "department": "运行调度部",
+    "team": null,
+    "job": "主任助理"
+  },
+  {
+    "id": "source-756",
+    "row": 756,
+    "company": "C公司",
+    "department": "运行调度部",
+    "team": null,
+    "job": "值长"
+  },
+  {
+    "id": "source-757",
+    "row": 757,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "安全专工"
+  },
+  {
+    "id": "source-758",
+    "row": 758,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "灰硫运行专工"
+  },
+  {
+    "id": "source-759",
+    "row": 759,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "综合事务员"
+  },
+  {
+    "id": "source-760",
+    "row": 760,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "辅助运行专工"
+  },
+  {
+    "id": "source-761",
+    "row": 761,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": null,
+    "job": "集控运行专工"
+  },
+  {
+    "id": "source-762",
+    "row": 762,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "储能组",
+    "job": "值班员"
+  },
+  {
+    "id": "source-763",
+    "row": 763,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "储能组",
+    "job": "安全员"
+  },
+  {
+    "id": "source-764",
+    "row": 764,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "储能组",
+    "job": "组长"
+  },
+  {
+    "id": "source-765",
+    "row": 765,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "运行综合组",
+    "job": "副组长"
+  },
+  {
+    "id": "source-766",
+    "row": 766,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "运行综合组",
+    "job": "操作员"
+  },
+  {
+    "id": "source-767",
+    "row": 767,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "运行综合组",
+    "job": "组长"
+  },
+  {
+    "id": "source-768",
+    "row": 768,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主值班员（一丁）"
+  },
+  {
+    "id": "source-769",
+    "row": 769,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主值班员（一丙）"
+  },
+  {
+    "id": "source-770",
+    "row": 770,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主值班员（一乙）"
+  },
+  {
+    "id": "source-771",
+    "row": 771,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主值班员（一戊）"
+  },
+  {
+    "id": "source-772",
+    "row": 772,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主值班员（一甲）"
+  },
+  {
+    "id": "source-773",
+    "row": 773,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主值班员（二丁）"
+  },
+  {
+    "id": "source-774",
+    "row": 774,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主值班员（二丙）"
+  },
+  {
+    "id": "source-775",
+    "row": 775,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主值班员（二乙）"
+  },
+  {
+    "id": "source-776",
+    "row": 776,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主值班员（二戊）"
+  },
+  {
+    "id": "source-777",
+    "row": 777,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主值班员（二甲）"
+  },
+  {
+    "id": "source-778",
+    "row": 778,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主巡检员（一丁）"
+  },
+  {
+    "id": "source-779",
+    "row": 779,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主巡检员（一丙）"
+  },
+  {
+    "id": "source-780",
+    "row": 780,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主巡检员（一乙）"
+  },
+  {
+    "id": "source-781",
+    "row": 781,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主巡检员（一戊）"
+  },
+  {
+    "id": "source-782",
+    "row": 782,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主巡检员（一甲）"
+  },
+  {
+    "id": "source-783",
+    "row": 783,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主巡检员（二丁）"
+  },
+  {
+    "id": "source-784",
+    "row": 784,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主巡检员（二丙）"
+  },
+  {
+    "id": "source-785",
+    "row": 785,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主巡检员（二乙）"
+  },
+  {
+    "id": "source-786",
+    "row": 786,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "主巡检员（二甲）"
+  },
+  {
+    "id": "source-787",
+    "row": 787,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副值班员B岗（一丁）"
+  },
+  {
+    "id": "source-788",
+    "row": 788,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副值班员B岗（一丙）"
+  },
+  {
+    "id": "source-789",
+    "row": 789,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副值班员B岗（一乙）"
+  },
+  {
+    "id": "source-790",
+    "row": 790,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副值班员B岗（一戊）"
+  },
+  {
+    "id": "source-791",
+    "row": 791,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副值班员（一丁）"
+  },
+  {
+    "id": "source-792",
+    "row": 792,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副值班员（一丙）"
+  },
+  {
+    "id": "source-793",
+    "row": 793,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副值班员（一乙）"
+  },
+  {
+    "id": "source-794",
+    "row": 794,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副值班员（一戊）"
+  },
+  {
+    "id": "source-795",
+    "row": 795,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副值班员（一甲）"
+  },
+  {
+    "id": "source-796",
+    "row": 796,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副值班员（二丁）"
+  },
+  {
+    "id": "source-797",
+    "row": 797,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副值班员（二丙）"
+  },
+  {
+    "id": "source-798",
+    "row": 798,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副值班员（二乙）"
+  },
+  {
+    "id": "source-799",
+    "row": 799,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副值班员（二戊）"
+  },
+  {
+    "id": "source-800",
+    "row": 800,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副值班员（二甲）"
+  },
+  {
+    "id": "source-801",
+    "row": 801,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副巡检员（一丁）"
+  },
+  {
+    "id": "source-802",
+    "row": 802,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副巡检员（一丙）"
+  },
+  {
+    "id": "source-803",
+    "row": 803,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副巡检员（一乙）"
+  },
+  {
+    "id": "source-804",
+    "row": 804,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副巡检员（一戊）"
+  },
+  {
+    "id": "source-805",
+    "row": 805,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副巡检员（一甲）"
+  },
+  {
+    "id": "source-806",
+    "row": 806,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副巡检员（二丁）"
+  },
+  {
+    "id": "source-807",
+    "row": 807,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副巡检员（二丙）"
+  },
+  {
+    "id": "source-808",
+    "row": 808,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副巡检员（二乙）"
+  },
+  {
+    "id": "source-809",
+    "row": 809,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副巡检员（二戊）"
+  },
+  {
+    "id": "source-810",
+    "row": 810,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "副巡检员（二甲）"
+  },
+  {
+    "id": "source-811",
+    "row": 811,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "单元长（一丁）"
+  },
+  {
+    "id": "source-812",
+    "row": 812,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "单元长（一丙）"
+  },
+  {
+    "id": "source-813",
+    "row": 813,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "单元长（一乙）"
+  },
+  {
+    "id": "source-814",
+    "row": 814,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "单元长（一戊）"
+  },
+  {
+    "id": "source-815",
+    "row": 815,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "单元长（一甲）"
+  },
+  {
+    "id": "source-816",
+    "row": 816,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "单元长（二丁）"
+  },
+  {
+    "id": "source-817",
+    "row": 817,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "单元长（二丙）"
+  },
+  {
+    "id": "source-818",
+    "row": 818,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "单元长（二乙）"
+  },
+  {
+    "id": "source-819",
+    "row": 819,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "单元长（二戊）"
+  },
+  {
+    "id": "source-820",
+    "row": 820,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "单元长（二甲）"
+  },
+  {
+    "id": "source-821",
+    "row": 821,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "定岗见习（一丁）"
+  },
+  {
+    "id": "source-822",
+    "row": 822,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "定岗见习（一丙）"
+  },
+  {
+    "id": "source-823",
+    "row": 823,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "定岗见习（一乙）"
+  },
+  {
+    "id": "source-824",
+    "row": 824,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "定岗见习（一戊）"
+  },
+  {
+    "id": "source-825",
+    "row": 825,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "定岗见习（一甲）"
+  },
+  {
+    "id": "source-826",
+    "row": 826,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "定岗见习（二丁）"
+  },
+  {
+    "id": "source-827",
+    "row": 827,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "定岗见习（二丙）"
+  },
+  {
+    "id": "source-828",
+    "row": 828,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "定岗见习（二乙）"
+  },
+  {
+    "id": "source-829",
+    "row": 829,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "定岗见习（二戊）"
+  },
+  {
+    "id": "source-830",
+    "row": 830,
+    "company": "D公司",
+    "department": "运行分场",
+    "team": "集控运行班",
+    "job": "定岗见习（二甲）"
+  },
+  {
+    "id": "source-831",
+    "row": 831,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": null,
+    "job": "专工"
+  },
+  {
+    "id": "source-832",
+    "row": 832,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": null,
+    "job": "中水专工"
+  },
+  {
+    "id": "source-833",
+    "row": 833,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": null,
+    "job": "安培专工"
+  },
+  {
+    "id": "source-834",
+    "row": 834,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": null,
+    "job": "运行专工"
+  },
+  {
+    "id": "source-835",
+    "row": 835,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运丁班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-836",
+    "row": 836,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运丁班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-837",
+    "row": 837,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运丁班",
+    "job": "安全管理员(值班员)"
+  },
+  {
+    "id": "source-838",
+    "row": 838,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运丁班",
+    "job": "班长"
+  },
+  {
+    "id": "source-839",
+    "row": 839,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运丙班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-840",
+    "row": 840,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运丙班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-841",
+    "row": 841,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运丙班",
+    "job": "安全管理员(值班员)"
+  },
+  {
+    "id": "source-842",
+    "row": 842,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运丙班",
+    "job": "班长"
+  },
+  {
+    "id": "source-843",
+    "row": 843,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运丙班",
+    "job": "班长（备）"
+  },
+  {
+    "id": "source-844",
+    "row": 844,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运乙班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-845",
+    "row": 845,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运乙班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-846",
+    "row": 846,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运乙班",
+    "job": "安全管理员(值班员)"
+  },
+  {
+    "id": "source-847",
+    "row": 847,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运乙班",
+    "job": "班长"
+  },
+  {
+    "id": "source-848",
+    "row": 848,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运戊班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-849",
+    "row": 849,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运戊班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-850",
+    "row": 850,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运戊班",
+    "job": "安全管理员(值班员)"
+  },
+  {
+    "id": "source-851",
+    "row": 851,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运戊班",
+    "job": "班长"
+  },
+  {
+    "id": "source-852",
+    "row": 852,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运甲班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-853",
+    "row": 853,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运甲班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-854",
+    "row": 854,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运甲班",
+    "job": "安全管理员(值班员)"
+  },
+  {
+    "id": "source-855",
+    "row": 855,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运甲班",
+    "job": "水源地值班工"
+  },
+  {
+    "id": "source-856",
+    "row": 856,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运甲班",
+    "job": "班长"
+  },
+  {
+    "id": "source-857",
+    "row": 857,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "中运甲班",
+    "job": "班长（备）"
+  },
+  {
+    "id": "source-858",
+    "row": 858,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "供水运行班",
+    "job": "主值班员"
+  },
+  {
+    "id": "source-859",
+    "row": 859,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "供水运行班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-860",
+    "row": 860,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "供水运行班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-861",
+    "row": 861,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "供水运行班",
+    "job": "安全员(副班长)"
+  },
+  {
+    "id": "source-862",
+    "row": 862,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "供水运行班",
+    "job": "班长"
+  },
+  {
+    "id": "source-863",
+    "row": 863,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "化验班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-864",
+    "row": 864,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "化验班",
+    "job": "班长"
+  },
+  {
+    "id": "source-865",
+    "row": 865,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "机务班",
+    "job": "安全管理员(工作组长)"
+  },
+  {
+    "id": "source-866",
+    "row": 866,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "机务班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-867",
+    "row": 867,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "机务班",
+    "job": "班长"
+  },
+  {
+    "id": "source-868",
+    "row": 868,
+    "company": "J公司",
+    "department": "供水运行分场",
+    "team": "电气班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-869",
+    "row": 869,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": null,
+    "job": "事务员"
+  },
+  {
+    "id": "source-870",
+    "row": 870,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": null,
+    "job": "净水剂主管"
+  },
+  {
+    "id": "source-871",
+    "row": 871,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": null,
+    "job": "化学专工"
+  },
+  {
+    "id": "source-872",
+    "row": 872,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": null,
+    "job": "安培专工"
+  },
+  {
+    "id": "source-873",
+    "row": 873,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "入炉煤化验班",
+    "job": "入炉煤化验班班长"
+  },
+  {
+    "id": "source-874",
+    "row": 874,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "入炉煤化验班",
+    "job": "化验员"
+  },
+  {
+    "id": "source-875",
+    "row": 875,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "入炉煤化验班",
+    "job": "安全管理员(技术员)"
+  },
+  {
+    "id": "source-876",
+    "row": 876,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "净水剂班",
+    "job": "仓库组长（班级）"
+  },
+  {
+    "id": "source-877",
+    "row": 877,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "净水剂班",
+    "job": "化验组长（班级）"
+  },
+  {
+    "id": "source-878",
+    "row": 878,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "净水剂班",
+    "job": "检修组长（班级）"
+  },
+  {
+    "id": "source-879",
+    "row": 879,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "净水剂班",
+    "job": "班长"
+  },
+  {
+    "id": "source-880",
+    "row": 880,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化学白班",
+    "job": "化验员"
+  },
+  {
+    "id": "source-881",
+    "row": 881,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化学白班",
+    "job": "安全管理员(副班长)"
+  },
+  {
+    "id": "source-882",
+    "row": 882,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化学白班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-883",
+    "row": 883,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化学白班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-884",
+    "row": 884,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化学白班",
+    "job": "班长"
+  },
+  {
+    "id": "source-885",
+    "row": 885,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运丁班",
+    "job": "三期值班员"
+  },
+  {
+    "id": "source-886",
+    "row": 886,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运丁班",
+    "job": "二期值班员"
+  },
+  {
+    "id": "source-887",
+    "row": 887,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运丁班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-888",
+    "row": 888,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运丁班",
+    "job": "安全管理员(副班长)"
+  },
+  {
+    "id": "source-889",
+    "row": 889,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运丁班",
+    "job": "班长"
+  },
+  {
+    "id": "source-890",
+    "row": 890,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运丙班",
+    "job": "三期值班员"
+  },
+  {
+    "id": "source-891",
+    "row": 891,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运丙班",
+    "job": "二期值班员"
+  },
+  {
+    "id": "source-892",
+    "row": 892,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运丙班",
+    "job": "安全管理员(三期值班员)"
+  },
+  {
+    "id": "source-893",
+    "row": 893,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运丙班",
+    "job": "班长"
+  },
+  {
+    "id": "source-894",
+    "row": 894,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运乙班",
+    "job": "三期值班员"
+  },
+  {
+    "id": "source-895",
+    "row": 895,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运乙班",
+    "job": "二期值班员"
+  },
+  {
+    "id": "source-896",
+    "row": 896,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运乙班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-897",
+    "row": 897,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运乙班",
+    "job": "安全管理员(副班长)"
+  },
+  {
+    "id": "source-898",
+    "row": 898,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运乙班",
+    "job": "班长"
+  },
+  {
+    "id": "source-899",
+    "row": 899,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运戊班",
+    "job": "三期值班员"
+  },
+  {
+    "id": "source-900",
+    "row": 900,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运戊班",
+    "job": "二期值班员"
+  },
+  {
+    "id": "source-901",
+    "row": 901,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运戊班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-902",
+    "row": 902,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运戊班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-903",
+    "row": 903,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运戊班",
+    "job": "安全管理员(副班长)"
+  },
+  {
+    "id": "source-904",
+    "row": 904,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运甲班",
+    "job": "三期值班员"
+  },
+  {
+    "id": "source-905",
+    "row": 905,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运甲班",
+    "job": "二期值班员"
+  },
+  {
+    "id": "source-906",
+    "row": 906,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运甲班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-907",
+    "row": 907,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运甲班",
+    "job": "安全管理员(二期值班员)"
+  },
+  {
+    "id": "source-908",
+    "row": 908,
+    "company": "J公司",
+    "department": "化水运行分场",
+    "team": "化运甲班",
+    "job": "班长"
+  },
+  {
+    "id": "source-909",
+    "row": 909,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": null,
+    "job": "安培专工"
+  },
+  {
+    "id": "source-910",
+    "row": 910,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": null,
+    "job": "运行专工"
+  },
+  {
+    "id": "source-911",
+    "row": 911,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运一班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-912",
+    "row": 912,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运一班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-913",
+    "row": 913,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运一班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-914",
+    "row": 914,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运一班",
+    "job": "翻车机值班员"
+  },
+  {
+    "id": "source-915",
+    "row": 915,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运一班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-916",
+    "row": 916,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运一班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-917",
+    "row": 917,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运三班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-918",
+    "row": 918,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运三班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-919",
+    "row": 919,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运三班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-920",
+    "row": 920,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运三班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-921",
+    "row": 921,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运三班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-922",
+    "row": 922,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运二班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-923",
+    "row": 923,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运二班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-924",
+    "row": 924,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运二班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-925",
+    "row": 925,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运二班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-926",
+    "row": 926,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丁运二班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-927",
+    "row": 927,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运一班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-928",
+    "row": 928,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运一班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-929",
+    "row": 929,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运一班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-930",
+    "row": 930,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运一班",
+    "job": "翻车机值班员"
+  },
+  {
+    "id": "source-931",
+    "row": 931,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运一班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-932",
+    "row": 932,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运三班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-933",
+    "row": 933,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运三班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-934",
+    "row": 934,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运三班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-935",
+    "row": 935,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运三班",
+    "job": "翻车机值班员"
+  },
+  {
+    "id": "source-936",
+    "row": 936,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运三班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-937",
+    "row": 937,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运三班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-938",
+    "row": 938,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运二班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-939",
+    "row": 939,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运二班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-940",
+    "row": 940,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运二班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-941",
+    "row": 941,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运二班",
+    "job": "翻车机副值班员"
+  },
+  {
+    "id": "source-942",
+    "row": 942,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运二班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-943",
+    "row": 943,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "丙运二班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-944",
+    "row": 944,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运一班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-945",
+    "row": 945,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运一班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-946",
+    "row": 946,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运一班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-947",
+    "row": 947,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运一班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-948",
+    "row": 948,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运一班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-949",
+    "row": 949,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运三班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-950",
+    "row": 950,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运三班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-951",
+    "row": 951,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运三班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-952",
+    "row": 952,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运三班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-953",
+    "row": 953,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运三班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-954",
+    "row": 954,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运二班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-955",
+    "row": 955,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运二班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-956",
+    "row": 956,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运二班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-957",
+    "row": 957,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运二班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-958",
+    "row": 958,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "乙运二班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-959",
+    "row": 959,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运一班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-960",
+    "row": 960,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运一班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-961",
+    "row": 961,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运一班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-962",
+    "row": 962,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运一班",
+    "job": "翻车机副值班员"
+  },
+  {
+    "id": "source-963",
+    "row": 963,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运一班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-964",
+    "row": 964,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运一班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-965",
+    "row": 965,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运三班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-966",
+    "row": 966,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运三班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-967",
+    "row": 967,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运三班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-968",
+    "row": 968,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运三班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-969",
+    "row": 969,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运三班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-970",
+    "row": 970,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运二班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-971",
+    "row": 971,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运二班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-972",
+    "row": 972,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运二班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-973",
+    "row": 973,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运二班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-974",
+    "row": 974,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "戊运二班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-975",
+    "row": 975,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "煤管班",
+    "job": "安全员(副班长)"
+  },
+  {
+    "id": "source-976",
+    "row": 976,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "煤管班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-977",
+    "row": 977,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "煤管班",
+    "job": "煤场管理员"
+  },
+  {
+    "id": "source-978",
+    "row": 978,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "煤管班",
+    "job": "班长"
+  },
+  {
+    "id": "source-979",
+    "row": 979,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "煤管班",
+    "job": "调度员"
+  },
+  {
+    "id": "source-980",
+    "row": 980,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运一班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-981",
+    "row": 981,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运一班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-982",
+    "row": 982,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运一班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-983",
+    "row": 983,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运一班",
+    "job": "翻车机值班员"
+  },
+  {
+    "id": "source-984",
+    "row": 984,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运一班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-985",
+    "row": 985,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运一班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-986",
+    "row": 986,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运三班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-987",
+    "row": 987,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运三班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-988",
+    "row": 988,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运三班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-989",
+    "row": 989,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运三班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-990",
+    "row": 990,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运三班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-991",
+    "row": 991,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运二班",
+    "job": "安全管理员(集控值班员)"
+  },
+  {
+    "id": "source-992",
+    "row": 992,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运二班",
+    "job": "斗轮司机"
+  },
+  {
+    "id": "source-993",
+    "row": 993,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运二班",
+    "job": "皮带值班员"
+  },
+  {
+    "id": "source-994",
+    "row": 994,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运二班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-995",
+    "row": 995,
+    "company": "J公司",
+    "department": "燃料运行分场",
+    "team": "甲运二班",
+    "job": "集控值班员"
+  },
+  {
+    "id": "source-996",
+    "row": 996,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": null,
+    "job": "专工"
+  },
+  {
+    "id": "source-997",
+    "row": 997,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": null,
+    "job": "党支部书记"
+  },
+  {
+    "id": "source-998",
+    "row": 998,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": null,
+    "job": "协理员"
+  },
+  {
+    "id": "source-999",
+    "row": 999,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": null,
+    "job": "安培专工"
+  },
+  {
+    "id": "source-1000",
+    "row": 1000,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": null,
+    "job": "技术专工"
+  },
+  {
+    "id": "source-1001",
+    "row": 1001,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": null,
+    "job": "核算员"
+  },
+  {
+    "id": "source-1002",
+    "row": 1002,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": null,
+    "job": "班长"
+  },
+  {
+    "id": "source-1003",
+    "row": 1003,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": "灰运丁值一班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-1004",
+    "row": 1004,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": "灰运丁值一班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-1005",
+    "row": 1005,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": "灰运丁值一班",
+    "job": "安全管理员(运行副班长)"
+  },
+  {
+    "id": "source-1006",
+    "row": 1006,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": "灰运丁值一班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-1007",
+    "row": 1007,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": "灰运丁值二班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-1008",
+    "row": 1008,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": "灰运丁值二班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-1009",
+    "row": 1009,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": "灰运丁值二班",
+    "job": "安全管理员（值班员）"
+  },
+  {
+    "id": "source-1010",
+    "row": 1010,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": "灰运丁值二班",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-1011",
+    "row": 1011,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": "灰运丙值一班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-1012",
+    "row": 1012,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": "灰运丙值一班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-1013",
+    "row": 1013,
+    "company": "J公司",
+    "department": "除灰运行分场",
+    "team": "维护班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1014",
+    "row": 1014,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": null,
+    "job": "专工"
+  },
+  {
+    "id": "source-1015",
+    "row": 1015,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": null,
+    "job": "主任兼支部副书记"
+  },
+  {
+    "id": "source-1016",
+    "row": 1016,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": null,
+    "job": "副主任"
+  },
+  {
+    "id": "source-1017",
+    "row": 1017,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": null,
+    "job": "技术专工"
+  },
+  {
+    "id": "source-1018",
+    "row": 1018,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": null,
+    "job": "支部书记兼副主任"
+  },
+  {
+    "id": "source-1019",
+    "row": 1019,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": null,
+    "job": "钢球管理员"
+  },
+  {
+    "id": "source-1020",
+    "row": 1020,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": null,
+    "job": "除灰技术专工"
+  },
+  {
+    "id": "source-1021",
+    "row": 1021,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": "乙运一单元",
+    "job": "一级巡视员"
+  },
+  {
+    "id": "source-1022",
+    "row": 1022,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": "乙运一单元",
+    "job": "值班员"
+  },
+  {
+    "id": "source-1023",
+    "row": 1023,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": "乙运一单元",
+    "job": "公用系统值班员"
+  },
+  {
+    "id": "source-1024",
+    "row": 1024,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": "乙运一单元",
+    "job": "单元长"
+  },
+  {
+    "id": "source-1025",
+    "row": 1025,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": "乙运一单元",
+    "job": "安全管理员(机组长)"
+  },
+  {
+    "id": "source-1026",
+    "row": 1026,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": "乙运一单元",
+    "job": "机组长"
+  },
+  {
+    "id": "source-1027",
+    "row": 1027,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": "戊运一单元",
+    "job": "三级巡视员"
+  },
+  {
+    "id": "source-1028",
+    "row": 1028,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": "戊运一单元",
+    "job": "值班员"
+  },
+  {
+    "id": "source-1029",
+    "row": 1029,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": "甲运四单元",
+    "job": "除灰副班长"
+  },
+  {
+    "id": "source-1030",
+    "row": 1030,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": "网控班",
+    "job": "值班员"
+  },
+  {
+    "id": "source-1031",
+    "row": 1031,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": "网控班",
+    "job": "值班电工"
+  },
+  {
+    "id": "source-1032",
+    "row": 1032,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": "网控班",
+    "job": "副值班员"
+  },
+  {
+    "id": "source-1033",
+    "row": 1033,
+    "company": "J公司",
+    "department": "集控运行分场",
+    "team": "网控班",
+    "job": "安全管理员(班长)"
+  },
+  {
+    "id": "source-1034",
+    "row": 1034,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行丁值",
+    "job": "安全员、集控运行机组长"
+  },
+  {
+    "id": "source-1035",
+    "row": 1035,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行丁值",
+    "job": "集控主值班员"
+  },
+  {
+    "id": "source-1036",
+    "row": 1036,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行丁值",
+    "job": "集控主巡检"
+  },
+  {
+    "id": "source-1037",
+    "row": 1037,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行丁值",
+    "job": "集控副值班员"
+  },
+  {
+    "id": "source-1038",
+    "row": 1038,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行丁值",
+    "job": "集控巡检"
+  },
+  {
+    "id": "source-1039",
+    "row": 1039,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行丁值",
+    "job": "集控运行单元长"
+  },
+  {
+    "id": "source-1040",
+    "row": 1040,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行丁值",
+    "job": "集控运行机组长"
+  },
+  {
+    "id": "source-1041",
+    "row": 1041,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行丙值",
+    "job": "安全员、集控运行机组长"
+  },
+  {
+    "id": "source-1042",
+    "row": 1042,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行丙值",
+    "job": "集控主值班员"
+  },
+  {
+    "id": "source-1043",
+    "row": 1043,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行丙值",
+    "job": "集控主巡检"
+  },
+  {
+    "id": "source-1044",
+    "row": 1044,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行丙值",
+    "job": "集控副值班员"
+  },
+  {
+    "id": "source-1045",
+    "row": 1045,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行丙值",
+    "job": "集控巡检"
+  },
+  {
+    "id": "source-1046",
+    "row": 1046,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行丙值",
+    "job": "集控运行单元长"
+  },
+  {
+    "id": "source-1047",
+    "row": 1047,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行丙值",
+    "job": "集控运行机组长"
+  },
+  {
+    "id": "source-1048",
+    "row": 1048,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行乙值",
+    "job": "安全员、集控运行机组长"
+  },
+  {
+    "id": "source-1049",
+    "row": 1049,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行乙值",
+    "job": "集控主值班员"
+  },
+  {
+    "id": "source-1050",
+    "row": 1050,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行乙值",
+    "job": "集控副值班员"
+  },
+  {
+    "id": "source-1051",
+    "row": 1051,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行乙值",
+    "job": "集控巡检"
+  },
+  {
+    "id": "source-1052",
+    "row": 1052,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行乙值",
+    "job": "集控运行单元长"
+  },
+  {
+    "id": "source-1053",
+    "row": 1053,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行乙值",
+    "job": "集控运行机组长"
+  },
+  {
+    "id": "source-1054",
+    "row": 1054,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行戊值",
+    "job": "集控主值班员"
+  },
+  {
+    "id": "source-1055",
+    "row": 1055,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行戊值",
+    "job": "集控主巡检"
+  },
+  {
+    "id": "source-1056",
+    "row": 1056,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行戊值",
+    "job": "集控副值班员"
+  },
+  {
+    "id": "source-1057",
+    "row": 1057,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行戊值",
+    "job": "集控巡检"
+  },
+  {
+    "id": "source-1058",
+    "row": 1058,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行戊值",
+    "job": "集控运行单元长"
+  },
+  {
+    "id": "source-1059",
+    "row": 1059,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行戊值",
+    "job": "集控运行机组长"
+  },
+  {
+    "id": "source-1060",
+    "row": 1060,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行甲值",
+    "job": "安全员、集控运行机组长"
+  },
+  {
+    "id": "source-1061",
+    "row": 1061,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行甲值",
+    "job": "集控主值班员"
+  },
+  {
+    "id": "source-1062",
+    "row": 1062,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行甲值",
+    "job": "集控副值班员"
+  },
+  {
+    "id": "source-1063",
+    "row": 1063,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行甲值",
+    "job": "集控巡检"
+  },
+  {
+    "id": "source-1064",
+    "row": 1064,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行甲值",
+    "job": "集控运行单元长"
+  },
+  {
+    "id": "source-1065",
+    "row": 1065,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "二期集控运行甲值",
+    "job": "集控运行机组长"
+  },
+  {
+    "id": "source-1066",
+    "row": 1066,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "灰运丁班",
+    "job": "安全员、灰水主值班员"
+  },
+  {
+    "id": "source-1067",
+    "row": 1067,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "灰运丁班",
+    "job": "灰水主值班员"
+  },
+  {
+    "id": "source-1068",
+    "row": 1068,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "灰运甲班",
+    "job": "灰水主巡检"
+  },
+  {
+    "id": "source-1069",
+    "row": 1069,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "灰运甲班",
+    "job": "灰水副值班员"
+  },
+  {
+    "id": "source-1070",
+    "row": 1070,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "灰运甲班",
+    "job": "灰水运行班长"
+  },
+  {
+    "id": "source-1071",
+    "row": 1071,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "燃机运行丙班",
+    "job": "集控巡检"
+  },
+  {
+    "id": "source-1072",
+    "row": 1072,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "燃机运行丙班",
+    "job": "集控运行班长"
+  },
+  {
+    "id": "source-1073",
+    "row": 1073,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "燃机运行乙班",
+    "job": "安全员、集控运行副值班员"
+  },
+  {
+    "id": "source-1074",
+    "row": 1074,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "燃机运行乙班",
+    "job": "燃机集控运行副值班员"
+  },
+  {
+    "id": "source-1075",
+    "row": 1075,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "燃机运行乙班",
+    "job": "集控主巡检"
+  },
+  {
+    "id": "source-1076",
+    "row": 1076,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "燃机运行乙班",
+    "job": "集控运行副值班员"
+  },
+  {
+    "id": "source-1077",
+    "row": 1077,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "燃机运行乙班",
+    "job": "集控运行班长"
+  },
+  {
+    "id": "source-1078",
+    "row": 1078,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "燃机运行甲班",
+    "job": "安全员、集控运行主值班员"
+  },
+  {
+    "id": "source-1079",
+    "row": 1079,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "燃机运行甲班",
+    "job": "燃机集控运行班长"
+  },
+  {
+    "id": "source-1080",
+    "row": 1080,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "燃机运行甲班",
+    "job": "集控主巡检"
+  },
+  {
+    "id": "source-1081",
+    "row": 1081,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "燃机运行甲班",
+    "job": "集控运行副值班员"
+  },
+  {
+    "id": "source-1082",
+    "row": 1082,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "空调班",
+    "job": "主空调工兼石灰管理"
+  },
+  {
+    "id": "source-1083",
+    "row": 1083,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "空调班",
+    "job": "空调值班工"
+  },
+  {
+    "id": "source-1084",
+    "row": 1084,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "运行办",
+    "job": "专工"
+  },
+  {
+    "id": "source-1085",
+    "row": 1085,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "运行办",
+    "job": "安全员"
+  },
+  {
+    "id": "source-1086",
+    "row": 1086,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "运行办",
+    "job": "循泵房副值班员"
+  },
+  {
+    "id": "source-1087",
+    "row": 1087,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "运行办",
+    "job": "核算员"
+  },
+  {
+    "id": "source-1088",
+    "row": 1088,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "运行办",
+    "job": "灰水运行专工"
+  },
+  {
+    "id": "source-1089",
+    "row": 1089,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "运行办",
+    "job": "见习"
+  },
+  {
+    "id": "source-1090",
+    "row": 1090,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丁值",
+    "job": "安全员、集控运行机组长"
+  },
+  {
+    "id": "source-1091",
+    "row": 1091,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丁值",
+    "job": "循泵房主值班员"
+  },
+  {
+    "id": "source-1092",
+    "row": 1092,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丁值",
+    "job": "循泵房副值班员"
+  },
+  {
+    "id": "source-1093",
+    "row": 1093,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丁值",
+    "job": "集控主值班员"
+  },
+  {
+    "id": "source-1094",
+    "row": 1094,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丁值",
+    "job": "集控主巡检"
+  },
+  {
+    "id": "source-1095",
+    "row": 1095,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丁值",
+    "job": "集控副值班员"
+  },
+  {
+    "id": "source-1096",
+    "row": 1096,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丁值",
+    "job": "集控巡检"
+  },
+  {
+    "id": "source-1097",
+    "row": 1097,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丁值",
+    "job": "集控运行单元长"
+  },
+  {
+    "id": "source-1098",
+    "row": 1098,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丁值",
+    "job": "集控运行机组长"
+  },
+  {
+    "id": "source-1099",
+    "row": 1099,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丙值",
+    "job": "安全员、集控运行机组长"
+  },
+  {
+    "id": "source-1100",
+    "row": 1100,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丙值",
+    "job": "循泵房主值班员"
+  },
+  {
+    "id": "source-1101",
+    "row": 1101,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丙值",
+    "job": "集控主值班员"
+  },
+  {
+    "id": "source-1102",
+    "row": 1102,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丙值",
+    "job": "集控主巡检"
+  },
+  {
+    "id": "source-1103",
+    "row": 1103,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丙值",
+    "job": "集控副值班员"
+  },
+  {
+    "id": "source-1104",
+    "row": 1104,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丙值",
+    "job": "集控巡检"
+  },
+  {
+    "id": "source-1105",
+    "row": 1105,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丙值",
+    "job": "集控巡检员"
+  },
+  {
+    "id": "source-1106",
+    "row": 1106,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丙值",
+    "job": "集控运行单元长"
+  },
+  {
+    "id": "source-1107",
+    "row": 1107,
+    "company": "E公司",
+    "department": "运行车间",
+    "team": "集控运行丙值",
+    "job": "集控运行机组长"
+  },
+  {
+    "id": "source-1108",
+    "row": 1108,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "入炉煤制化班",
+    "job": "制样员"
+  },
+  {
+    "id": "source-1109",
+    "row": 1109,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "入炉煤制化班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-1110",
+    "row": 1110,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "入炉煤制化班",
+    "job": "化验员"
+  },
+  {
+    "id": "source-1111",
+    "row": 1111,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "入炉煤制化班",
+    "job": "取样员"
+  },
+  {
+    "id": "source-1112",
+    "row": 1112,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "入炉煤制化班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-1113",
+    "row": 1113,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "入炉煤制化班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1114",
+    "row": 1114,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化学分场",
+    "job": "专工（学习岗）兼化运丙班班长（技能专业师）"
+  },
+  {
+    "id": "source-1115",
+    "row": 1115,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化学分场",
+    "job": "党支部书记、主任"
+  },
+  {
+    "id": "source-1116",
+    "row": 1116,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化学分场",
+    "job": "安全员"
+  },
+  {
+    "id": "source-1117",
+    "row": 1117,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化学分场",
+    "job": "高级技术主管"
+  },
+  {
+    "id": "source-1118",
+    "row": 1118,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运丁班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-1119",
+    "row": 1119,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运丁班",
+    "job": "化水主值"
+  },
+  {
+    "id": "source-1120",
+    "row": 1120,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运丁班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1121",
+    "row": 1121,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运丁班",
+    "job": "见习"
+  },
+  {
+    "id": "source-1122",
+    "row": 1122,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运丙班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-1123",
+    "row": 1123,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运丙班",
+    "job": "化水主值"
+  },
+  {
+    "id": "source-1124",
+    "row": 1124,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运丙班",
+    "job": "化水值班员"
+  },
+  {
+    "id": "source-1125",
+    "row": 1125,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运丙班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1126",
+    "row": 1126,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运乙班",
+    "job": "化水主值"
+  },
+  {
+    "id": "source-1127",
+    "row": 1127,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运乙班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1128",
+    "row": 1128,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运戊班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-1129",
+    "row": 1129,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运戊班",
+    "job": "化水主值"
+  },
+  {
+    "id": "source-1130",
+    "row": 1130,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运戊班",
+    "job": "水处理主值"
+  },
+  {
+    "id": "source-1131",
+    "row": 1131,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运戊班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1132",
+    "row": 1132,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运甲班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-1133",
+    "row": 1133,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运甲班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1134",
+    "row": 1134,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化运甲班",
+    "job": "见习"
+  },
+  {
+    "id": "source-1135",
+    "row": 1135,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "仪表组组长"
+  },
+  {
+    "id": "source-1136",
+    "row": 1136,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-1137",
+    "row": 1137,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "化验员"
+  },
+  {
+    "id": "source-1138",
+    "row": 1138,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "化验组长"
+  },
+  {
+    "id": "source-1139",
+    "row": 1139,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "化验组长（二级技能师）"
+  },
+  {
+    "id": "source-1140",
+    "row": 1140,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-1141",
+    "row": 1141,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "油组组长"
+  },
+  {
+    "id": "source-1142",
+    "row": 1142,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "环保组长"
+  },
+  {
+    "id": "source-1143",
+    "row": 1143,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "班长（技能专业师）"
+  },
+  {
+    "id": "source-1144",
+    "row": 1144,
+    "company": "B公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "见习"
+  },
+  {
+    "id": "source-1145",
+    "row": 1145,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "仪表班",
+    "job": "仪表班作业组长"
+  },
+  {
+    "id": "source-1146",
+    "row": 1146,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "仪表班",
+    "job": "仪表班技术员"
+  },
+  {
+    "id": "source-1147",
+    "row": 1147,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "仪表班",
+    "job": "仪表班操作工"
+  },
+  {
+    "id": "source-1148",
+    "row": 1148,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "仪表班",
+    "job": "仪表班班长"
+  },
+  {
+    "id": "source-1149",
+    "row": 1149,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "仪表班",
+    "job": "仪表班电气组长"
+  },
+  {
+    "id": "source-1150",
+    "row": 1150,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "仪表班",
+    "job": "化学运行主值班员"
+  },
+  {
+    "id": "source-1151",
+    "row": 1151,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "仪表班",
+    "job": "化学运行副值班员"
+  },
+  {
+    "id": "source-1152",
+    "row": 1152,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "仪表班",
+    "job": "化学运行班长"
+  },
+  {
+    "id": "source-1153",
+    "row": 1153,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "办公室",
+    "job": "主任兼书记"
+  },
+  {
+    "id": "source-1154",
+    "row": 1154,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "办公室",
+    "job": "副主任兼副书记"
+  },
+  {
+    "id": "source-1155",
+    "row": 1155,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "办公室",
+    "job": "化学专工"
+  },
+  {
+    "id": "source-1156",
+    "row": 1156,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "办公室",
+    "job": "安培专工"
+  },
+  {
+    "id": "source-1157",
+    "row": 1157,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "化学检修班",
+    "job": "化学检修班技术员"
+  },
+  {
+    "id": "source-1158",
+    "row": 1158,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "化学检修班",
+    "job": "化学检修班操作工"
+  },
+  {
+    "id": "source-1159",
+    "row": 1159,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "化学检修班",
+    "job": "化学检修班组长"
+  },
+  {
+    "id": "source-1160",
+    "row": 1160,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "化学检修班",
+    "job": "化学检修班长"
+  },
+  {
+    "id": "source-1161",
+    "row": 1161,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "化验班化验员"
+  },
+  {
+    "id": "source-1162",
+    "row": 1162,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "化验班技术员"
+  },
+  {
+    "id": "source-1163",
+    "row": 1163,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "化验班水组组长"
+  },
+  {
+    "id": "source-1164",
+    "row": 1164,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "化验班油组组长"
+  },
+  {
+    "id": "source-1165",
+    "row": 1165,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "化验班",
+    "job": "化验班班长"
+  },
+  {
+    "id": "source-1166",
+    "row": 1166,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "炉煤化验班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-1167",
+    "row": 1167,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "炉煤化验班",
+    "job": "化学运行副值班员"
+  },
+  {
+    "id": "source-1168",
+    "row": 1168,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "炉煤化验班",
+    "job": "化验员"
+  },
+  {
+    "id": "source-1169",
+    "row": 1169,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "炉煤化验班",
+    "job": "化验组长"
+  },
+  {
+    "id": "source-1170",
+    "row": 1170,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "炉煤化验班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-1171",
+    "row": 1171,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "炉煤化验班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1172",
+    "row": 1172,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "炉煤化验班",
+    "job": "采制样员"
+  },
+  {
+    "id": "source-1173",
+    "row": 1173,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行丁班",
+    "job": "nan"
+  },
+  {
+    "id": "source-1174",
+    "row": 1174,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行丁班",
+    "job": "化学运行主值班员"
+  },
+  {
+    "id": "source-1175",
+    "row": 1175,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行丁班",
+    "job": "化学运行副值班员"
+  },
+  {
+    "id": "source-1176",
+    "row": 1176,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行丁班",
+    "job": "化学运行副班长"
+  },
+  {
+    "id": "source-1177",
+    "row": 1177,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行丁班",
+    "job": "化学运行班长"
+  },
+  {
+    "id": "source-1178",
+    "row": 1178,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行丙班",
+    "job": "nan"
+  },
+  {
+    "id": "source-1179",
+    "row": 1179,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行丙班",
+    "job": "化学运行主值班员"
+  },
+  {
+    "id": "source-1180",
+    "row": 1180,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行丙班",
+    "job": "化学运行副值班员"
+  },
+  {
+    "id": "source-1181",
+    "row": 1181,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行丙班",
+    "job": "化学运行班长"
+  },
+  {
+    "id": "source-1182",
+    "row": 1182,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行乙班",
+    "job": "化学运行主值班员"
+  },
+  {
+    "id": "source-1183",
+    "row": 1183,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行乙班",
+    "job": "化学运行副值班员"
+  },
+  {
+    "id": "source-1184",
+    "row": 1184,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行乙班",
+    "job": "化学运行副班长"
+  },
+  {
+    "id": "source-1185",
+    "row": 1185,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行乙班",
+    "job": "化学运行班长"
+  },
+  {
+    "id": "source-1186",
+    "row": 1186,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行戊班",
+    "job": "nan"
+  },
+  {
+    "id": "source-1187",
+    "row": 1187,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行戊班",
+    "job": "化学运行主值班员"
+  },
+  {
+    "id": "source-1188",
+    "row": 1188,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行戊班",
+    "job": "化学运行副班长"
+  },
+  {
+    "id": "source-1189",
+    "row": 1189,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行戊班",
+    "job": "化学运行班长"
+  },
+  {
+    "id": "source-1190",
+    "row": 1190,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行甲班",
+    "job": "nan"
+  },
+  {
+    "id": "source-1191",
+    "row": 1191,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行甲班",
+    "job": "化学运行主值班员"
+  },
+  {
+    "id": "source-1192",
+    "row": 1192,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行甲班",
+    "job": "化学运行副值班员"
+  },
+  {
+    "id": "source-1193",
+    "row": 1193,
+    "company": "K公司",
+    "department": "化学分场",
+    "team": "运行甲班",
+    "job": "化学运行班长"
+  },
+  {
+    "id": "source-1194",
+    "row": 1194,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": null,
+    "job": "抽检员"
+  },
+  {
+    "id": "source-1195",
+    "row": 1195,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "制样班",
+    "job": "制样员"
+  },
+  {
+    "id": "source-1196",
+    "row": 1196,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "制样班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1197",
+    "row": 1197,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "办公室",
+    "job": "CNAS技术负责人"
+  },
+  {
+    "id": "source-1198",
+    "row": 1198,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "办公室",
+    "job": "主任"
+  },
+  {
+    "id": "source-1199",
+    "row": 1199,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "办公室",
+    "job": "副主任"
+  },
+  {
+    "id": "source-1200",
+    "row": 1200,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "办公室",
+    "job": "安全专工"
+  },
+  {
+    "id": "source-1201",
+    "row": 1201,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "办公室",
+    "job": "数据统计员"
+  },
+  {
+    "id": "source-1202",
+    "row": 1202,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "办公室",
+    "job": "燃料监督质检党支部书记、规划发展部项目三部经理"
+  },
+  {
+    "id": "source-1203",
+    "row": 1203,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "办公室",
+    "job": "质检专工"
+  },
+  {
+    "id": "source-1204",
+    "row": 1204,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "办公室",
+    "job": "质检主管"
+  },
+  {
+    "id": "source-1205",
+    "row": 1205,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "化验班",
+    "job": "化验员"
+  },
+  {
+    "id": "source-1206",
+    "row": 1206,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "化验班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1207",
+    "row": 1207,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "计量班",
+    "job": "计量员"
+  },
+  {
+    "id": "source-1208",
+    "row": 1208,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "采样班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-1209",
+    "row": 1209,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "采样班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1210",
+    "row": 1210,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "采样班",
+    "job": "采样员"
+  },
+  {
+    "id": "source-1211",
+    "row": 1211,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "采样班",
+    "job": "采样员B"
+  },
+  {
+    "id": "source-1212",
+    "row": 1212,
+    "company": "A公司",
+    "department": "燃料质检部",
+    "team": "采样班",
+    "job": "采样组长"
+  },
+  {
+    "id": "source-1213",
+    "row": 1213,
+    "company": "B公司",
+    "department": "燃料质检部",
+    "team": "制样班",
+    "job": "制样员"
+  },
+  {
+    "id": "source-1214",
+    "row": 1214,
+    "company": "B公司",
+    "department": "燃料质检部",
+    "team": "制样班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1215",
+    "row": 1215,
+    "company": "B公司",
+    "department": "燃料质检部",
+    "team": "煤质化验班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-1216",
+    "row": 1216,
+    "company": "B公司",
+    "department": "燃料质检部",
+    "team": "煤质化验班",
+    "job": "化验员"
+  },
+  {
+    "id": "source-1217",
+    "row": 1217,
+    "company": "B公司",
+    "department": "燃料质检部",
+    "team": "煤质化验班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1218",
+    "row": 1218,
+    "company": "B公司",
+    "department": "燃料质检部",
+    "team": "煤质化验班",
+    "job": "见习"
+  },
+  {
+    "id": "source-1219",
+    "row": 1219,
+    "company": "B公司",
+    "department": "燃料质检部",
+    "team": "煤验班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-1220",
+    "row": 1220,
+    "company": "B公司",
+    "department": "燃料质检部",
+    "team": "煤验班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1221",
+    "row": 1221,
+    "company": "B公司",
+    "department": "燃料质检部",
+    "team": "煤验班",
+    "job": "见习"
+  },
+  {
+    "id": "source-1222",
+    "row": 1222,
+    "company": "B公司",
+    "department": "燃料质检部",
+    "team": "煤验班",
+    "job": "计量验收员"
+  },
+  {
+    "id": "source-1223",
+    "row": 1223,
+    "company": "B公司",
+    "department": "燃料质检部",
+    "team": "煤验班",
+    "job": "质检取样员"
+  },
+  {
+    "id": "source-1224",
+    "row": 1224,
+    "company": "B公司",
+    "department": "燃料质检部",
+    "team": "燃料质检部",
+    "job": "专工、安全员"
+  },
+  {
+    "id": "source-1225",
+    "row": 1225,
+    "company": "G公司",
+    "department": "煤炭质检中心",
+    "team": null,
+    "job": null
+  },
+  {
+    "id": "source-1226",
+    "row": 1226,
+    "company": "G公司",
+    "department": "煤炭质检中心",
+    "team": null,
+    "job": "安培专工"
+  },
+  {
+    "id": "source-1227",
+    "row": 1227,
+    "company": "G公司",
+    "department": "煤炭质检中心",
+    "team": "制样班",
+    "job": "制样员"
+  },
+  {
+    "id": "source-1228",
+    "row": 1228,
+    "company": "G公司",
+    "department": "煤炭质检中心",
+    "team": "制样班",
+    "job": "制样班长"
+  },
+  {
+    "id": "source-1229",
+    "row": 1229,
+    "company": "G公司",
+    "department": "煤炭质检中心",
+    "team": "制样班",
+    "job": "采制样员"
+  },
+  {
+    "id": "source-1230",
+    "row": 1230,
+    "company": "G公司",
+    "department": "煤炭质检中心",
+    "team": "煤化验班",
+    "job": "化验员"
+  },
+  {
+    "id": "source-1231",
+    "row": 1231,
+    "company": "G公司",
+    "department": "煤炭质检中心",
+    "team": "煤化验班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1232",
+    "row": 1232,
+    "company": "G公司",
+    "department": "煤炭质检中心",
+    "team": "采样班",
+    "job": "采样员"
+  },
+  {
+    "id": "source-1233",
+    "row": 1233,
+    "company": "G公司",
+    "department": "煤炭质检中心",
+    "team": "采样班",
+    "job": "采样班班长"
+  },
+  {
+    "id": "source-1234",
+    "row": 1234,
+    "company": "C公司",
+    "department": "燃料质检部",
+    "team": "制样班",
+    "job": "制样员"
+  },
+  {
+    "id": "source-1235",
+    "row": 1235,
+    "company": "C公司",
+    "department": "燃料质检部",
+    "team": "制样班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-1236",
+    "row": 1236,
+    "company": "C公司",
+    "department": "燃料质检部",
+    "team": "化验班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-1237",
+    "row": 1237,
+    "company": "C公司",
+    "department": "燃料质检部",
+    "team": "化验班",
+    "job": "技术员"
+  },
+  {
+    "id": "source-1238",
+    "row": 1238,
+    "company": "C公司",
+    "department": "燃料质检部",
+    "team": "管理",
+    "job": "专工"
+  },
+  {
+    "id": "source-1239",
+    "row": 1239,
+    "company": "C公司",
+    "department": "燃料质检部",
+    "team": "管理",
+    "job": "专责"
+  },
+  {
+    "id": "source-1240",
+    "row": 1240,
+    "company": "C公司",
+    "department": "燃料质检部",
+    "team": "管理",
+    "job": "副主任/支部副书记"
+  },
+  {
+    "id": "source-1241",
+    "row": 1241,
+    "company": "C公司",
+    "department": "燃料质检部",
+    "team": "管理",
+    "job": "安全员"
+  },
+  {
+    "id": "source-1242",
+    "row": 1242,
+    "company": "C公司",
+    "department": "燃料质检部",
+    "team": "计量班",
+    "job": "副班长"
+  },
+  {
+    "id": "source-1243",
+    "row": 1243,
+    "company": "C公司",
+    "department": "燃料质检部",
+    "team": "计量班",
+    "job": "煤质监督主管"
+  },
+  {
+    "id": "source-1244",
+    "row": 1244,
+    "company": "C公司",
+    "department": "燃料质检部",
+    "team": "计量班",
+    "job": "计量员"
+  },
+  {
+    "id": "source-1245",
+    "row": 1245,
+    "company": "C公司",
+    "department": "燃料质检部",
+    "team": "采样班",
+    "job": "煤质监督员"
+  },
+  {
+    "id": "source-1246",
+    "row": 1246,
+    "company": "C公司",
+    "department": "燃料质检部",
+    "team": "采样班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1247",
+    "row": 1247,
+    "company": "C公司",
+    "department": "燃料质检部",
+    "team": "采样班",
+    "job": "采样班副班长"
+  },
+  {
+    "id": "source-1248",
+    "row": 1248,
+    "company": "J公司",
+    "department": "燃料质检部",
+    "team": null,
+    "job": "事务员"
+  },
+  {
+    "id": "source-1249",
+    "row": 1249,
+    "company": "J公司",
+    "department": "燃料质检部",
+    "team": null,
+    "job": "副主任"
+  },
+  {
+    "id": "source-1250",
+    "row": 1250,
+    "company": "J公司",
+    "department": "燃料质检部",
+    "team": null,
+    "job": "副主任(主持工作)"
+  },
+  {
+    "id": "source-1251",
+    "row": 1251,
+    "company": "J公司",
+    "department": "燃料质检部",
+    "team": null,
+    "job": "协理员"
+  },
+  {
+    "id": "source-1252",
+    "row": 1252,
+    "company": "J公司",
+    "department": "燃料质检部",
+    "team": null,
+    "job": "安培专工"
+  },
+  {
+    "id": "source-1253",
+    "row": 1253,
+    "company": "J公司",
+    "department": "燃料质检部",
+    "team": null,
+    "job": "煤管专工"
+  },
+  {
+    "id": "source-1254",
+    "row": 1254,
+    "company": "J公司",
+    "department": "燃料质检部",
+    "team": "化验班",
+    "job": "化验员"
+  },
+  {
+    "id": "source-1255",
+    "row": 1255,
+    "company": "J公司",
+    "department": "燃料质检部",
+    "team": "化验班",
+    "job": "安全管理员(技术员)"
+  },
+  {
+    "id": "source-1256",
+    "row": 1256,
+    "company": "J公司",
+    "department": "燃料质检部",
+    "team": "化验班",
+    "job": "工作组长"
+  },
+  {
+    "id": "source-1257",
+    "row": 1257,
+    "company": "J公司",
+    "department": "燃料质检部",
+    "team": "化验班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1258",
+    "row": 1258,
+    "company": "J公司",
+    "department": "燃料质检部",
+    "team": "验收一班",
+    "job": "安全管理员(副班长)"
+  },
+  {
+    "id": "source-1259",
+    "row": 1259,
+    "company": "J公司",
+    "department": "燃料质检部",
+    "team": "验收二班",
+    "job": "汽车质检员"
+  },
+  {
+    "id": "source-1260",
+    "row": 1260,
+    "company": "J公司",
+    "department": "燃料质检部",
+    "team": "验收二班",
+    "job": "班长"
+  },
+  {
+    "id": "source-1261",
+    "row": 1261,
+    "company": "E公司",
+    "department": "燃料车间（燃料质检中心）",
+    "team": "入厂煤制化班",
+    "job": "入厂煤制化班安全员"
+  },
+  {
+    "id": "source-1262",
+    "row": 1262,
+    "company": "E公司",
+    "department": "燃料车间（燃料质检中心）",
+    "team": "入厂煤采样班",
+    "job": "入厂煤采样班班长"
+  },
+  {
+    "id": "source-1263",
+    "row": 1263,
+    "company": "E公司",
+    "department": "燃料车间（燃料质检中心）",
+    "team": "入厂煤采样班",
+    "job": "采样工"
+  },
+  {
+    "id": "source-1264",
+    "row": 1264,
+    "company": "E公司",
+    "department": "燃料车间（燃料质检中心）",
+    "team": "煤管班",
+    "job": "含煤废水值班员"
+  },
+  {
+    "id": "source-1265",
+    "row": 1265,
+    "company": "E公司",
+    "department": "燃料车间（燃料质检中心）",
+    "team": "煤管班",
+    "job": "推土机司机"
+  },
+  {
+    "id": "source-1266",
+    "row": 1266,
+    "company": "E公司",
+    "department": "燃料车间（燃料质检中心）",
+    "team": "燃甲丁",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-1267",
+    "row": 1267,
+    "company": "E公司",
+    "department": "燃料车间（燃料质检中心）",
+    "team": "燃甲丁",
+    "job": "运行电工"
+  },
+  {
+    "id": "source-1268",
+    "row": 1268,
+    "company": "E公司",
+    "department": "燃料车间（燃料质检中心）",
+    "team": "燃甲丙",
+    "job": "卸煤机工"
+  },
+  {
+    "id": "source-1269",
+    "row": 1269,
+    "company": "E公司",
+    "department": "燃料车间（燃料质检中心）",
+    "team": "燃甲丙",
+    "job": "斗轮机工"
+  },
+  {
+    "id": "source-1270",
+    "row": 1270,
+    "company": "E公司",
+    "department": "燃料车间（燃料质检中心）",
+    "team": "燃甲甲",
+    "job": "运行班长"
+  },
+  {
+    "id": "source-1271",
+    "row": 1271,
+    "company": "E公司",
+    "department": "燃料车间（燃料质检中心）",
+    "team": "电工班",
+    "job": "电工班主检修工"
+  },
+  {
+    "id": "source-1272",
+    "row": 1272,
+    "company": "N公司",
+    "department": "财务部",
+    "team": "/",
+    "job": "主任助理"
+  },
+  {
+    "id": "source-1273",
+    "row": 1273,
+    "company": "A公司",
+    "department": "财务部",
+    "team": "财务部",
+    "job": "主任"
+  },
+  {
+    "id": "source-1274",
+    "row": 1274,
+    "company": "B公司",
+    "department": "财务资产部",
+    "team": "财务资产部",
+    "job": "会计（学习岗）"
+  },
+  {
+    "id": "source-1275",
+    "row": 1275,
+    "company": "B公司",
+    "department": "财务资产部",
+    "team": "财务资产部",
+    "job": "出纳"
+  },
+  {
+    "id": "source-1276",
+    "row": 1276,
+    "company": "B公司",
+    "department": "财务资产部",
+    "team": "财务资产部",
+    "job": "副主任"
+  },
+  {
+    "id": "source-1277",
+    "row": 1277,
+    "company": "B公司",
+    "department": "财务资产部",
+    "team": "财务资产部",
+    "job": "资深主管"
+  },
+  {
+    "id": "source-1278",
+    "row": 1278,
+    "company": "C公司",
+    "department": "财务部",
+    "team": null,
+    "job": "会计"
+  },
+  {
+    "id": "source-1279",
+    "row": 1279,
+    "company": "C公司",
+    "department": "财务部",
+    "team": null,
+    "job": "出纳"
+  },
+  {
+    "id": "source-1280",
+    "row": 1280,
+    "company": "C公司",
+    "department": "财务部",
+    "team": null,
+    "job": "社保会计"
+  },
+  {
+    "id": "source-1281",
+    "row": 1281,
+    "company": "C公司",
+    "department": "财务部",
+    "team": null,
+    "job": "财务部副主任"
+  },
+  {
+    "id": "source-1282",
+    "row": 1282,
+    "company": "L公司",
+    "department": "财务部",
+    "team": null,
+    "job": "主任"
+  },
+  {
+    "id": "source-1283",
+    "row": 1283,
+    "company": "L公司",
+    "department": "财务部",
+    "team": null,
+    "job": "出纳兼资金管理"
+  },
+  {
+    "id": "source-1284",
+    "row": 1284,
+    "company": "L公司",
+    "department": "财务部",
+    "team": null,
+    "job": "副主任"
+  },
+  {
+    "id": "source-1285",
+    "row": 1285,
+    "company": "L公司",
+    "department": "财务部",
+    "team": null,
+    "job": "资产兼成本管理"
+  },
+  {
+    "id": "source-1286",
+    "row": 1286,
+    "company": "G公司",
+    "department": "财务部",
+    "team": null,
+    "job": null
+  },
+  {
+    "id": "source-1287",
+    "row": 1287,
+    "company": "G公司",
+    "department": "财务部",
+    "team": null,
+    "job": "主管会计"
+  },
+  {
+    "id": "source-1288",
+    "row": 1288,
+    "company": "G公司",
+    "department": "财务部",
+    "team": null,
+    "job": "会计"
+  },
+  {
+    "id": "source-1289",
+    "row": 1289,
+    "company": "G公司",
+    "department": "财务部",
+    "team": null,
+    "job": "出纳"
+  },
+  {
+    "id": "source-1290",
+    "row": 1290,
+    "company": "P公司",
+    "department": "财务资产部",
+    "team": "财务资产部",
+    "job": "主任"
+  },
+  {
+    "id": "source-1291",
+    "row": 1291,
+    "company": "C公司",
+    "department": "财务资产部",
+    "team": null,
+    "job": "主任"
+  },
+  {
+    "id": "source-1292",
+    "row": 1292,
+    "company": "C公司",
+    "department": "财务资产部",
+    "team": null,
+    "job": "会计"
+  },
+  {
+    "id": "source-1293",
+    "row": 1293,
+    "company": "C公司",
+    "department": "财务资产部",
+    "team": null,
+    "job": "会计员"
+  },
+  {
+    "id": "source-1294",
+    "row": 1294,
+    "company": "C公司",
+    "department": "财务资产部",
+    "team": null,
+    "job": "出纳"
+  },
+  {
+    "id": "source-1295",
+    "row": 1295,
+    "company": "D公司",
+    "department": "财务部",
+    "team": null,
+    "job": "专责会计"
+  },
+  {
+    "id": "source-1296",
+    "row": 1296,
+    "company": "J公司",
+    "department": "财务资产部",
+    "team": null,
+    "job": "副主任"
+  },
+  {
+    "id": "source-1297",
+    "row": 1297,
+    "company": "J公司",
+    "department": "财务资产部",
+    "team": null,
+    "job": "主任"
+  },
+  {
+    "id": "source-1298",
+    "row": 1298,
+    "company": "J公司",
+    "department": "财务资产部",
+    "team": null,
+    "job": "财务资产部会计（助）"
+  },
+  {
+    "id": "source-1299",
+    "row": 1299,
+    "company": "E公司",
+    "department": "财务部",
+    "team": "财务部",
+    "job": "主任"
+  },
+  {
+    "id": "source-1300",
+    "row": 1300,
+    "company": "E公司",
+    "department": "财务部",
+    "team": "财务部",
+    "job": "主任助理"
+  },
+  {
+    "id": "source-1301",
+    "row": 1301,
+    "company": "E公司",
+    "department": "财务部",
+    "team": "财务部",
+    "job": "主管会计"
+  },
+  {
+    "id": "source-1302",
+    "row": 1302,
+    "company": "E公司",
+    "department": "财务部",
+    "team": "财务部",
+    "job": "会计"
+  },
+  {
+    "id": "source-1303",
+    "row": 1303,
+    "company": "E公司",
+    "department": "财务部",
+    "team": "财务部",
+    "job": "出纳"
+  },
+  {
+    "id": "source-1304",
+    "row": 1304,
+    "company": "E公司",
+    "department": "财务部",
+    "team": "财务部",
+    "job": "副主任"
+  },
+  {
+    "id": "source-1305",
+    "row": 1305,
+    "company": "E公司",
+    "department": "财务部",
+    "team": "财务部",
+    "job": "副协理员"
+  },
+  {
+    "id": "source-1306",
+    "row": 1306,
+    "company": "E公司",
+    "department": "财务部",
+    "team": "财务部",
+    "job": "财务二部会计主管"
+  },
+  {
+    "id": "source-1307",
+    "row": 1307,
+    "company": "E公司",
+    "department": "财务部",
+    "team": "财务部",
+    "job": "财务二部综合会计"
+  },
+  {
+    "id": "source-1308",
+    "row": 1308,
+    "company": "Q公司",
+    "department": "财务部",
+    "team": null,
+    "job": "主任"
+  },
+  {
+    "id": "source-1309",
+    "row": 1309,
+    "company": "Q公司",
+    "department": "财务部",
+    "team": null,
+    "job": "会计"
+  },
+  {
+    "id": "source-1310",
+    "row": 1310,
+    "company": "Q公司",
+    "department": "财务部",
+    "team": null,
+    "job": "出纳"
+  },
+  {
+    "id": "source-1311",
+    "row": 1311,
+    "company": "M公司",
+    "department": "财务部",
+    "team": null,
+    "job": "会计"
+  },
+  {
+    "id": "source-1312",
+    "row": 1312,
+    "company": "M公司",
+    "department": "财务部",
+    "team": null,
+    "job": "出纳"
+  },
+  {
+    "id": "source-1313",
+    "row": 1313,
+    "company": "M公司",
+    "department": "财务部",
+    "team": null,
+    "job": "副主任"
+  },
+  {
+    "id": "source-1314",
+    "row": 1314,
+    "company": "M公司",
+    "department": "财务部",
+    "team": null,
+    "job": "技术专家"
+  },
+  {
+    "id": "source-1315",
+    "row": 1315,
+    "company": "M公司",
+    "department": "财务部",
+    "team": null,
+    "job": "概预算员"
+  },
+  {
+    "id": "source-1316",
+    "row": 1316,
+    "company": "X公司",
+    "department": "财务部",
+    "team": null,
+    "job": null
+  }
+]

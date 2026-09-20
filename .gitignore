@@ -1,0 +1,10 @@
+node_modules/
+dist/
+evidence/
+sources/*.pdf
+sources/*.docx
+.DS_Store
+*.zip
+.env
+.env.*
+!.env.example

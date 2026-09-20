@@ -1,0 +1,29 @@
+{
+  "profile": "product-admin",
+  "sourceRoots": ["src"],
+  "canonicalMap": "UX-CONTRACT.md",
+  "ownership": {
+    "Select/Listbox": "native",
+    "Date": "native"
+  },
+  "requiredCapabilities": [
+    "Table Selection",
+    "Select/Listbox",
+    "Date",
+    "Form",
+    "Scrollbar",
+    "Toast",
+    "CRUD"
+  ],
+  "requiredCommands": ["test", "data", "build", "ui"],
+  "commands": {
+    "test": "npm test",
+    "data": "npm run verify:data",
+    "build": "npm run build",
+    "ui": "npm run verify:ui"
+  },
+  "evidence": {
+    "crudFullFlow": "docs/验收记录.md",
+    "failurePaths": "docs/验收记录.md"
+  }
+}
