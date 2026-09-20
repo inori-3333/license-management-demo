@@ -4,6 +4,8 @@
 
 无需后端、账号或 API 密钥。数据保存在当前浏览器中，支持导入导出、JSON 备份、恢复和重置。
 
+**[在线演示](https://inori-3333.github.io/license-management-demo/)**
+
 ![管理总览](docs/frontend-update-2026-09-20/01-overview-desktop.png)
 
 ## 功能
@@ -34,6 +36,8 @@ npm run preview
 ```
 
 生产文件输出到 `dist/`。项目使用相对资源路径和 Hash 路由，可部署至 GitHub Pages 等静态托管服务，支持仓库子路径。
+
+本仓库已配置 [GitHub Pages 自动部署](.github/workflows/pages.yml)：推送到 `main` 后运行验证和构建，再发布 `dist/`；也可在 Actions 页面手动触发。线上演示与本地开发地址分别保存浏览器数据，需要迁移时可使用设置页的 JSON 备份与恢复。
 
 ## 数据与判定口径
 
