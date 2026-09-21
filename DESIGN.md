@@ -19,7 +19,17 @@
     "warning": "#995f05",
     "warning-soft": "#fff6e4",
     "danger": "#c23b47",
-    "danger-soft": "#fff0f1"
+    "danger-soft": "#fff0f1",
+    "flow-background": "#101f35",
+    "flow-surface": "#182e48",
+    "flow-text": "#f3f7ff",
+    "flow-muted": "#b9c8dc",
+    "flow-cyan": "#51d7e6",
+    "flow-blue": "#acbeff",
+    "flow-violet": "#c5acff",
+    "flow-amber": "#ffc86a",
+    "flow-coral": "#ff9e9e",
+    "flow-mint": "#79e1b3"
   },
   "typography": {
     "body": {
@@ -72,7 +82,9 @@
 
 ## Components
 
-Field/Select/TextAreaField 管理关联标签；BusinessForm 管理校验与提交；Modal 使用原生 dialog 的模态焦点；Table 管理分页、排序、固定列、溢出提示与手机摘要；Provider 管理唯一通知。SearchPicker 复用 Modal、SearchField 和原生专业筛选，以搜索对话框选择岗位，不将 628 个岗位塞入单一下拉菜单。RuleConditions 显示组间且、组内或的条件。App 管理全局表格密度并保存显示偏好。原生选择器与日期控件允许操作系统弹出界面，应用自有内容全部使用 zh-CN。
+Field/Select/TextAreaField 管理关联标签；BusinessForm 管理校验与提交；Modal 使用原生 dialog 的模态焦点；Table 管理分页、排序、固定列、溢出提示与手机摘要；Provider 管理唯一通知。SearchPicker 复用 Modal、SearchField 和原生专业筛选，以搜索对话框选择岗位，不将 628 个岗位塞入单一下拉菜单。RuleConditions 显示组间且、组内或的条件。App 管理全局表格密度并保存显示偏好。AutoDemo 在当前应用界面中操作。讲解卡片随目标位置避让布局，使用现有蓝色、面板圆角与正文 tokens；可见指针、点击反馈与聚焦框共同标记当前操作。讲解按业务流程合并为 16 段；结果就位后采用逐字变色显示阅读进度，并预告下一段。操作提示最多两行，仅在操作时显示，空闲时留白。阅读期间保持页面、焦点与卡片稳定；同一业务区域优先保留卡片位置，已可见控件不重复滚动居中。正常业务弹窗保持原有样式，讲解与指针通过手动 Popover 放在当前弹窗内的顶层。原生选择器与日期控件允许操作系统弹出界面，应用自有内容全部使用 zh-CN。
+
+演示末尾以主内容中的 FlowOverview 收束 16 个环节。导图采用深蓝底，青色数据、蓝色台账、紫色规则、琥珀色预警、珊瑚色整改、薄荷色分析六个阶段；这些颜色仅区分导图阶段，不替代业务状态语义。flow-* tokens 与全站 tokens 同源生成。桌面用折返连线表达主流程，整改回连台账表示补证后重新校验；窄屏改为纵向流。编号保留原演示环节，点击阶段在图下展示对应讲解，窄屏就地展开说明。流动仅发生在连线上，可暂停，系统减少动态效果时静止；页面不自动切换或滚动。设置与备份作为支撑带，避免将它们误认为必经业务步骤。
 
 ## Do's and Don'ts
 

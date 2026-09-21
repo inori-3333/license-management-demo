@@ -17,6 +17,16 @@
   --warning-soft: #fff6e4;
   --danger: #c23b47;
   --danger-soft: #fff0f1;
+  --flow-background: #101f35;
+  --flow-surface: #182e48;
+  --flow-text: #f3f7ff;
+  --flow-muted: #b9c8dc;
+  --flow-cyan: #51d7e6;
+  --flow-blue: #acbeff;
+  --flow-violet: #c5acff;
+  --flow-amber: #ffc86a;
+  --flow-coral: #ff9e9e;
+  --flow-mint: #79e1b3;
   --radius-control: 7px;
   --radius-panel: 10px;
   --font-body: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;

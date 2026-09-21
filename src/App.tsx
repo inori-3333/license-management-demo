@@ -1,5 +1,5 @@
-import { useEffect, useLayoutEffect, useState } from 'react'
-import { NavLink, Route, Routes, Link, useLocation } from 'react-router-dom'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { NavLink, Route, Routes, Link, useLocation, useNavigate } from 'react-router-dom'
 import {
   ShieldCheck,
   LayoutDashboard,
@@ -14,9 +14,11 @@ import {
   CircleHelp,
   Menu,
   Rows3,
+  Play,
 } from 'lucide-react'
 import { useStore } from './store'
 import { Modal } from './ui'
+import AutoDemo from './demo/AutoDemo'
 import Dashboard from './pages/Dashboard'
 import People from './pages/People'
 import Data from './pages/Data'
@@ -35,12 +37,20 @@ const navigation = [
   { path: '/talent', label: '人才画像', icon: UserRoundSearch },
 ]
 export default function App() {
-  const { db, result, update } = useStore()
+  const { db, result, update, demoActive, beginDemo, endDemo } = useStore()
   const location = useLocation()
+  const navigate = useNavigate()
   useLayoutEffect(() => {
     // 人员页单独管理详情返回的位置；其他一级页面从页首进入。
     if (!location.pathname.startsWith('/people')) window.scrollTo({ top: 0, behavior: 'instant' })
   }, [location.pathname])
+  const [demoRun, setDemoRun] = useState(0)
+  const [demoFinished, setDemoFinished] = useState(false)
+  const returnTo = useRef({
+    path: '/',
+    top: 0,
+    density: 'comfortable' as 'comfortable' | 'compact',
+  })
   const [navigationOpen, setNavigationOpen] = useState(false)
   const [density, setDensity] = useState<'comfortable' | 'compact'>(() => {
     try {
@@ -53,15 +63,16 @@ export default function App() {
   })
   useEffect(() => {
     try {
-      localStorage.setItem('license-management.ui-density', density)
+      if (!demoActive) localStorage.setItem('license-management.ui-density', density)
     } catch {
       /* 当前会话仍保留显示偏好。 */
     }
-  }, [density])
-  const currentPage =
-    navigation.find((n) =>
-      n.path === '/' ? location.pathname === '/' : location.pathname.startsWith(n.path),
-    )?.label || '演示设置'
+  }, [density, demoActive])
+  const currentPage = demoFinished
+    ? '全流程回顾'
+    : navigation.find((n) =>
+        n.path === '/' ? location.pathname === '/' : location.pathname.startsWith(n.path),
+      )?.label || '演示设置'
   const warnings = result.findings.filter((i) => i.severity === 'danger').length
   return (
     <div className="app" data-density={density}>
@@ -128,7 +139,8 @@ export default function App() {
           <div className="local-note">
             <span className="live-dot" />
             <div>
-              本地演示数据<small>修改自动保存在当前浏览器</small>
+              {demoActive ? '独立演示副本' : '本地演示数据'}
+              <small>{demoActive ? '演示结束后恢复原有数据' : '修改自动保存在当前浏览器'}</small>
             </div>
           </div>
         </div>
@@ -149,6 +161,24 @@ export default function App() {
             导航
           </button>
           <div className="topbar-actions">
+            <button
+              className="button primary auto-demo-trigger"
+              disabled={demoActive}
+              onClick={() => {
+                returnTo.current = {
+                  path: location.pathname + location.search,
+                  top: window.scrollY,
+                  density,
+                }
+                setDemoFinished(false)
+                setDensity('comfortable')
+                beginDemo()
+                setDemoRun((n) => n + 1)
+              }}
+            >
+              <Play size={16} />{' '}
+              {demoFinished ? '全流程回顾' : demoActive ? '演示进行中' : '自动演示'}
+            </button>
             <button
               className="button secondary density-toggle"
               aria-pressed={density === 'compact'}
@@ -182,26 +212,54 @@ export default function App() {
           </div>
         </header>
         <main id="main" tabIndex={-1}>
-          <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/people" element={<People />} />
-            <Route path="/people/:id" element={<People />} />
-            <Route path="/data" element={<Data />} />
-            <Route path="/rules" element={<Rules />} />
-            <Route path="/issues" element={<Issues />} />
-            <Route path="/reports" element={<Reports />} />
-            <Route path="/talent" element={<Talent />} />
-            <Route path="/settings" element={<SettingsPage />} />
-            <Route
-              path="*"
-              element={
-                <div className="panel">
-                  <h1>页面不存在</h1>
-                  <Link to="/">返回管理总览</Link>
-                </div>
-              }
+          {!demoFinished && (
+            <Routes key={demoActive ? 'demo-' + demoRun : 'work'}>
+              <Route path="/" element={<Dashboard />} />
+              <Route path="/people" element={<People />} />
+              <Route path="/people/:id" element={<People />} />
+              <Route path="/data" element={<Data />} />
+              <Route path="/rules" element={<Rules />} />
+              <Route path="/issues" element={<Issues />} />
+              <Route path="/reports" element={<Reports />} />
+              <Route path="/talent" element={<Talent />} />
+              <Route path="/settings" element={<SettingsPage />} />
+              <Route
+                path="*"
+                element={
+                  <div className="panel">
+                    <h1>页面不存在</h1>
+                    <Link to="/">返回管理总览</Link>
+                  </div>
+                }
+              />
+            </Routes>
+          )}
+          {demoActive && (
+            <AutoDemo
+              key={demoRun}
+              onComplete={() => setDemoFinished(true)}
+              onClose={() => {
+                setDemoFinished(false)
+                endDemo()
+                setDensity(returnTo.current.density)
+                setNavigationOpen(false)
+                navigate(returnTo.current.path, { replace: true })
+                requestAnimationFrame(() => {
+                  window.scrollTo({ top: returnTo.current.top, behavior: 'instant' })
+                  document
+                    .querySelector<HTMLButtonElement>('.auto-demo-trigger')
+                    ?.focus({ preventScroll: true })
+                })
+              }}
+              onRestart={() => {
+                setDemoFinished(false)
+                beginDemo()
+                setNavigationOpen(false)
+                setDemoRun((n) => n + 1)
+              }}
             />
-          </Routes>
+          )}
+
           <footer className="footer">
             <span>持证上岗统计分析系统</span>
             <span>演示人员与持证信息 · 原始岗位数据可追溯</span>

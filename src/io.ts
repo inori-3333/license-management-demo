@@ -1,4 +1,5 @@
 import * as XLSX from 'xlsx'
+import { collectDemoArtifact, isDemoSession } from './demo/runtime'
 import {
   activeAssignments,
   split,
@@ -244,10 +245,20 @@ export function exportTable(
   rows: Record<string, unknown>[],
   format: 'xlsx' | 'csv' = 'xlsx',
 ) {
-  XLSX.writeFile(createWorkbook(rows), name + '.' + format, { bookType: format })
+  const workbook = createWorkbook(rows)
+  if (isDemoSession()) {
+    const bytes = XLSX.write(workbook, { bookType: format, type: 'array' })
+    collectDemoArtifact({ name: name + '.' + format, blob: new Blob([bytes]), rows: rows.length })
+    return
+  }
+  XLSX.writeFile(workbook, name + '.' + format, { bookType: format })
 }
 export function downloadJSON(name: string, value: unknown) {
   const blob = new Blob([JSON.stringify(value, null, 2)], { type: 'application/json' })
+  if (isDemoSession()) {
+    collectDemoArtifact({ name: name + '.json', blob })
+    return
+  }
   const url = URL.createObjectURL(blob),
     a = document.createElement('a')
   a.href = url

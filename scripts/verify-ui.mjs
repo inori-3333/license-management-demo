@@ -27,6 +27,10 @@ for (const [foreground, background] of [
   ['success', 'success-soft'],
   ['warning', 'warning-soft'],
   ['danger', 'danger-soft'],
+  ...['text', 'muted', 'cyan', 'blue', 'violet', 'amber', 'coral', 'mint'].map((tone) => [
+    'flow-' + tone,
+    'flow-surface',
+  ]),
 ]) {
   const a = luminance(tokens.colors[foreground]),
     b = luminance(tokens.colors[background]),
