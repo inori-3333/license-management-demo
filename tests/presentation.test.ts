@@ -9,7 +9,7 @@ describe('局部讲解布局和阅读时间', () => {
   it('视线落定后才读字，读完仍停留，短句也不会立即跳页', () => {
     const text = '点击保存',
       plan = narrationPlan(text)
-    expect(plan.reading).toBeGreaterThanOrEqual(4200)
+    expect(plan.reading).toBeGreaterThanOrEqual(3500)
     expect(narrationState(text, plan.settle - 1).progress).toBe(0)
     const middle = narrationState(text, plan.settle + plan.reading / 2)
     expect(middle.progress).toBe(0.5)

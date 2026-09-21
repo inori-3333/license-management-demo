@@ -151,7 +151,7 @@ export class DemoDriver {
     const r = el.getBoundingClientRect()
     await this.move({
       x: Math.max(12, Math.min(innerWidth - 28, r.x + Math.min(r.width / 2, 140))),
-      y: Math.max(70, Math.min(innerHeight - 28, r.y + Math.min(r.height / 2, 55))),
+      y: Math.max(12, Math.min(innerHeight - 28, r.y + Math.min(r.height / 2, 55))),
     })
     await this.clock.wait(140)
   }

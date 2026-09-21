@@ -199,6 +199,36 @@ test('原页面完整演示与原数据保护', async ({ page }, testInfo) => {
   expect(errors).toEqual([])
 })
 
+test('顶部紧凑表格的演示点击落在按钮中心', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name === 'mobile', '窄屏不显示表格密度按钮')
+  await page.goto('/')
+  await page.clock.install()
+  await page.getByRole('button', { name: '自动演示', exact: true }).click()
+  await until(
+    page,
+    async () => (await page.locator('.demo-callout').getAttribute('data-ready')) === 'true',
+  )
+  await page.getByRole('button', { name: '下一条', exact: true }).click()
+  await until(
+    page,
+    async () =>
+      (await page.locator('.demo-cursor.is-clicking').count()) > 0 &&
+      (await page.locator('[data-demo-target]').textContent())?.trim() === '紧凑表格',
+  )
+  const target = await page.locator('[data-demo-target]').boundingBox()
+  const cursor = await page.locator('.demo-cursor').boundingBox()
+  expect(target!.y + target!.height).toBeLessThan(70)
+  await page.screenshot({ path: testInfo.outputPath('topbar-click.png') })
+  expect(Math.abs(cursor!.x - (target!.x + target!.width / 2))).toBeLessThan(1)
+  expect(Math.abs(cursor!.y - (target!.y + target!.height / 2))).toBeLessThan(1)
+  await tick(page, 400)
+  await expect(page.getByRole('button', { name: '紧凑表格', exact: true })).toHaveAttribute(
+    'aria-pressed',
+    'true',
+  )
+  await page.getByRole('button', { name: '退出演示', exact: true }).click()
+})
+
 test('鼠标轨迹、逐字讲解、稳定焦点与立即暂停', async ({ page }, testInfo) => {
   await page.goto('/')
   await page.clock.install()

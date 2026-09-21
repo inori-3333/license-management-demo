@@ -16,7 +16,7 @@ export type Playback = { paused: boolean; speed: number; skipReading: number }
 // 视线落定 → 逐字讲解 → 读完停留；整个周期内不执行下一段操作。
 export function narrationPlan(text: string) {
   const settle = 1000,
-    reading = Math.max(4200, [...text].length * 180),
+    reading = Math.max(3500, [...text].length * 150),
     hold = 1200
   return { settle, reading, hold, total: settle + reading + hold }
 }
