@@ -1,22 +1,53 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import {
-  ArrowUpRight,
-  CircleDot,
-  Network,
-  Pause,
-  Play,
-  RotateCcw,
-  X,
-  ChevronRight,
-} from 'lucide-react'
+import { ArrowUpRight, Network, Pause, Play, RotateCcw, X, ChevronRight } from 'lucide-react'
 import { useStore } from '../store'
-import { Header, SearchField, Select } from '../ui'
+import { Header, SearchField, Select, useFilters } from '../ui'
+import BusinessClusters from '../graph/BusinessClusters'
+import { basisLabels, type ClusterBasis } from '../graph/clusters'
 import GraphCanvas from '../graph/GraphCanvas'
 import { buildGraph, graphView, kinds, kindLabels, type Kind } from '../graph/model'
 import '../graph/knowledge-graph.css'
 
 export default function KnowledgeGraph() {
+  const filters = useFilters()
+  const requested = filters.get('view')
+  const mode =
+    requested === 'entities' || Object.hasOwn(basisLabels, requested) ? requested : 'cert'
+  return (
+    <>
+      <Header
+        title="知识图谱"
+        description={
+          mode === 'entities'
+            ? '从实体关系查看公司、岗位、人员、证书与规则之间的联系。'
+            : '所有人员共同分布在三维空间，按共同证书与任职关系聚集；点击一个点，旋转聚焦它所在的簇。'
+        }
+      />
+      <div className="kg-view-switch">
+        <Select label="聚类依据" value={mode} onChange={(e) => filters.set('view', e.target.value)}>
+          <option value="cert">相同证书</option>
+          <option value="job">相同岗位</option>
+          <option value="company">相同公司</option>
+          <option value="specialty">相同专业</option>
+          <option value="entities">实体关系</option>
+        </Select>
+        <span>
+          {mode === 'entities'
+            ? '查看公司、岗位、人员、证书与规则之间的连线。'
+            : '每个簇是一组具有共同' + basisLabels[mode as ClusterBasis] + '的人员。'}
+        </span>
+      </div>
+      {mode === 'entities' ? (
+        <EntityGraph />
+      ) : (
+        <BusinessClusters key={mode} basis={mode as ClusterBasis} />
+      )}
+    </>
+  )
+}
+
+function EntityGraph() {
   const { db, result } = useStore()
   const inspector = useRef<HTMLElement>(null)
   const graph = useMemo(() => buildGraph(db, result), [db, result])
@@ -86,14 +117,12 @@ export default function KnowledgeGraph() {
   const motion = paused || reduced
   return (
     <>
-      <Header title="知识图谱" description="从一个节点出发，探索公司、岗位与持证要求之间的联系。">
-        <button className="button secondary" onClick={overview}>
-          <RotateCcw size={16} />
-          回到全景
-        </button>
-      </Header>
       <section className="kg-workspace" data-paused={motion} aria-label="人岗证知识图谱">
         <div className="kg-toolbar">
+          <button className="button secondary" onClick={overview}>
+            <RotateCcw size={16} />
+            回到全景
+          </button>
           <SearchField value={query} onChange={setQuery} placeholder="搜索人员、岗位、证书或规则" />
           <Select
             label="节点类型"
@@ -296,17 +325,6 @@ export default function KnowledgeGraph() {
               </>
             ) : (
               <>
-                <div className="kg-inspector-title">
-                  <h2>探索关系网络</h2>
-                  <Network size={19} />
-                </div>
-                <div className="kg-intro-symbol" aria-hidden="true">
-                  <CircleDot size={48} />
-                </div>
-                <h3>每个节点，都有迹可循</h3>
-                <p className="kg-note">
-                  点击圆点查看它连接了谁，或搜索一个熟悉的名字，从局部关系逐步展开。
-                </p>
                 <dl className="kg-totals">
                   <div>
                     <dt>知识节点</dt>
@@ -317,14 +335,6 @@ export default function KnowledgeGraph() {
                     <dd>{graph.edges.length.toLocaleString('zh-CN')}</dd>
                   </div>
                 </dl>
-                <div className="kg-reading">
-                  <h3>如何读这张图</h3>
-                  <p>
-                    同色节点按类型聚类，连线表示台账记录或规则关联。节点位置与距离不表示合规程度。
-                  </p>
-                  <p>持证记录包含有效、过期及待确认状态；具体状态在关联详情中标注。</p>
-                </div>
-                <h3 className="kg-start-title">从这里开始</h3>
                 {kinds.slice(0, 3).map((k) => {
                   const n = view.nodes.find((n) => n.kind === k)
                   return n ? (

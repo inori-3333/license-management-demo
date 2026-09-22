@@ -392,7 +392,7 @@ export const demoSteps: DemoStep[] = [
     '从六类节点的关系全景出发，按类型和工号定位人员，查看任职与持证关联。',
     (u) => (u.win.matchMedia('(prefers-reduced-motion: reduce)').matches ? 9 : 10),
     async (u) => {
-      await u.go('/knowledge-graph', '知识图谱')
+      await u.go('/knowledge-graph?view=entities', '知识图谱')
       if (!u.win.matchMedia('(prefers-reduced-motion: reduce)').matches) await u.click('暂停动效')
       await u.show('.kg-canvas')
       await u.click('放大图谱')
@@ -413,7 +413,7 @@ export const demoSteps: DemoStep[] = [
     async (u) => {
       await u.click('打开人员详情')
       await u.show('.detail-summary')
-      await u.go('/knowledge-graph', '知识图谱')
+      await u.go('/knowledge-graph?view=entities', '知识图谱')
       await u.fill('节点类型', 'cert')
       await u.fill('搜索人员、岗位、证书或规则', '高压电工作业证')
       await u.clickCSS('.kg-result.kg-cert')
@@ -424,7 +424,7 @@ export const demoSteps: DemoStep[] = [
       await u.show('.kg-inspector')
       await u.click('打开证书与规则')
       await u.show('.table-panel')
-      await u.go('/knowledge-graph', '知识图谱')
+      await u.go('/knowledge-graph?view=entities', '知识图谱')
       await u.fill('搜索人员、岗位、证书或规则', '不存在的演示节点')
       await u.show('.kg-no-results')
       await u.click('清除筛选')

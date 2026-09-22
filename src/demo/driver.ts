@@ -215,6 +215,8 @@ export class DemoDriver {
       await this.click(label, false)
     }
     await this.settle(350)
+    if (url.pathname === '/knowledge-graph' && url.searchParams.has('view'))
+      await this.fill('聚类依据', url.searchParams.get('view')!)
     if (url.searchParams.has('person')) {
       await this.go('/people', '人岗证台账')
       await this.fill('搜索姓名、工号、岗位', 'SCENE001')
