@@ -136,7 +136,10 @@ export default function App() {
           </NavLink>
           <div className="local-note">
             <span className="live-dot" />
-            <div>启航华电 15 组</div>
+            <div>
+              启航华电 15 组
+              <small>青岛公司 张宇辰</small>
+            </div>
           </div>
         </div>
       </aside>
