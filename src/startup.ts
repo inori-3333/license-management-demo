@@ -13,8 +13,13 @@ const introDuration = names.length * highlightDuration
 let activeName = 0
 
 function highlightName() {
+  const previousName = (activeName - 1 + names.length) % names.length
   names.forEach((name, index) => {
     name.classList.toggle('is-highlighted', !reducedMotion.matches && index === activeName)
+    name.classList.toggle(
+      'is-secondary-highlighted',
+      !reducedMotion.matches && index === previousName,
+    )
   })
   if (!reducedMotion.matches && members.scrollWidth > members.clientWidth) {
     const name = names[activeName]

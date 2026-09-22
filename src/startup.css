@@ -96,6 +96,10 @@
   color: var(--primary);
   text-shadow: 0 0 14px color-mix(in srgb, var(--sidebar-accent) 40%, transparent);
 }
+.startup-member-row span.is-secondary-highlighted {
+  color: var(--success);
+  text-shadow: none;
+}
 @media (max-height: 650px) {
   .startup-screen {
     display: flex;
