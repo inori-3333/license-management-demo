@@ -120,8 +120,9 @@ svg {
   position: fixed;
   inset: 0 auto 0 0;
   width: 224px;
-  background: var(--surface);
-  border-right: 1px solid var(--border);
+  background: var(--sidebar);
+  color: var(--sidebar-text);
+  border-right: 1px solid var(--sidebar-border);
   display: flex;
   flex-direction: column;
   z-index: 20;
@@ -132,7 +133,10 @@ svg {
   align-items: center;
   gap: 12px;
   padding: 0 12px 34px;
-  color: var(--text);
+  color: var(--sidebar-text);
+}
+.brand:hover {
+  color: var(--sidebar-text);
 }
 .brand strong {
   font-size: 21px;
@@ -144,19 +148,36 @@ svg {
   font-size: var(--text-caption);
   letter-spacing: 2px;
   margin-top: 1px;
+  color: var(--sidebar-muted);
 }
 .brand-mark {
   display: grid;
   place-items: center;
   width: 42px;
   height: 42px;
-  border-radius: 12px;
-  background: var(--primary);
-  color: white;
+  flex-shrink: 0;
+  border-radius: var(--radius-control);
+  background: var(--surface);
+}
+.brand-symbol {
+  position: relative;
+  display: block;
+  width: 81%;
+  aspect-ratio: 260 / 160;
+  overflow: hidden;
+}
+.brand-symbol img {
+  /* Display the official asset's (78, 147, 260, 160) mark without redrawing it. */
+  position: absolute;
+  width: 160%;
+  height: auto;
+  max-width: none;
+  left: -30%;
+  top: -91.875%;
 }
 .nav-caption {
   font-size: var(--text-caption);
-  color: var(--muted);
+  color: var(--sidebar-muted);
   padding: 0 16px;
   margin-bottom: 12px;
 }
@@ -172,20 +193,31 @@ svg {
   align-items: center;
   padding: 11px 14px;
   border-radius: 8px;
-  color: var(--muted);
+  color: var(--sidebar-muted);
   font-weight: 500;
   white-space: nowrap;
   min-height: 44px;
 }
 .sidebar nav a:hover,
 .sidebar-bottom > a:hover {
-  background: var(--background);
-  color: var(--text);
+  background: var(--sidebar-hover);
+  color: var(--sidebar-text);
 }
 .sidebar nav a.active,
 .sidebar-bottom > a.active {
-  background: var(--blue-soft);
-  color: var(--primary);
+  background: var(--sidebar-active);
+  color: var(--sidebar-text);
+  box-shadow: inset 3px 0 var(--sidebar-accent);
+}
+.sidebar a:focus-visible {
+  outline-color: var(--sidebar-accent);
+}
+.sidebar .nav-count {
+  background: var(--danger);
+  color: var(--sidebar-text);
+}
+.sidebar .live-dot {
+  background: var(--sidebar-status);
 }
 .nav-count {
   margin-left: auto;
@@ -202,7 +234,7 @@ svg {
 .local-note {
   display: flex;
   gap: 10px;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--sidebar-border);
   padding: 20px 9px 0;
   margin-top: 20px;
   font-size: 12px;
@@ -211,6 +243,7 @@ svg {
   display: block;
   font-size: var(--text-caption);
   margin-top: 3px;
+  color: var(--sidebar-muted);
 }
 .live-dot {
   background: var(--success);
@@ -2349,8 +2382,9 @@ summary:hover {
     position: sticky;
     top: 0;
     z-index: 20;
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
+    background: var(--sidebar);
+    color: var(--sidebar-text);
+    border-bottom: 1px solid var(--sidebar-border);
     padding: 10px 14px;
   }
   .mobile-brand {
@@ -2359,6 +2393,25 @@ summary:hover {
     align-items: center;
     font-size: 16px;
     font-weight: 650;
+    color: var(--sidebar-text);
+  }
+  .mobile-brand:hover {
+    color: var(--sidebar-text);
+  }
+  .mobile-brand .brand-mark {
+    width: 34px;
+    height: 34px;
+  }
+  .mobile-appbar .button.secondary {
+    background: var(--sidebar);
+    color: var(--sidebar-text);
+    border-color: var(--sidebar-border);
+  }
+  .mobile-appbar .button.secondary:hover {
+    background: var(--sidebar-hover);
+  }
+  .mobile-appbar :focus-visible {
+    outline-color: var(--sidebar-accent);
   }
   .density-toggle {
     display: none;
@@ -2717,5 +2770,88 @@ summary:hover {
   .auto-demo-trigger,
   .demo-presentation {
     display: none;
+  }
+}
+
+.talent-certificate-options {
+  max-height: 320px;
+  overflow-y: auto;
+  padding: 4px;
+}
+/* Talent controls share a label row and control row; help text stays below. */
+.talent-target,
+.talent-filters {
+  display: grid;
+  align-items: start;
+  gap: 14px;
+}
+.talent-target {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.talent-filters {
+  grid-template-columns: minmax(200px, 1.4fr) minmax(140px, 0.8fr) minmax(240px, 1.6fr) minmax(
+      140px,
+      0.8fr
+    );
+}
+.talent-target > .search-picker,
+.talent-filters > .search-picker,
+.talent-filters > .field {
+  min-width: 0;
+  max-width: none;
+  width: 100%;
+}
+.talent-search {
+  min-width: 0;
+}
+.talent-target .picker-label,
+.talent-filters .picker-label,
+.talent-filters > .field > span {
+  line-height: 18px;
+  font-size: var(--text-caption);
+  font-weight: 500;
+}
+.talent-target .picker-trigger,
+.talent-filters .picker-trigger,
+.talent-filters .search,
+.talent-filters select {
+  min-height: 42px;
+}
+.talent-target .picker-trigger,
+.talent-filters .picker-trigger {
+  padding-block: 8px;
+  font-size: var(--text-compact);
+}
+.talent-target .search-picker > small,
+.talent-filters .search-picker > small {
+  display: block;
+  margin-top: 4px;
+  line-height: 18px;
+}
+.talent-target .target-summary {
+  gap: 0;
+}
+.talent-target .target-summary > strong {
+  display: flex;
+  align-items: center;
+  min-height: 42px;
+}
+.talent-target .target-summary > span:last-child {
+  margin-top: 4px;
+  line-height: 18px;
+}
+.talent-filters > .text-button {
+  grid-column: 1 / -1;
+  justify-self: start;
+}
+@media (max-width: 1200px) {
+  .talent-filters {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 640px) {
+  .talent-target,
+  .talent-filters {
+    grid-template-columns: minmax(0, 1fr);
   }
 }

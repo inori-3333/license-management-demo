@@ -8,8 +8,7 @@ import { artifactEvent, type DemoArtifact } from './runtime'
 import {
   initialVisual,
   placeCallout,
-  narrationPlan,
-  narrationState,
+  resultHold,
   characterFill,
   type DemoVisual,
   type Playback,
@@ -106,14 +105,10 @@ export default function AutoDemo({
           () => saved.current,
           cursor,
         )
-        await step.run(driver)
+        await driver.runStep(step, setProgress)
         setReady(true)
-        present({ phase: 'settling', action: '查看结果' })
-        const plan = narrationPlan(step.description)
-        await driver.clock.read(plan.total, (p) => {
-          setProgress(p)
-          present({ phase: narrationState(step.description, p * plan.total).phase })
-        })
+        present({ phase: 'holding', action: '查看结果' })
+        await driver.clock.read(resultHold, () => {})
       }
       document
         .querySelectorAll('[data-demo-target]')
@@ -150,10 +145,6 @@ export default function AutoDemo({
       />
     )
   const step = demoSteps[index]
-  const narration = narrationState(
-    step.description,
-    progress * narrationPlan(step.description).total,
-  )
   const action =
     !paused &&
     !error &&
@@ -180,7 +171,7 @@ export default function AutoDemo({
         </div>
         <div aria-live="polite" aria-atomic="true">
           <h2>{step.title}</h2>
-          <Karaoke text={step.description} progress={ready ? narration.progress : 0} />
+          <Karaoke text={step.description} progress={progress} />
         </div>
         <div className="demo-action" data-active={!!action}>
           {action && (

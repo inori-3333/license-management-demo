@@ -86,10 +86,7 @@ export default function Issues() {
   }
   return (
     <>
-      <Header
-        title="预警与整改"
-        description="从系统发现到整改复核，问题修复后再次校验，通过复核才销项。"
-      >
+      <Header title="预警与整改">
         <button
           className="button secondary"
           onClick={() =>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <meta charset="utf-8" />
+  <title>配色方案与实现对照</title>
+  <style>
+    body {
+      margin: 0;
+      font: 14px sans-serif;
+      color: #213b50;
+      background: white;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    section {
+      min-width: 0;
+    }
+    h2 {
+      font-size: 16px;
+      margin: 10px 16px;
+    }
+    img {
+      display: block;
+      width: 100%;
+    }
+    .detail {
+      height: 250px;
+      overflow: hidden;
+    }
+    .detail img {
+      width: 1280px;
+      max-width: none;
+    }
+  </style>
+  <main>
+    <section>
+      <h2>已选第二张预览</h2>
+      <img src="selected-preview.png" alt="已选配色预览" />
+      <h2>品牌与导航细节</h2>
+      <div class="detail"><img src="selected-preview.png" alt="预览细节" /></div>
+    </section>
+    <section>
+      <h2>实际页面：已替换官方品牌标识</h2>
+      <img src="dashboard-desktop.jpg" alt="实际页面" />
+      <h2>品牌与导航细节</h2>
+      <div class="detail"><img src="dashboard-desktop.jpg" alt="实现细节" /></div>
+    </section>
+  </main>
+</html>

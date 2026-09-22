@@ -1,6 +1,7 @@
 import { artifactEvent, type DemoArtifact } from './runtime'
 import {
   DemoClock,
+  ActionNarration,
   initialVisual,
   type DemoVisual,
   type Playback,
@@ -10,6 +11,7 @@ export type DemoStep = {
   chapter: string
   title: string
   description: string
+  actions: number | ((ui: DemoDriver) => number)
   run: (ui: DemoDriver) => Promise<void>
 }
 const navigation: Record<string, string> = {
@@ -34,6 +36,42 @@ export class DemoDriver {
   ) {
     this.clock = new DemoClock(signal, playback)
     this.visual = { ...initialVisual, cursor }
+  }
+  async runStep(step: DemoStep, update: (progress: number) => void) {
+    const narration = new ActionNarration(
+      typeof step.actions === 'number' ? step.actions : step.actions(this),
+      update,
+    )
+    const actions = new Set([
+      'go',
+      'fill',
+      'fillElement',
+      'click',
+      'clickCSS',
+      'saved',
+      'close',
+      'show',
+      'upload',
+      'downloadLink',
+    ])
+    // 只统计脚本直接调用的动作；go / saved 内部的点击仍属于同一个动作。
+    const ui = new Proxy(this, {
+      get: (target, key) => {
+        const value = Reflect.get(target, key)
+        if (typeof key !== 'string' || !actions.has(key) || typeof value !== 'function')
+          return value
+        return async (...args: unknown[]) => {
+          this.clock.onAdvance = (ms) => narration.advance(ms)
+          try {
+            await value.apply(target, args)
+            narration.complete()
+          } finally {
+            this.clock.onAdvance = undefined
+          }
+        }
+      },
+    })
+    await step.run(ui)
   }
   get doc() {
     return document
@@ -207,7 +245,7 @@ export class DemoDriver {
   async click(name: string, exact = true) {
     const el = await this.wait(
       () =>
-        [...this.scope().querySelectorAll<HTMLElement>('button,a,summary')].find((e) => {
+        [...this.scope().querySelectorAll<HTMLElement>('button,a,summary,label')].find((e) => {
           const text = (e.getAttribute('aria-label') || e.textContent || '')
             .replace(/\s+/g, ' ')
             .trim()

@@ -1,24 +1,21 @@
 import { describe, expect, it } from 'vitest'
-import {
-  placeCallout,
-  narrationPlan,
-  narrationState,
-  characterFill,
-} from '../src/demo/presentation'
+import { placeCallout, ActionNarration, characterFill } from '../src/demo/presentation'
 describe('局部讲解布局和阅读时间', () => {
-  it('视线落定后才读字，读完仍停留，短句也不会立即跳页', () => {
-    const text = '点击保存',
-      plan = narrationPlan(text)
-    expect(plan.reading).toBeGreaterThanOrEqual(3500)
-    expect(narrationState(text, plan.settle - 1).progress).toBe(0)
-    const middle = narrationState(text, plan.settle + plan.reading / 2)
-    expect(middle.progress).toBe(0.5)
-    expect(middle.phase).toBe('reading')
-    const end = narrationState(text, plan.settle + plan.reading)
-    expect(end.progress).toBe(1)
-    expect(end.remaining).toBeGreaterThanOrEqual(1200)
-    expect(end.phase).toBe('holding')
-    expect(narrationState(text, plan.total).remaining).toBe(0)
+  it('字幕随实际动作推进，耗时再长也不会提前读完，最后动作结束才全蓝', () => {
+    let progress = 0
+    const narration = new ActionNarration(2, (value) => {
+      progress = value
+    })
+    narration.advance(900)
+    expect(progress).toBeGreaterThan(0)
+    expect(progress).toBeLessThan(0.5)
+    narration.complete()
+    expect(progress).toBe(0.5)
+    narration.advance(60000)
+    expect(progress).toBeGreaterThan(0.5)
+    expect(progress).toBeLessThan(1)
+    narration.complete()
+    expect(progress).toBe(1)
   })
   it('逐字颜色按顺序推进，当前字可以部分变色', () => {
     expect([0, 1, 2, 3].map((i) => characterFill(i, 4, 0.375))).toEqual([100, 50, 0, 0])

@@ -39,7 +39,7 @@ export default function Reports() {
   const title = config.name || reportTypes.find((t) => t.id === config.type)!.label
   return (
     <>
-      <Header title="统计报表" description="选择统计范围与维度，保存专项分析方案，导出当前结果。">
+      <Header title="统计报表">
         <button className="button secondary" onClick={() => window.print()}>
           <Printer size={16} />
           打印

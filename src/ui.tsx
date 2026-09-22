@@ -177,7 +177,7 @@ export function Header({
   children,
 }: {
   title: string
-  description: string
+  description?: string
   children?: ReactNode
 }) {
   useEffect(() => {
@@ -187,7 +187,7 @@ export function Header({
     <div className="page-header">
       <div>
         <h1>{title}</h1>
-        <p>{description}</p>
+        {description && <p>{description}</p>}
       </div>
       <div className="actions">{children}</div>
     </div>

@@ -1,16 +1,24 @@
 /* Generated from DESIGN.md by npm run tokens. */
 :root {
-  --primary: #2558d8;
-  --primary-hover: #1d46b0;
-  --blue-soft: #edf3ff;
+  --primary: #0072b3;
+  --primary-hover: #005d94;
+  --blue-soft: #eaf5fc;
   --surface: #ffffff;
-  --background: #f5f7fb;
-  --text: #24324b;
-  --muted: #606d82;
-  --border: #e4e9f1;
-  --scrollbar: #aebbcf;
-  --table-head: #f8f9fc;
-  --table-hover: #f9fbff;
+  --background: #f2f7fb;
+  --text: #213b50;
+  --muted: #5b7082;
+  --border: #dce7ef;
+  --scrollbar: #9fb7c9;
+  --table-head: #f3f8fb;
+  --table-hover: #f0f8fd;
+  --sidebar: #064775;
+  --sidebar-hover: #0d5b8c;
+  --sidebar-active: #0076b9;
+  --sidebar-text: #ffffff;
+  --sidebar-muted: #d8ebf8;
+  --sidebar-border: #3b739a;
+  --sidebar-accent: #43c5e9;
+  --sidebar-status: #68d4ba;
   --success: #12775c;
   --success-soft: #eaf7f0;
   --warning: #995f05;

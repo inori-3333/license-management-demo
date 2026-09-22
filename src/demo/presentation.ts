@@ -13,25 +13,25 @@ export type DemoVisual = {
   } | null
 }
 export type Playback = { paused: boolean; speed: number; skipReading: number }
-// 视线落定 → 逐字讲解 → 读完停留；整个周期内不执行下一段操作。
-export function narrationPlan(text: string) {
-  const settle = 1000,
-    reading = Math.max(3500, [...text].length * 150),
-    hold = 1200
-  return { settle, reading, hold, total: settle + reading + hold }
-}
-export function narrationState(text: string, elapsed: number) {
-  const plan = narrationPlan(text)
-  return {
-    phase: (elapsed < plan.settle
-      ? 'settling'
-      : elapsed < plan.settle + plan.reading
-        ? 'reading'
-        : 'holding') as DemoVisual['phase'],
-    progress: Math.max(0, Math.min(1, (elapsed - plan.settle) / plan.reading)),
-    remaining: Math.max(0, plan.total - elapsed),
+// 每个实际操作占一段字幕；操作内部使用同一时钟平滑推进，完成后到达该段终点。
+export class ActionNarration {
+  private completed = 0
+  private elapsed = 0
+  constructor(
+    readonly actions: number,
+    readonly update: (progress: number) => void,
+  ) {}
+  advance(ms: number) {
+    this.elapsed += ms
+    this.update((this.completed + this.elapsed / (this.elapsed + 1800)) / this.actions)
+  }
+  complete() {
+    this.completed++
+    this.elapsed = 0
+    this.update(this.completed / this.actions)
   }
 }
+export const resultHold = 1200
 export const characterFill = (index: number, length: number, progress: number) =>
   Math.max(0, Math.min(1, progress * length - index)) * 100
 export const initialVisual: DemoVisual = {
@@ -45,6 +45,7 @@ export const initialVisual: DemoVisual = {
 
 // 一只可暂停的时钟驱动移动、点击、输入和阅读，暂停不会继续填完表单。
 export class DemoClock {
+  onAdvance?: (ms: number) => void
   constructor(
     readonly signal: AbortSignal,
     readonly playback: () => Playback,
@@ -60,7 +61,14 @@ export class DemoClock {
         reject(new DOMException('演示已结束', 'AbortError'))
       }
       const next = (now: number) => {
-        if (!this.playback().paused) elapsed += Math.min(80, now - last) * this.playback().speed
+        if (!this.playback().paused) {
+          const delta = Math.min(
+            duration - elapsed,
+            Math.min(80, now - last) * this.playback().speed,
+          )
+          elapsed += delta
+          this.onAdvance?.(delta)
+        }
         last = now
         tick?.(Math.min(1, elapsed / duration))
         if (elapsed >= duration) {

@@ -93,7 +93,7 @@ export default function Dashboard() {
   }))
   return (
     <>
-      <Header title="管理总览" description="掌握持证全貌，定位待办事项，跟进阶段目标。">
+      <Header title="管理总览">
         <CompanyFilter
           companies={companies}
           value={f.get('company')}
@@ -287,7 +287,6 @@ export default function Dashboard() {
                 </BarChart>
               </ResponsiveContainer>
             </div>
-            <p className="muted">按最近提醒档位分组，每条提醒只计一次。</p>
           </section>
         </div>
       </div>

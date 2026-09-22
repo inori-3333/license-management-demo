@@ -657,10 +657,7 @@ export default function People() {
         </>
       ) : (
         <>
-          <Header
-            title="人岗证台账"
-            description="关联人员、实际任职与持证记录，从每一项缺口追溯到原始岗位。"
-          >
+          <Header title="人岗证台账">
             <button
               className="button secondary"
               onClick={() => exportTable('人员岗位台账', personnelExport({ ...db, people: rows }))}

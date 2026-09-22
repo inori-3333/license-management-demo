@@ -5,8 +5,10 @@ const step = (
   chapter: string,
   title: string,
   description: string,
+  // 脚本直接调用的动作数（不含 text 断言）；复合动作如 go / saved 计一次。
+  actions: DemoStep['actions'],
   run: DemoStep['run'],
-): DemoStep => ({ chapter, title, description, run })
+): DemoStep => ({ chapter, title, description, actions, run })
 const csv = (kind: keyof typeof fields, values: string[][]) =>
   [fields[kind], ...values]
     .map((r) => r.map((v) => '"' + v.replaceAll('"', '""') + '"').join(','))
@@ -31,6 +33,7 @@ export const demoSteps: DemoStep[] = [
     '管理总览',
     '总览与单位筛选',
     '选择公司后，待办和持证指标同步更新，快速定位管理重点。',
+    3,
     async (u) => {
       await u.go('/', '管理总览')
       await u.fill('所属公司', 'A公司')
@@ -41,6 +44,7 @@ export const demoSteps: DemoStep[] = [
     '人岗证台账',
     '查询与维护人员',
     '通过工号找到人员，集中查看并维护任职信息和证书缺口。',
+    (u) => (u.win.innerWidth <= 640 ? 9 : 10),
     async (u) => {
       await u.go('/people', '人岗证台账')
       await u.fill('每页条数', '10')
@@ -58,6 +62,7 @@ export const demoSteps: DemoStep[] = [
     '人岗证台账',
     '新增人员与兼岗',
     '一名员工可以记录多个岗位，后续按各项任职检查持证要求。',
+    16,
     async (u) => {
       await u.go('/people', '人岗证台账')
       await u.click('新增人员')
@@ -89,6 +94,7 @@ export const demoSteps: DemoStep[] = [
     '人岗证台账',
     '持证维护与台账导出',
     '持证记录支持补录、修改和确认删除，台账可按筛选范围导出。',
+    11,
     async (u) => {
       await u.click('补录证书')
       await u.click('填入演示有效日期')
@@ -107,6 +113,7 @@ export const demoSteps: DemoStep[] = [
     '导入与归并',
     '原始来源与批量导入',
     '原表可以追溯，导入会校验错误行，同一工号再次导入会更新。',
+    19,
     async (u) => {
       await u.go('/data?tab=source', '数据导入与名称归并')
       await u.click('导出原始值', false)
@@ -156,6 +163,7 @@ export const demoSteps: DemoStep[] = [
     '导入与归并',
     '统一名称口径',
     '岗位、部门和证书名称经确认后统一统计，原始名称始终保留。',
+    16,
     async (u) => {
       await u.click('名称归并', false)
       for (const [kind, raw, standard] of [
@@ -177,6 +185,7 @@ export const demoSteps: DemoStep[] = [
     '证书与规则',
     '维护证书目录',
     '证书按管理性质分类，适用范围和依据都在统一目录中维护。',
+    17,
     async (u) => {
       await u.go('/rules', '证书与持证规则')
       await u.click('统计口径与来源差异', false)
@@ -201,6 +210,7 @@ export const demoSteps: DemoStep[] = [
     '证书与规则',
     '配置持证规则',
     '规则支持个人期限、群体阶段目标和培养建议，并可按需停用。',
+    19,
     async (u) => {
       await u.click('清空搜索')
       await u.click('持证规则', false)
@@ -227,6 +237,7 @@ export const demoSteps: DemoStep[] = [
     '预警与整改',
     '分派、整改与复核',
     '问题经分派和整改后提交复核，缺证尚未解决时系统会阻止销项。',
+    17,
     async (u) => {
       await u.go('/people?q=SCENE001', '人岗证台账')
       await u.clickCSS('a[href*="/people/scene-hv"]')
@@ -251,6 +262,7 @@ export const demoSteps: DemoStep[] = [
     '预警与整改',
     '补证并完成销项',
     '退回补齐有效证书后，再次复核通过，完整处理过程保留在时间线。',
+    19,
     async (u) => {
       await u.fill('复核结论', 'reject')
       await u.fill('整改／复核说明', '请补录证书')
@@ -277,6 +289,7 @@ export const demoSteps: DemoStep[] = [
     '预警与整改',
     '风险再次出现',
     '证书过期后系统会重新发现问题，原有整改历史不会丢失。',
+    5,
     async (u) => {
       await u.close()
       await u.fill('统计日期', '2029-09-13')
@@ -290,6 +303,7 @@ export const demoSteps: DemoStep[] = [
     '统计报表',
     '报表明细与分布分析',
     '报表可以追溯计算口径，也能按公司、专业或证书比较持证分布。',
+    12,
     async (u) => {
       await u.close()
       await u.fill('统计日期', '2026-09-13')
@@ -309,6 +323,7 @@ export const demoSteps: DemoStep[] = [
     '统计报表',
     '保存方案与导出',
     '常用分析条件可以保存，结果支持 Excel、CSV 导出及打印。',
+    13,
     async (u) => {
       await u.fill('报表类型', 'expiry')
       await u.fill('提醒时间范围', '30')
@@ -328,14 +343,32 @@ export const demoSteps: DemoStep[] = [
   ),
   step(
     '人才画像',
-    '岗位匹配与培训需求',
-    '按目标岗位和上岗日期筛选人选，将所选人员的取证缺口转为培训需求。',
+    '按岗位与持证条件筛选',
+    '按公司和当前岗位缩小人选范围，多选证书时须同时持有且在评估日期有效。',
+    10,
     async (u) => {
       u.doc.documentElement.classList.remove('demo-print-preview')
       await u.go('/talent', '人才画像与岗位匹配')
+      await u.fill('所属公司', 'A公司')
+      await u.click('按当前岗位筛选')
+      await u.fill('搜索岗位名称或专业', '检修工')
+      await u.click('检修工')
+      await u.click('按已持有证书筛选', false)
+      await u.click('生产岗位能力认证证书')
+      await u.click('电力安全技能认证证书')
+      await u.click('按已持有证书筛选', false)
+      await u.show('.table-panel')
+    },
+  ),
+  step(
+    '人才画像',
+    '岗位匹配与培训需求',
+    '按目标岗位和上岗日期筛选人选，将所选人员的取证缺口转为培训需求。',
+    18,
+    async (u) => {
       await u.click('选择目标岗位')
       await u.fill('搜索岗位名称或专业', '储能')
-      await u.clickCSS('.picker-option')
+      await u.click('储能运维工程师', false)
       await u.click('调整目标专业、职责、作业范围与上岗日期')
       await u.fill('任职开始日期', '2027-01-01')
       await u.click('调整目标专业、职责、作业范围与上岗日期')
@@ -343,6 +376,10 @@ export const demoSteps: DemoStep[] = [
       await u.clickCSS('input[aria-label^="选择 "]')
       await u.click('导出培训需求', false)
       await u.click('清除选择', false)
+      await u.click('清空证书筛选')
+      await u.click('按当前岗位筛选')
+      await u.click('全部岗位')
+      await u.fill('所属公司', '')
       await u.fill('搜索姓名、工号、岗位', '不存在的演示人员')
       await u.show('.empty')
       await u.click('清空搜索')
@@ -353,6 +390,7 @@ export const demoSteps: DemoStep[] = [
     '演示设置',
     '提醒设置与备份恢复',
     '提醒天数可以自定义，完整备份支持恢复人员、规则和处理记录。',
+    8,
     async (u) => {
       await u.go('/settings', '演示设置')
       await u.fill('提醒天数', '180，90，30，14，7')
@@ -371,6 +409,7 @@ export const demoSteps: DemoStep[] = [
     '演示设置',
     '回到演示起点',
     '演示已覆盖八个业务模块，退出后回到您原来的页面和数据。',
+    4,
     async (u) => {
       await u.click('重置演示数据')
       await u.click('重置演示数据')

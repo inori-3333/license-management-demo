@@ -147,10 +147,7 @@ export default function Data() {
   }
   return (
     <>
-      <Header
-        title="数据导入与名称归并"
-        description="批量更新人岗证数据，保留来源，通过确认名称映射统一统计口径。"
-      />
+      <Header title="数据导入与名称归并" />
       <Tabs
         value={f.get('tab')}
         onChange={(v) => f.set('tab', v)}

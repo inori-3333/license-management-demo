@@ -1,7 +1,6 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { NavLink, Route, Routes, Link, useLocation, useNavigate } from 'react-router-dom'
 import {
-  ShieldCheck,
   LayoutDashboard,
   Users,
   Upload,
@@ -18,6 +17,7 @@ import {
 } from 'lucide-react'
 import { useStore } from './store'
 import { Modal } from './ui'
+import BrandMark from './components/BrandMark'
 import AutoDemo from './demo/AutoDemo'
 import Dashboard from './pages/Dashboard'
 import People from './pages/People'
@@ -78,7 +78,7 @@ export default function App() {
     <div className="app" data-density={density}>
       <div className="mobile-appbar">
         <Link to="/" className="mobile-brand">
-          <ShieldCheck size={23} />
+          <BrandMark />
           持证上岗
         </Link>
         <button
@@ -104,9 +104,7 @@ export default function App() {
       </a>
       <aside className="sidebar">
         <Link className="brand" to="/" aria-label="持证上岗首页">
-          <span className="brand-mark">
-            <ShieldCheck size={25} />
-          </span>
+          <BrandMark />
           <span>
             <strong>持证上岗</strong>
             <small>统计分析系统</small>
@@ -138,10 +136,7 @@ export default function App() {
           </NavLink>
           <div className="local-note">
             <span className="live-dot" />
-            <div>
-              {demoActive ? '独立演示副本' : '本地演示数据'}
-              <small>{demoActive ? '演示结束后恢复原有数据' : '修改自动保存在当前浏览器'}</small>
-            </div>
+            <div>启航华电 15 组</div>
           </div>
         </div>
       </aside>
@@ -262,7 +257,6 @@ export default function App() {
 
           <footer className="footer">
             <span>持证上岗统计分析系统</span>
-            <span>演示人员与持证信息 · 原始岗位数据可追溯</span>
           </footer>
         </main>
       </div>

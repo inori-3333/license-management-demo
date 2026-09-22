@@ -28,6 +28,10 @@ export default function Talent() {
     end: '',
   })
   const [selected, setSelected] = useState<string[]>([])
+  const certificates = f.get('certificates').split(',').filter(Boolean)
+  const jobs = [...new Set(db.people.flatMap((p) => p.assignments.map((a) => a.job)))].filter(
+    Boolean,
+  )
   const matchDate = target.start > db.asOf ? target.start : db.asOf
   const results = useMemo(
     () =>
@@ -51,6 +55,15 @@ export default function Talent() {
       (r) =>
         (!f.get('q') || [r.person.name, r.person.employeeNo].join(' ').includes(f.get('q'))) &&
         (!f.get('company') || r.person.assignments.some((a) => a.company === f.get('company'))) &&
+        (!f.get('job') || r.person.assignments.some((a) => a.job === f.get('job'))) &&
+        certificates.every((id) =>
+          db.credentials.some(
+            (c) =>
+              c.personId === r.person.id &&
+              c.typeId === id &&
+              credentialStatus(c, matchDate) === '有效',
+          ),
+        ) &&
         (!f.get('match') || r.status === f.get('match')),
     )
     .sort((a, b) => b.held - a.held)
@@ -81,10 +94,7 @@ export default function Talent() {
   ].sort()
   return (
     <>
-      <Header
-        title="人才画像与岗位匹配"
-        description="基于明确的岗位职责与证书条件筛选人员，将资格缺口转成培训需求。"
-      >
+      <Header title="人才画像与岗位匹配">
         <button
           className="button primary"
           disabled={!training.length}
@@ -99,7 +109,7 @@ export default function Talent() {
           <h2>目标岗位条件</h2>
           <Badge>资格评估日期 {matchDate}</Badge>
         </div>
-        <div className="toolbar">
+        <div className="toolbar talent-target">
           <SearchPicker
             label="选择目标岗位"
             value={
@@ -118,6 +128,7 @@ export default function Talent() {
             }}
           />
           <div className="target-summary">
+            <span className="picker-label">目标岗位与作业范围</span>
             <strong>{target.job}</strong>
             <span>
               {target.scopeConfirmed
@@ -143,19 +154,34 @@ export default function Talent() {
         <span>人满足当前目标的全部管控类证书要求</span>
         <Badge>仅呈现可解释的资格条件</Badge>
       </div>
-      <div className="toolbar">
-        <SearchField
-          value={f.get('q')}
-          onChange={(v) => {
-            f.set('q', v)
-            setSelected([])
-          }}
-        />
+      <div className="toolbar talent-filters">
+        <div className="talent-search">
+          <span className="picker-label">搜索人员</span>
+          <SearchField
+            value={f.get('q')}
+            onChange={(v) => {
+              f.set('q', v)
+              setSelected([])
+            }}
+          />
+        </div>
         <CompanyFilter
           companies={companies}
           value={f.get('company')}
           onChange={(v) => {
             f.set('company', v)
+            setSelected([])
+          }}
+        />
+        <SearchPicker
+          label="按当前岗位筛选"
+          value={f.get('job')}
+          options={[
+            { id: '', label: '全部岗位', group: '不限岗位' },
+            ...jobs.map((job) => ({ id: job, label: job, group: '当前岗位' })),
+          ]}
+          onChange={(value) => {
+            f.set('job', value)
             setSelected([])
           }}
         />
@@ -178,6 +204,59 @@ export default function Talent() {
           </button>
         )}
       </div>
+      <section className="panel">
+        <details>
+          <summary>
+            按已持有证书筛选
+            {certificates.length ? `（已选 ${certificates.length} 项）` : '（不限，可多选）'}
+          </summary>
+          <p className="muted" id="held-certificates-hint">
+            同时持有所选的全部证书，且在资格评估日期 {matchDate} 有效；不勾选时不限证书。
+          </p>
+          <div
+            className="form-grid talent-certificate-options"
+            role="group"
+            aria-label="已持有证书"
+            aria-describedby="held-certificates-hint"
+          >
+            {db.certTypes.map((cert) => (
+              <label className="check" key={cert.id}>
+                <input
+                  type="checkbox"
+                  checked={certificates.includes(cert.id)}
+                  onChange={(e) => {
+                    f.set(
+                      'certificates',
+                      (e.target.checked
+                        ? [...certificates, cert.id]
+                        : certificates.filter((id) => id !== cert.id)
+                      ).join(','),
+                    )
+                    setSelected([])
+                  }}
+                />
+                {cert.name}
+              </label>
+            ))}
+          </div>
+        </details>
+        {certificates.length > 0 && (
+          <div className="tag-list">
+            {certificates.map((id) => (
+              <Badge key={id}>{db.certTypes.find((c) => c.id === id)?.name || id}</Badge>
+            ))}
+            <button
+              className="text-button"
+              onClick={() => {
+                f.set('certificates', '')
+                setSelected([])
+              }}
+            >
+              清空证书筛选
+            </button>
+          </div>
+        )}
+      </section>
       <Table
         rows={rows}
         rowKey={(r) => r.person.id}

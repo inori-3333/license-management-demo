@@ -46,16 +46,16 @@ const stages = [
   {
     id: 'insight',
     title: '分析与应用',
-    hint: '报表分析、岗位匹配与培训',
+    hint: '报表分析、人才筛选与培训',
     icon: ChartNoAxesCombined,
-    steps: [11, 12, 13],
+    steps: [11, 12, 13, 14],
   },
   {
     id: 'support',
     title: '设置与数据保障',
     hint: '提醒设置 · 备份恢复 · 演示重置',
     icon: Settings,
-    steps: [14, 15],
+    steps: [15, 16],
   },
 ] as const
 
@@ -270,7 +270,12 @@ export default function FlowOverview({
         >
           <Settings size={18} />
           <strong>设置与数据保障</strong>
-          <span>15 提醒设置与备份恢复 · 16 回到演示起点</span>
+          <span>
+            {stages
+              .find((stage) => stage.id === 'support')!
+              .steps.map((index) => `${index + 1} ${demoSteps[index].title}`)
+              .join(' · ')}
+          </span>
           <ArrowRight size={17} />
           {selected === 'support' && (
             <span className="flow-inline-detail">
