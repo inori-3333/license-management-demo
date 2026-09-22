@@ -1,7 +1,7 @@
 import type { DemoStep } from './driver'
 import { fields } from '../io'
 
-const step = (
+export const step = (
   chapter: string,
   title: string,
   description: string,
@@ -9,11 +9,11 @@ const step = (
   actions: DemoStep['actions'],
   run: DemoStep['run'],
 ): DemoStep => ({ chapter, title, description, actions, run })
-const csv = (kind: keyof typeof fields, values: string[][]) =>
+export const csv = (kind: keyof typeof fields, values: string[][]) =>
   [fields[kind], ...values]
     .map((r) => r.map((v) => '"' + v.replaceAll('"', '""') + '"').join(','))
     .join('\n')
-const personRow = [
+export const personRow = [
   'AUTO-IMPORT',
   '批量导入演示员',
   'A公司',
@@ -388,8 +388,92 @@ export const demoSteps: DemoStep[] = [
   ),
   step(
     '知识图谱',
+    '三维人员聚类与视角浏览',
+    '每人一个点，全量人员共同展示；旋转、缩放视角，观察共同持证形成的聚类。',
+    (u) => (u.win.matchMedia('(prefers-reduced-motion: reduce)').matches ? 8 : 9),
+    async (u) => {
+      await u.go('/knowledge-graph', '知识图谱')
+      if (!u.win.matchMedia('(prefers-reduced-motion: reduce)').matches) await u.click('暂停动效')
+      await u.show('.kg-space-canvas')
+      await u.click('向左旋转')
+      await u.click('向右旋转')
+      await u.click('放大图谱')
+      await u.click('缩小图谱')
+      await u.click('图谱居中')
+      await u.show('.kg-space-canvas')
+    },
+  ),
+  step(
+    '知识图谱',
+    '持证口径与簇内成员核对',
+    '切换有效持证与全部记录，核对证书簇成员，再用工号定位并查看人员。',
+    12,
+    async (u) => {
+      await u.fill('搜索证书、姓名或工号', '高压电工作业证')
+      await u.clickCSS('.kg-inspector .kg-result.kg-cert')
+      await u.fill('持证口径', 'all')
+      await u.text('包含过期、异常和待确认的持证记录')
+      await u.show('.kg-member-list')
+      await u.fill('持证口径', 'valid')
+      await u.fill('搜索簇内姓名、工号或公司', '不存在的演示人员')
+      await u.show('.kg-no-results')
+      await u.click('清空成员搜索')
+      await u.click('回到全景')
+      await u.fill('搜索证书、姓名或工号', 'SCENE001')
+      await u.clickCSS('.kg-inspector .kg-result.kg-person')
+      await u.show('.kg-member-card')
+    },
+  ),
+  step(
+    '知识图谱',
+    '多证关联与无证人员定位',
+    '多证人员可切换所属证书簇；暂无有效持证关系的人员仍保留在全量空间中。',
+    10,
+    async (u) => {
+      await u.fill('搜索证书、姓名或工号', 'DEMO0002')
+      await u.clickCSS('.kg-inspector .kg-result.kg-person')
+      await u.show('.kg-member-card')
+      await u.click('职业技能等级证书（初级工） ·', false)
+      await u.show('.kg-map-heading')
+      await u.click('电力安全技能认证证书 ·', false)
+      await u.show('.kg-map-heading')
+      await u.fill('搜索证书、姓名或工号', 'AUTO-NEW')
+      await u.clickCSS('.kg-inspector .kg-result.kg-person')
+      await u.show('.kg-member-card')
+    },
+  ),
+  step(
+    '知识图谱',
+    '按任职关系查找同类人员',
+    '按公司、岗位和专业查看共同任职关系，名单支持分页、搜索和打开人员详情。',
+    20,
+    async (u) => {
+      await u.fill('聚类依据', 'company')
+      await u.fill('搜索公司、姓名或工号', 'A公司')
+      await u.clickCSS('.kg-inspector .kg-result.kg-company')
+      await u.click('下一页成员')
+      await u.click('上一页成员')
+      await u.fill('搜索簇内姓名、工号或公司', 'SCENE001')
+      await u.clickCSS('.kg-member-list .kg-result')
+      await u.show('.kg-member-card')
+      await u.click('打开人员详情')
+      await u.show('.detail-summary')
+      await u.go('/knowledge-graph?view=job', '知识图谱')
+      await u.fill('搜索岗位、姓名或工号', '电气检修技术员')
+      await u.clickCSS('.kg-inspector .kg-result.kg-job')
+      await u.show('.kg-space-canvas')
+      await u.fill('聚类依据', 'specialty')
+      await u.fill('搜索专业、姓名或工号', '电气检修')
+      await u.clickCSS('.kg-inspector .kg-result.kg-specialty')
+      await u.fill('搜索簇内姓名、工号或公司', 'SCENE001')
+      await u.clickCSS('.kg-member-list .kg-result')
+      await u.show('.kg-member-card')
+    },
+  ),
+  step(
+    '知识图谱',
     '关系全景与人员定位',
-    '从六类节点的关系全景出发，按类型和工号定位人员，查看任职与持证关联。',
+    '切换实体关系视图，按类型和工号定位人员，追溯任职、持证与适用规则。',
     (u) => (u.win.matchMedia('(prefers-reduced-motion: reduce)').matches ? 9 : 10),
     async (u) => {
       await u.go('/knowledge-graph?view=entities', '知识图谱')

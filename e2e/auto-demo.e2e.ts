@@ -33,6 +33,8 @@ test('原页面完整演示与原数据保护', async ({ page }, testInfo) => {
   const density = await page.evaluate(() => localStorage.getItem('license-management.ui-density'))
   await installClock(page)
   await page.getByRole('button', { name: '自动演示', exact: true }).click()
+  await page.getByLabel('演示版本').selectOption('full')
+  await page.getByRole('button', { name: '开始演示', exact: true }).click()
   await expect(page.locator('iframe')).toHaveCount(0)
   await expect(page.locator('dialog[open]')).toHaveCount(0)
   await expect(page.locator('.app')).toHaveCount(1)
@@ -43,10 +45,12 @@ test('原页面完整演示与原数据保护', async ({ page }, testInfo) => {
     select.value = '100'
     select.dispatchEvent(new Event('change', { bubbles: true }))
   })
-  expect(demoSteps).toHaveLength(19)
+  expect(demoSteps).toHaveLength(23)
   expect(new Set(demoSteps.map((step) => step.chapter)).size).toBe(9)
   const seen = new Set<string>()
   const graphStates = new Set<string>()
+  const clusterStates = new Set<string>()
+  const pointCounts = new Set<number>()
   for (let i = 0; i < demoSteps.length; i++) {
     await until(page, async () => {
       if (demoSteps[i].chapter === '知识图谱') {
@@ -54,10 +58,31 @@ test('原页面完整演示与原数据保护', async ({ page }, testInfo) => {
           route: location.hash,
           node: document.querySelector('.kg-detail-name')?.textContent,
           empty: Boolean(document.querySelector('.kg-no-results')),
+          mode: document.querySelector<HTMLSelectElement>('.kg-view-switch select')?.value,
+          scope: document.querySelector<HTMLSelectElement>('.kg-business .kg-toolbar select')
+            ?.value,
+          page: document.querySelector('.kg-member-pagination')?.textContent?.trim(),
+          points: document
+            .querySelector('.kg-space-canvas canvas')
+            ?.getAttribute('aria-label')
+            ?.match(/共 (\d+) 个数据点/)?.[1],
+          statuses: document.querySelector('.kg-member-list')?.textContent,
+          person: document.querySelector('.kg-member-card')?.textContent,
+          cluster: document.querySelector('.kg-map-heading strong')?.textContent,
+          memberships: document.querySelectorAll('.kg-memberships button').length,
         }))
         graphStates.add(state.route)
         if (state.node) graphStates.add(state.node)
         if (state.empty) graphStates.add('empty')
+        if (state.mode) clusterStates.add('mode:' + state.mode)
+        if (state.scope) clusterStates.add('scope:' + state.scope)
+        if (state.page?.startsWith('2 /')) clusterStates.add('page:2')
+        if (state.points) pointCounts.add(Number(state.points))
+        if (state.scope === 'all' && state.statuses?.includes('已过期'))
+          clusterStates.add('expired')
+        if (state.empty && state.mode === 'cert') clusterStates.add('empty')
+        if (state.person?.includes('DEMO0002') && state.memberships === 3)
+          clusterStates.add('multi:' + state.cluster)
       }
       return (
         (await page.locator('.demo-callout').getAttribute('data-step')) === String(i) &&
@@ -106,7 +131,77 @@ test('原页面完整演示与原数据保护', async ({ page }, testInfo) => {
         path: `docs/inline-demo/${testInfo.project.name}-talent-training.png`,
       })
     }
+    if (step.title === '三维人员聚类与视角浏览') {
+      await expect(page.getByLabel('聚类依据')).toHaveValue('cert')
+      await expect(page.getByLabel('持证口径')).toHaveValue('valid')
+      await expect(page.locator('.kg-space-canvas canvas')).toHaveAttribute('data-projected', /\d+/)
+      await expect(page.locator('.kg-workspace')).toHaveAttribute('data-paused', 'true')
+      await expect(page.locator('.kg-map-heading')).toContainText('全量同屏')
+      if (testInfo.project.name === 'mobile') {
+        const target = await page.locator('.kg-space-canvas').boundingBox()
+        const card = await page.locator('.demo-callout').boundingBox()
+        expect(
+          target &&
+            card &&
+            (target.y >= card.y + card.height || target.y + target.height <= card.y),
+        ).toBe(true)
+      }
+      await page.screenshot({
+        path: `docs/inline-demo/${testInfo.project.name}-cluster-overview.png`,
+      })
+    }
+    if (step.title === '持证口径与簇内成员核对') {
+      expect(clusterStates.has('scope:all')).toBe(true)
+      expect(clusterStates.has('expired')).toBe(true)
+      expect(clusterStates.has('empty')).toBe(true)
+      await expect(page.getByLabel('持证口径')).toHaveValue('valid')
+      await expect(page.locator('.kg-member-card')).toContainText('SCENE001')
+      await expect(page.locator('.kg-member-card')).toContainText('有效')
+      await expect(page.locator('.kg-map-heading')).toContainText('高压电工作业证')
+      await page.screenshot({
+        path: `docs/inline-demo/${testInfo.project.name}-cluster-certificate.png`,
+      })
+    }
+    if (step.title === '多证关联与无证人员定位') {
+      for (const label of ['职业技能等级证书（初级工）', '电力安全技能认证证书'])
+        expect(clusterStates.has('multi:' + label)).toBe(true)
+      expect(pointCounts.size).toBe(1)
+      await expect(page.locator('.kg-member-card')).toContainText('AUTO-NEW')
+      await expect(page.locator('.kg-member-card')).toContainText('属于 0 个证书簇')
+      await expect(page.locator('.kg-memberships button')).toHaveCount(0)
+      await expect(page.locator('.kg-map-heading')).toContainText('全量同屏')
+      if (testInfo.project.name === 'mobile') {
+        const target = await page.locator('.kg-member-card').boundingBox()
+        const card = await page.locator('.demo-callout').boundingBox()
+        expect(
+          target &&
+            card &&
+            (target.y >= card.y + card.height || target.y + target.height <= card.y),
+        ).toBe(true)
+      }
+      await page.screenshot({
+        path: `docs/inline-demo/${testInfo.project.name}-cluster-unlinked.png`,
+      })
+    }
+    if (step.title === '按任职关系查找同类人员') {
+      for (const mode of ['company', 'job', 'specialty'])
+        expect(clusterStates.has('mode:' + mode)).toBe(true)
+      expect(clusterStates.has('page:2')).toBe(true)
+      expect(graphStates.has('#/people/scene-hv')).toBe(true)
+      expect(pointCounts.size).toBe(1)
+      await expect(page.getByLabel('聚类依据')).toHaveValue('specialty')
+      await expect(page.locator('.kg-map-heading')).toContainText('电气检修')
+      await expect(page.locator('.kg-member-card')).toContainText('SCENE001')
+      await expect(page.locator('.kg-member-card')).toContainText('当前任职')
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
+        true,
+      )
+      await page.screenshot({
+        path: `docs/inline-demo/${testInfo.project.name}-cluster-assignment.png`,
+      })
+    }
     if (step.title === '关系全景与人员定位') {
+      await expect(page.getByLabel('聚类依据')).toHaveValue('entities')
       await expect(page.locator('.kg-map-heading')).toContainText('局部关联')
       await expect(page.locator('.kg-detail-description')).toContainText('SCENE001')
       await expect(page.locator('.kg-inspector')).toContainText('高压电工作业证')
@@ -138,7 +233,8 @@ test('原页面完整演示与原数据保护', async ({ page }, testInfo) => {
       await expect(page.locator('.kg-map-heading')).toContainText('关系全景')
       await expect(page.getByLabel('搜索人员、岗位、证书或规则')).toHaveValue('')
       await expect(page.getByLabel('节点类型')).toHaveValue('')
-      await expect(page.locator('.kg-inspector')).toContainText('探索关系网络')
+      await expect(page.locator('.kg-inspector .kg-totals')).toContainText('知识节点')
+      await expect(page.locator('.kg-detail-name')).toHaveCount(0)
       if (testInfo.project.name === 'mobile') {
         const target = await page.locator('.kg-canvas').boundingBox()
         const card = await page.locator('.demo-callout').boundingBox()
@@ -165,7 +261,7 @@ test('原页面完整演示与原数据保护', async ({ page }, testInfo) => {
   await tick(page, 4500)
   const mapped = await page.locator('.flow-node-steps b').allTextContents()
   expect(mapped.map(Number).sort((a, b) => a - b)).toEqual(
-    Array.from({ length: 17 }, (_, i) => i + 1),
+    Array.from({ length: 21 }, (_, i) => i + 1),
   )
   await page.screenshot({
     path: `docs/inline-demo/${testInfo.project.name}-flow-overview.png`,
@@ -186,7 +282,7 @@ test('原页面完整演示与原数据保护', async ({ page }, testInfo) => {
   }
   await page.locator('.flow-support').click()
   await expect(page.locator('.flow-support')).toContainText(
-    '18 提醒设置与备份恢复 · 19 回到演示起点',
+    '22 提醒设置与备份恢复 · 23 回到演示起点',
   )
   await expect(page.locator('#flow-stage-detail')).toContainText('提醒设置与备份恢复')
   await expect(page.locator('#flow-stage-detail')).toContainText('回到演示起点')
@@ -237,6 +333,7 @@ test('原页面完整演示与原数据保护', async ({ page }, testInfo) => {
     new TextDecoder().decode(new Uint8Array(files.find((f) => f.name.endsWith('.json'))!.bytes)),
   )
   expect(db.warningDays).toContain(14)
+  expect([...pointCounts]).toEqual([db.people.length])
   expect(
     db.people.find((p: { employeeNo: string }) => p.employeeNo === 'AUTO-NEW').assignments,
   ).toHaveLength(2)
@@ -359,6 +456,8 @@ test('顶部紧凑表格的演示点击落在按钮中心', async ({ page }, tes
   await page.goto('/')
   await installClock(page)
   await page.getByRole('button', { name: '自动演示', exact: true }).click()
+  await page.getByLabel('演示版本').selectOption('full')
+  await page.getByRole('button', { name: '开始演示', exact: true }).click()
   await until(
     page,
     async () => (await page.locator('.demo-callout').getAttribute('data-ready')) === 'true',
@@ -388,6 +487,8 @@ test('鼠标轨迹、逐字讲解、稳定焦点与立即暂停', async ({ page 
   await page.goto('/')
   await installClock(page)
   await page.getByRole('button', { name: '自动演示', exact: true }).click()
+  await page.getByLabel('演示版本').selectOption('full')
+  await page.getByRole('button', { name: '开始演示', exact: true }).click()
   await expect(page.locator('iframe,dialog[open]')).toHaveCount(0)
   await until(
     page,
@@ -486,6 +587,8 @@ test('逐字输入可暂停，业务弹窗中退出与重播恢复数据', async
   const before = await page.evaluate((k) => localStorage.getItem(k), key)
   await installClock(page)
   await page.getByRole('button', { name: '自动演示', exact: true }).click()
+  await page.getByLabel('演示版本').selectOption('full')
+  await page.getByRole('button', { name: '开始演示', exact: true }).click()
   const speed = page.getByLabel('演示播放速度')
   await speed.evaluate((el) => {
     const select = el as HTMLSelectElement

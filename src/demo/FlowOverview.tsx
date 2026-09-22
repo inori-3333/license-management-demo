@@ -15,66 +15,65 @@ import {
   Users,
   Wrench,
 } from 'lucide-react'
-import { demoSteps } from './steps'
+import type { DemoPlan } from './plans'
 import type { DemoArtifact } from './runtime'
 import './flow-overview.css'
 
-const stages = [
-  { id: 'data', title: '数据归集', hint: '保留来源，统一名称', icon: Upload, steps: [4, 5] },
+const stageDefinitions = [
+  { id: 'data', title: '数据归集', hint: '保留来源，统一名称', icon: Upload },
   {
     id: 'people',
     title: '人岗证台账',
     hint: '人员、任职与持证关联',
     icon: Users,
-    steps: [1, 2, 3],
   },
   {
     id: 'rules',
     title: '规则匹配',
     hint: '明确适用范围与持证要求',
     icon: BookOpenCheck,
-    steps: [6, 7],
   },
   {
     id: 'risk',
     title: '监测与预警',
     hint: '发现缺口，持续跟踪风险',
     icon: BellRing,
-    steps: [0, 10],
   },
-  { id: 'fix', title: '整改与复核', hint: '补齐证书，校验后销项', icon: Wrench, steps: [8, 9] },
+  { id: 'fix', title: '整改与复核', hint: '补齐证书，校验后销项', icon: Wrench },
   {
     id: 'insight',
     title: '分析与应用',
-    hint: '报表、人才筛选与关系探索',
+    hint: '报表、人才筛选、三维聚类与追溯',
     icon: ChartNoAxesCombined,
-    steps: [11, 12, 13, 14, 15, 16],
   },
   {
     id: 'support',
     title: '设置与数据保障',
-    hint: '提醒设置 · 备份恢复 · 演示重置',
+    hint: '提醒设置 · 备份恢复',
     icon: Settings,
-    steps: [17, 18],
   },
 ] as const
 
-type StageId = (typeof stages)[number]['id']
+type StageId = (typeof stageDefinitions)[number]['id']
 type Connector = { id: string; path: string; tone: StageId; feedback?: boolean }
 
 export default function FlowOverview({
+  plan,
   artifacts,
   paused,
   onPause,
   onClose,
   onRestart,
 }: {
+  plan: DemoPlan
   artifacts: (DemoArtifact & { url: string })[]
   paused: boolean
   onPause: (paused: boolean) => void
   onClose: () => void
   onRestart: () => void
 }) {
+  const demoSteps = plan.steps
+  const stages = stageDefinitions.map((stage) => ({ ...stage, steps: plan.stages[stage.id] }))
   const [selected, setSelected] = useState<StageId>('data')
   const [reduced, setReduced] = useState(
     () => matchMedia('(prefers-reduced-motion: reduce)').matches,
@@ -152,7 +151,7 @@ export default function FlowOverview({
       <header className="flow-header">
         <div>
           <p className="flow-complete">
-            <Check size={15} /> 已完成 {demoSteps.length} 个环节 ·{' '}
+            <Check size={15} /> {plan.label} · 已完成 {demoSteps.length} 个环节 ·{' '}
             {new Set(demoSteps.map((step) => step.chapter)).size} 个业务模块
           </p>
           <h1 ref={heading} tabIndex={-1}>

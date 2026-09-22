@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom'
 import { Check, Download, Pause, Play, RotateCcw, SkipForward, X } from 'lucide-react'
 import { DemoDriver } from './driver'
 import FlowOverview from './FlowOverview'
-import { demoSteps } from './steps'
+import { demoPlans, type DemoMode } from './plans'
 import { artifactEvent, type DemoArtifact } from './runtime'
 import {
   initialVisual,
@@ -17,14 +17,18 @@ import {
 
 type SavedArtifact = DemoArtifact & { url: string }
 export default function AutoDemo({
+  mode,
   onClose,
   onRestart,
   onComplete,
 }: {
+  mode: DemoMode
   onClose: () => void
   onRestart: () => void
   onComplete: () => void
 }) {
+  const plan = demoPlans[mode]
+  const demoSteps = plan.steps
   const [index, setIndex] = useState(0),
     [paused, setPaused] = useState(false),
     [speed, setSpeed] = useState(1)
@@ -137,6 +141,7 @@ export default function AutoDemo({
   if (finished)
     return (
       <FlowOverview
+        plan={plan}
         artifacts={artifacts}
         paused={paused}
         onPause={pause}
@@ -157,13 +162,14 @@ export default function AutoDemo({
       <section
         className="demo-callout"
         aria-label="演示讲解"
+        data-mode={mode}
         data-step={index}
         data-ready={ready}
         data-phase={visual.phase}
       >
         <div className="demo-card-meta">
           <span>
-            {step.chapter} · {index + 1}/{demoSteps.length}
+            {plan.label} · {step.chapter} · {index + 1}/{demoSteps.length}
           </span>
           <button className="icon-button" aria-label="退出演示" onClick={() => exit()}>
             <X size={17} />

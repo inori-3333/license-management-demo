@@ -17,7 +17,8 @@ import {
   Network,
 } from 'lucide-react'
 import { useStore } from './store'
-import { Modal } from './ui'
+import { Modal, Select } from './ui'
+import { demoPlans, type DemoMode } from './demo/plans'
 import BrandMark from './components/BrandMark'
 import AutoDemo from './demo/AutoDemo'
 import Dashboard from './pages/Dashboard'
@@ -50,6 +51,9 @@ export default function App() {
     // 人员页单独管理详情返回的位置；其他一级页面从页首进入。
     if (!location.pathname.startsWith('/people')) window.scrollTo({ top: 0, behavior: 'instant' })
   }, [location.pathname])
+  const [demoPickerOpen, setDemoPickerOpen] = useState(false)
+  const [demoChoice, setDemoChoice] = useState<DemoMode>('brief')
+  const [demoMode, setDemoMode] = useState<DemoMode>('brief')
   const [demoRun, setDemoRun] = useState(0)
   const [demoFinished, setDemoFinished] = useState(false)
   const returnTo = useRef({
@@ -168,15 +172,8 @@ export default function App() {
               className="button primary auto-demo-trigger"
               disabled={demoActive}
               onClick={() => {
-                returnTo.current = {
-                  path: location.pathname + location.search,
-                  top: window.scrollY,
-                  density,
-                }
-                setDemoFinished(false)
-                setDensity('comfortable')
-                beginDemo()
-                setDemoRun((n) => n + 1)
+                setDemoChoice('brief')
+                setDemoPickerOpen(true)
               }}
             >
               <Play size={16} />{' '}
@@ -240,6 +237,7 @@ export default function App() {
           )}
           {demoActive && (
             <AutoDemo
+              mode={demoMode}
               key={demoRun}
               onComplete={() => setDemoFinished(true)}
               onClose={() => {
@@ -269,6 +267,44 @@ export default function App() {
           </footer>
         </main>
       </div>
+      {demoPickerOpen && (
+        <Modal title="选择演示内容" onClose={() => setDemoPickerOpen(false)}>
+          <Select
+            label="演示版本"
+            value={demoChoice}
+            onChange={(e) => setDemoChoice(e.target.value as DemoMode)}
+            data-dialog-autofocus
+          >
+            <option value="brief">精简演示 · {demoPlans.brief.steps.length} 段（推荐）</option>
+            <option value="full">完整演示 · {demoPlans.full.steps.length} 段</option>
+          </Select>
+          <p className="muted">{demoPlans[demoChoice].description}</p>
+          <p className="muted">使用临时演示数据，结束后恢复原页面和原数据。</p>
+          <div className="form-actions">
+            <button className="button secondary" onClick={() => setDemoPickerOpen(false)}>
+              取消
+            </button>
+            <button
+              className="button primary"
+              onClick={() => {
+                returnTo.current = {
+                  path: location.pathname + location.search,
+                  top: window.scrollY,
+                  density,
+                }
+                setDemoMode(demoChoice)
+                setDemoPickerOpen(false)
+                setDemoFinished(false)
+                setDensity('comfortable')
+                beginDemo()
+                setDemoRun((n) => n + 1)
+              }}
+            >
+              <Play size={16} /> 开始演示
+            </button>
+          </div>
+        </Modal>
+      )}
       {navigationOpen && (
         <Modal title="工作空间导航" onClose={() => setNavigationOpen(false)}>
           <nav className="expanded-navigation" aria-label="完整导航">
