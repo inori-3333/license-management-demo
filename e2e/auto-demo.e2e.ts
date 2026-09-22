@@ -3,6 +3,8 @@ import { demoSteps } from '../src/demo/steps'
 import * as XLSX from 'xlsx'
 const key = 'license-management-demo.v1'
 async function installClock(page: Page) {
+  // 最新开场动画完成后再冻结时钟，避免把带 inert 的启动遮罩一并暂停。
+  await expect(page.locator('#startup-screen')).toHaveCount(0)
   const time = Date.now()
   await page.clock.install({ time })
   // 仅由 tick 推进，避免截图和断言耗时令短暂的结果停留自动结束。
@@ -41,15 +43,27 @@ test('原页面完整演示与原数据保护', async ({ page }, testInfo) => {
     select.value = '100'
     select.dispatchEvent(new Event('change', { bubbles: true }))
   })
-  expect(demoSteps).toHaveLength(17)
+  expect(demoSteps).toHaveLength(19)
+  expect(new Set(demoSteps.map((step) => step.chapter)).size).toBe(9)
   const seen = new Set<string>()
+  const graphStates = new Set<string>()
   for (let i = 0; i < demoSteps.length; i++) {
-    await until(
-      page,
-      async () =>
+    await until(page, async () => {
+      if (demoSteps[i].chapter === '知识图谱') {
+        const state = await page.evaluate(() => ({
+          route: location.hash,
+          node: document.querySelector('.kg-detail-name')?.textContent,
+          empty: Boolean(document.querySelector('.kg-no-results')),
+        }))
+        graphStates.add(state.route)
+        if (state.node) graphStates.add(state.node)
+        if (state.empty) graphStates.add('empty')
+      }
+      return (
         (await page.locator('.demo-callout').getAttribute('data-step')) === String(i) &&
-        (await page.locator('.demo-callout').getAttribute('data-ready')) === 'true',
-    )
+        (await page.locator('.demo-callout').getAttribute('data-ready')) === 'true'
+      )
+    })
     await expect(page.locator('.demo-karaoke')).toHaveAttribute('data-progress', '1')
     const step = demoSteps[i]
     expect([...step.description].length).toBeLessThanOrEqual(40)
@@ -92,6 +106,55 @@ test('原页面完整演示与原数据保护', async ({ page }, testInfo) => {
         path: `docs/inline-demo/${testInfo.project.name}-talent-training.png`,
       })
     }
+    if (step.title === '关系全景与人员定位') {
+      await expect(page.locator('.kg-map-heading')).toContainText('局部关联')
+      await expect(page.locator('.kg-detail-description')).toContainText('SCENE001')
+      await expect(page.locator('.kg-inspector')).toContainText('高压电工作业证')
+      await expect(page.getByRole('link', { name: '打开人员详情' })).toHaveAttribute(
+        'href',
+        '#/people/scene-hv',
+      )
+      await expect(page.locator('.kg-workspace')).toHaveAttribute('data-paused', 'true')
+      await expect(page.locator('.kg-canvas-tools')).toContainText('100%')
+      if (testInfo.project.name === 'mobile') {
+        const target = await page.locator('.kg-inspector .kg-result.kg-cert').boundingBox()
+        const card = await page.locator('.demo-callout').boundingBox()
+        expect(
+          target &&
+            card &&
+            (target.y >= card.y + card.height || target.y + target.height <= card.y),
+        ).toBe(true)
+      }
+      await page.screenshot({
+        path: `docs/inline-demo/${testInfo.project.name}-knowledge-person.png`,
+      })
+    }
+    if (step.title === '关联追溯与业务跳转') {
+      expect(graphStates.has('#/people/scene-hv')).toBe(true)
+      expect(graphStates.has('高压电工作业证')).toBe(true)
+      expect(graphStates.has('高压电工作业证持证要求')).toBe(true)
+      expect([...graphStates].some((state) => state.startsWith('#/rules'))).toBe(true)
+      expect(graphStates.has('empty')).toBe(true)
+      await expect(page.locator('.kg-map-heading')).toContainText('关系全景')
+      await expect(page.getByLabel('搜索人员、岗位、证书或规则')).toHaveValue('')
+      await expect(page.getByLabel('节点类型')).toHaveValue('')
+      await expect(page.locator('.kg-inspector')).toContainText('探索关系网络')
+      if (testInfo.project.name === 'mobile') {
+        const target = await page.locator('.kg-canvas').boundingBox()
+        const card = await page.locator('.demo-callout').boundingBox()
+        expect(
+          target &&
+            card &&
+            (target.y >= card.y + card.height || target.y + target.height <= card.y),
+        ).toBe(true)
+      }
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
+        true,
+      )
+      await page.screenshot({
+        path: `docs/inline-demo/${testInfo.project.name}-knowledge-overview.png`,
+      })
+    }
     if (i < demoSteps.length - 1)
       await page.getByRole('button', { name: '下一条', exact: true }).click()
   }
@@ -102,7 +165,7 @@ test('原页面完整演示与原数据保护', async ({ page }, testInfo) => {
   await tick(page, 4500)
   const mapped = await page.locator('.flow-node-steps b').allTextContents()
   expect(mapped.map(Number).sort((a, b) => a - b)).toEqual(
-    Array.from({ length: 15 }, (_, i) => i + 1),
+    Array.from({ length: 17 }, (_, i) => i + 1),
   )
   await page.screenshot({
     path: `docs/inline-demo/${testInfo.project.name}-flow-overview.png`,
@@ -123,7 +186,7 @@ test('原页面完整演示与原数据保护', async ({ page }, testInfo) => {
   }
   await page.locator('.flow-support').click()
   await expect(page.locator('.flow-support')).toContainText(
-    '16 提醒设置与备份恢复 · 17 回到演示起点',
+    '18 提醒设置与备份恢复 · 19 回到演示起点',
   )
   await expect(page.locator('#flow-stage-detail')).toContainText('提醒设置与备份恢复')
   await expect(page.locator('#flow-stage-detail')).toContainText('回到演示起点')

@@ -22,6 +22,7 @@ const navigation: Record<string, string> = {
   '/issues': '预警与整改',
   '/reports': '统计报表',
   '/talent': '人才画像',
+  '/knowledge-graph': '知识图谱',
   '/settings': '演示设置',
 }
 export class DemoDriver {

@@ -14,6 +14,7 @@ import {
   Menu,
   Rows3,
   Play,
+  Network,
 } from 'lucide-react'
 import { useStore } from './store'
 import { Modal } from './ui'
@@ -26,6 +27,7 @@ import Rules from './pages/Rules'
 import Issues from './pages/Issues'
 import Reports from './pages/Reports'
 import Talent from './pages/Talent'
+import KnowledgeGraph from './pages/KnowledgeGraph'
 import SettingsPage from './pages/Settings'
 const navigation = [
   { path: '/', label: '管理总览', icon: LayoutDashboard },
@@ -35,6 +37,7 @@ const navigation = [
   { path: '/issues', label: '预警与整改', icon: BellRing },
   { path: '/reports', label: '统计报表', icon: ChartNoAxesCombined },
   { path: '/talent', label: '人才画像', icon: UserRoundSearch },
+  { path: '/knowledge-graph', label: '知识图谱', icon: Network },
 ]
 export default function App() {
   useEffect(() => {
@@ -222,6 +225,7 @@ export default function App() {
               <Route path="/issues" element={<Issues />} />
               <Route path="/reports" element={<Reports />} />
               <Route path="/talent" element={<Talent />} />
+              <Route path="/knowledge-graph" element={<KnowledgeGraph />} />
               <Route path="/settings" element={<SettingsPage />} />
               <Route
                 path="*"

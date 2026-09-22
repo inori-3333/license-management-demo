@@ -46,16 +46,16 @@ const stages = [
   {
     id: 'insight',
     title: '分析与应用',
-    hint: '报表分析、人才筛选与培训',
+    hint: '报表、人才筛选与关系探索',
     icon: ChartNoAxesCombined,
-    steps: [11, 12, 13, 14],
+    steps: [11, 12, 13, 14, 15, 16],
   },
   {
     id: 'support',
     title: '设置与数据保障',
     hint: '提醒设置 · 备份恢复 · 演示重置',
     icon: Settings,
-    steps: [15, 16],
+    steps: [17, 18],
   },
 ] as const
 
@@ -152,7 +152,8 @@ export default function FlowOverview({
       <header className="flow-header">
         <div>
           <p className="flow-complete">
-            <Check size={15} /> 已完成 {demoSteps.length} 个环节 · 8 个业务模块
+            <Check size={15} /> 已完成 {demoSteps.length} 个环节 ·{' '}
+            {new Set(demoSteps.map((step) => step.chapter)).size} 个业务模块
           </p>
           <h1 ref={heading} tabIndex={-1}>
             把每个环节，连成管理闭环

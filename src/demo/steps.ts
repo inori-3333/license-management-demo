@@ -387,6 +387,52 @@ export const demoSteps: DemoStep[] = [
     },
   ),
   step(
+    '知识图谱',
+    '关系全景与人员定位',
+    '从六类节点的关系全景出发，按类型和工号定位人员，查看任职与持证关联。',
+    (u) => (u.win.matchMedia('(prefers-reduced-motion: reduce)').matches ? 9 : 10),
+    async (u) => {
+      await u.go('/knowledge-graph', '知识图谱')
+      if (!u.win.matchMedia('(prefers-reduced-motion: reduce)').matches) await u.click('暂停动效')
+      await u.show('.kg-canvas')
+      await u.click('放大图谱')
+      await u.click('缩小图谱')
+      await u.click('图谱居中')
+      await u.fill('节点类型', 'person')
+      await u.fill('搜索人员、岗位、证书或规则', 'SCENE001')
+      await u.clickCSS('.kg-result.kg-person')
+      await u.text('局部关联')
+      await u.show(u.win.innerWidth <= 640 ? '.kg-inspector .kg-result.kg-cert' : '.kg-inspector')
+    },
+  ),
+  step(
+    '知识图谱',
+    '关联追溯与业务跳转',
+    '从人员详情追溯证书与适用规则，打开业务页面核对，并演示清除空结果。',
+    18,
+    async (u) => {
+      await u.click('打开人员详情')
+      await u.show('.detail-summary')
+      await u.go('/knowledge-graph', '知识图谱')
+      await u.fill('节点类型', 'cert')
+      await u.fill('搜索人员、岗位、证书或规则', '高压电工作业证')
+      await u.clickCSS('.kg-result.kg-cert')
+      await u.show('.kg-inspector')
+      await u.clickCSS('.kg-result.kg-rule')
+      await u.text('高压电工作业证持证要求')
+      await u.click('展开关联')
+      await u.show('.kg-inspector')
+      await u.click('打开证书与规则')
+      await u.show('.table-panel')
+      await u.go('/knowledge-graph', '知识图谱')
+      await u.fill('搜索人员、岗位、证书或规则', '不存在的演示节点')
+      await u.show('.kg-no-results')
+      await u.click('清除筛选')
+      await u.click('回到全景')
+      await u.show('.kg-canvas')
+    },
+  ),
+  step(
     '演示设置',
     '提醒设置与备份恢复',
     '提醒天数可以自定义，完整备份支持恢复人员、规则和处理记录。',
@@ -408,7 +454,7 @@ export const demoSteps: DemoStep[] = [
   step(
     '演示设置',
     '回到演示起点',
-    '演示已覆盖八个业务模块，退出后回到您原来的页面和数据。',
+    '演示已覆盖九个业务模块，退出后回到您原来的页面和数据。',
     4,
     async (u) => {
       await u.click('重置演示数据')

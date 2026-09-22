@@ -319,7 +319,12 @@ function Presentation({ visual, children }: { visual: DemoVisual; children: Reac
             height: Math.max(16, Math.min(innerHeight - 12, r.bottom) - Math.max(12, r.y)),
           }
         : geometry.target
-      if (target.height > innerHeight * 0.5 && target.width > innerWidth * 0.55)
+      // 图谱画布的上下半部都承载关系信息，保持完整避让范围。
+      if (
+        !el?.matches('.kg-canvas') &&
+        target.height > innerHeight * 0.5 &&
+        target.width > innerWidth * 0.55
+      )
         target.height = Math.min(170, target.height)
       const card = layer.current?.querySelector('.demo-callout')?.getBoundingClientRect()
       let choices: Rect | null = null
