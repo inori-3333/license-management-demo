@@ -1,1 +1,35 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="theme-color" content="#2558d8"/><title>持证上岗 · 统计分析系统</title></head><body><div id="root"></div><script type="module" src="/src/main.tsx"></script></body></html>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0072b3" />
+    <title>持证上岗 · 统计分析系统</title>
+    <link rel="stylesheet" href="/src/startup.css" />
+  </head>
+  <body>
+    <div id="startup-screen" class="startup-screen">
+      <div class="startup-content">
+        <span class="brand-mark"
+          ><span class="brand-symbol">
+            <img
+              src="/src/assets/chd-brand-source.png"
+              alt="中国华电标识"
+              width="416"
+              height="464"
+              fetchpriority="high"
+            /> </span
+        ></span>
+        <h1 class="startup-title">启航华电 15 组</h1>
+        <div class="startup-track" role="progressbar" aria-label="正在载入页面">
+          <span class="startup-fill"></span>
+        </div>
+        <p class="startup-status" role="status">正在载入工作台</p>
+        <button class="startup-retry" type="button" hidden>重新载入</button>
+        <noscript>请启用 JavaScript 后重新载入页面。</noscript>
+      </div>
+    </div>
+    <div id="root" inert aria-hidden="true"></div>
+    <script type="module" src="/src/startup.ts"></script>
+  </body>
+</html>

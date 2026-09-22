@@ -1,0 +1,119 @@
+@import './tokens.css';
+@import './brand.css';
+
+.startup-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  overflow: auto;
+  box-sizing: border-box;
+  background: var(--surface);
+  color: var(--text);
+  font-family: var(--font-body);
+  transition: opacity 360ms ease;
+}
+.startup-content {
+  width: min(100%, 320px);
+  text-align: center;
+  animation: startup-reveal 650ms ease-out both;
+}
+.startup-screen .brand-mark {
+  width: 120px;
+  height: 100px;
+  margin: 0 auto 24px;
+}
+.startup-title {
+  margin: 0;
+  color: var(--sidebar);
+  font-size: clamp(24px, 5vw, 30px);
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.12em;
+}
+.startup-track {
+  height: 4px;
+  margin: 36px 24px 0;
+  overflow: hidden;
+  border-radius: 2px;
+  background: var(--blue-soft);
+}
+.startup-fill {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary), var(--sidebar-accent));
+  transform-origin: left;
+  animation: startup-progress 1.4s cubic-bezier(0.2, 0.6, 0.3, 1) both;
+}
+.startup-status {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: var(--text-caption);
+  line-height: 1.6;
+  letter-spacing: 0.08em;
+}
+.startup-screen.is-ready .startup-fill {
+  animation: none;
+  transform: scaleX(1);
+  transition: transform 220ms ease;
+}
+.startup-screen.is-leaving {
+  opacity: 0;
+}
+.startup-screen.is-error .startup-track {
+  visibility: hidden;
+}
+.startup-retry {
+  margin-top: 20px;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  border-radius: var(--radius-control);
+  background: var(--primary);
+  color: var(--surface);
+  font: inherit;
+  cursor: pointer;
+}
+.startup-retry:hover {
+  background: var(--primary-hover);
+}
+.startup-retry:active {
+  transform: translateY(1px);
+}
+.startup-retry:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+@keyframes startup-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes startup-progress {
+  from {
+    transform: scaleX(0.04);
+  }
+  to {
+    transform: scaleX(0.88);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .startup-content,
+  .startup-fill {
+    animation: none;
+  }
+  .startup-fill {
+    transform: scaleX(0.88);
+  }
+  .startup-screen,
+  .startup-screen.is-ready .startup-fill {
+    transition: none;
+  }
+}

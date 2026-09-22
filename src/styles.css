@@ -1,4 +1,5 @@
 @import './tokens.css';
+@import './brand.css';
 * {
   box-sizing: border-box;
 }
@@ -149,31 +150,6 @@ svg {
   letter-spacing: 2px;
   margin-top: 1px;
   color: var(--sidebar-muted);
-}
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 42px;
-  height: 42px;
-  flex-shrink: 0;
-  border-radius: var(--radius-control);
-  background: var(--surface);
-}
-.brand-symbol {
-  position: relative;
-  display: block;
-  width: 81%;
-  aspect-ratio: 260 / 160;
-  overflow: hidden;
-}
-.brand-symbol img {
-  /* Display the official asset's (78, 147, 260, 160) mark without redrawing it. */
-  position: absolute;
-  width: 160%;
-  height: auto;
-  max-width: none;
-  left: -30%;
-  top: -91.875%;
 }
 .nav-caption {
   font-size: var(--text-caption);

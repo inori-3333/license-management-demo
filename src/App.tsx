@@ -37,6 +37,9 @@ const navigation = [
   { path: '/talent', label: '人才画像', icon: UserRoundSearch },
 ]
 export default function App() {
+  useEffect(() => {
+    document.dispatchEvent(new Event('app:ready'))
+  }, [])
   const { db, result, update, demoActive, beginDemo, endDemo } = useStore()
   const location = useLocation()
   const navigate = useNavigate()
